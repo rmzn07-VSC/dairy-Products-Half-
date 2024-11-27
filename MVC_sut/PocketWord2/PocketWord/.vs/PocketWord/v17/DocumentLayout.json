@@ -1,0 +1,231 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\Special Disk\\WEB\\S\u00FCt \u00DCr\u00FCnleri\\MVC_sut\\PocketWord2\\PocketWord\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{68DCC9A4-E53F-4252-AA80-DA198B6598F6}|PocketWord\\PocketWord.csproj|g:\\special disk\\web\\s\u00FCt \u00FCr\u00FCnleri\\mvc_sut\\pocketword2\\pocketword\\pocketword\\views\\home\\gizlilik.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68DCC9A4-E53F-4252-AA80-DA198B6598F6}|PocketWord\\PocketWord.csproj|solutionrelative:pocketword\\views\\home\\gizlilik.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68DCC9A4-E53F-4252-AA80-DA198B6598F6}|PocketWord\\PocketWord.csproj|g:\\special disk\\web\\s\u00FCt \u00FCr\u00FCnleri\\mvc_sut\\pocketword2\\pocketword\\pocketword\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68DCC9A4-E53F-4252-AA80-DA198B6598F6}|PocketWord\\PocketWord.csproj|solutionrelative:pocketword\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68DCC9A4-E53F-4252-AA80-DA198B6598F6}|PocketWord\\PocketWord.csproj|g:\\special disk\\web\\s\u00FCt \u00FCr\u00FCnleri\\mvc_sut\\pocketword2\\pocketword\\pocketword\\views\\home\\iletisim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68DCC9A4-E53F-4252-AA80-DA198B6598F6}|PocketWord\\PocketWord.csproj|solutionrelative:pocketword\\views\\home\\iletisim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68DCC9A4-E53F-4252-AA80-DA198B6598F6}|PocketWord\\PocketWord.csproj|g:\\special disk\\web\\s\u00FCt \u00FCr\u00FCnleri\\mvc_sut\\pocketword2\\pocketword\\pocketword\\views\\home\\hakkimda.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68DCC9A4-E53F-4252-AA80-DA198B6598F6}|PocketWord\\PocketWord.csproj|solutionrelative:pocketword\\views\\home\\hakkimda.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68DCC9A4-E53F-4252-AA80-DA198B6598F6}|PocketWord\\PocketWord.csproj|g:\\special disk\\web\\s\u00FCt \u00FCr\u00FCnleri\\mvc_sut\\pocketword2\\pocketword\\pocketword\\views\\home\\kaymak.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68DCC9A4-E53F-4252-AA80-DA198B6598F6}|PocketWord\\PocketWord.csproj|solutionrelative:pocketword\\views\\home\\kaymak.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68DCC9A4-E53F-4252-AA80-DA198B6598F6}|PocketWord\\PocketWord.csproj|g:\\special disk\\web\\s\u00FCt \u00FCr\u00FCnleri\\mvc_sut\\pocketword2\\pocketword\\pocketword\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68DCC9A4-E53F-4252-AA80-DA198B6598F6}|PocketWord\\PocketWord.csproj|solutionrelative:pocketword\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68DCC9A4-E53F-4252-AA80-DA198B6598F6}|PocketWord\\PocketWord.csproj|g:\\special disk\\web\\s\u00FCt \u00FCr\u00FCnleri\\mvc_sut\\pocketword2\\pocketword\\pocketword\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68DCC9A4-E53F-4252-AA80-DA198B6598F6}|PocketWord\\PocketWord.csproj|solutionrelative:pocketword\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68DCC9A4-E53F-4252-AA80-DA198B6598F6}|PocketWord\\PocketWord.csproj|g:\\special disk\\web\\s\u00FCt \u00FCr\u00FCnleri\\mvc_sut\\pocketword2\\pocketword\\pocketword\\views\\home\\yogurt.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68DCC9A4-E53F-4252-AA80-DA198B6598F6}|PocketWord\\PocketWord.csproj|solutionrelative:pocketword\\views\\home\\yogurt.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68DCC9A4-E53F-4252-AA80-DA198B6598F6}|PocketWord\\PocketWord.csproj|g:\\special disk\\web\\s\u00FCt \u00FCr\u00FCnleri\\mvc_sut\\pocketword2\\pocketword\\pocketword\\views\\home\\tereyagi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68DCC9A4-E53F-4252-AA80-DA198B6598F6}|PocketWord\\PocketWord.csproj|solutionrelative:pocketword\\views\\home\\tereyagi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68DCC9A4-E53F-4252-AA80-DA198B6598F6}|PocketWord\\PocketWord.csproj|g:\\special disk\\web\\s\u00FCt \u00FCr\u00FCnleri\\mvc_sut\\pocketword2\\pocketword\\pocketword\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68DCC9A4-E53F-4252-AA80-DA198B6598F6}|PocketWord\\PocketWord.csproj|solutionrelative:pocketword\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68DCC9A4-E53F-4252-AA80-DA198B6598F6}|PocketWord\\PocketWord.csproj|g:\\special disk\\web\\s\u00FCt \u00FCr\u00FCnleri\\mvc_sut\\pocketword2\\pocketword\\pocketword\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{68DCC9A4-E53F-4252-AA80-DA198B6598F6}|PocketWord\\PocketWord.csproj|solutionrelative:pocketword\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68DCC9A4-E53F-4252-AA80-DA198B6598F6}|PocketWord\\PocketWord.csproj|g:\\special disk\\web\\s\u00FCt \u00FCr\u00FCnleri\\mvc_sut\\pocketword2\\pocketword\\pocketword\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{68DCC9A4-E53F-4252-AA80-DA198B6598F6}|PocketWord\\PocketWord.csproj|solutionrelative:pocketword\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68DCC9A4-E53F-4252-AA80-DA198B6598F6}|PocketWord\\PocketWord.csproj|g:\\special disk\\web\\s\u00FCt \u00FCr\u00FCnleri\\mvc_sut\\pocketword2\\pocketword\\pocketword\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{68DCC9A4-E53F-4252-AA80-DA198B6598F6}|PocketWord\\PocketWord.csproj|solutionrelative:pocketword\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "site.css",
+              "DocumentMoniker": "G:\\Special Disk\\WEB\\S\u00FCt \u00DCr\u00FCnleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "PocketWord\\wwwroot\\css\\site.css",
+              "ToolTip": "G:\\Special Disk\\WEB\\S\u00FCt \u00DCr\u00FCnleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "PocketWord\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-09T21:50:23.021Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "G:\\Special Disk\\WEB\\S\u00FCt \u00DCr\u00FCnleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "PocketWord\\Controllers\\HomeController.cs",
+              "ToolTip": "G:\\Special Disk\\WEB\\S\u00FCt \u00DCr\u00FCnleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "PocketWord\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwC8AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T18:55:20.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "G:\\Special Disk\\WEB\\S\u00FCt \u00DCr\u00FCnleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "PocketWord\\appsettings.Development.json",
+              "ToolTip": "G:\\Special Disk\\WEB\\S\u00FCt \u00DCr\u00FCnleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\appsettings.Development.json",
+              "RelativeToolTip": "PocketWord\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-20T17:08:04.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "G:\\Special Disk\\WEB\\S\u00FCt \u00DCr\u00FCnleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "PocketWord\\Views\\Home\\Index.cshtml",
+              "ToolTip": "G:\\Special Disk\\WEB\\S\u00FCt \u00DCr\u00FCnleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "PocketWord\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAIMAAAAAAAAAAAAAAEwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-09T21:16:44.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "G:\\Special Disk\\WEB\\S\u00FCt \u00DCr\u00FCnleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PocketWord\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "G:\\Special Disk\\WEB\\S\u00FCt \u00DCr\u00FCnleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PocketWord\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAABUAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-09T21:17:26.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Gizlilik.cshtml",
+              "DocumentMoniker": "G:\\Special Disk\\WEB\\S\u00FCt \u00DCr\u00FCnleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\Views\\Home\\Gizlilik.cshtml",
+              "RelativeDocumentMoniker": "PocketWord\\Views\\Home\\Gizlilik.cshtml",
+              "ToolTip": "G:\\Special Disk\\WEB\\S\u00FCt \u00DCr\u00FCnleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\Views\\Home\\Gizlilik.cshtml",
+              "RelativeToolTip": "PocketWord\\Views\\Home\\Gizlilik.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T20:28:14.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Iletisim.cshtml",
+              "DocumentMoniker": "G:\\Special Disk\\WEB\\S\u00FCt \u00DCr\u00FCnleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\Views\\Home\\Iletisim.cshtml",
+              "RelativeDocumentMoniker": "PocketWord\\Views\\Home\\Iletisim.cshtml",
+              "ToolTip": "G:\\Special Disk\\WEB\\S\u00FCt \u00DCr\u00FCnleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\Views\\Home\\Iletisim.cshtml",
+              "RelativeToolTip": "PocketWord\\Views\\Home\\Iletisim.cshtml",
+              "ViewState": "AQIAABEAAAAAAAAAAAAowC8AAAB5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T21:06:38.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Kaymak.cshtml",
+              "DocumentMoniker": "G:\\Special Disk\\WEB\\S\u00FCt \u00DCr\u00FCnleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\Views\\Home\\Kaymak.cshtml",
+              "RelativeDocumentMoniker": "PocketWord\\Views\\Home\\Kaymak.cshtml",
+              "ToolTip": "G:\\Special Disk\\WEB\\S\u00FCt \u00DCr\u00FCnleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\Views\\Home\\Kaymak.cshtml",
+              "RelativeToolTip": "PocketWord\\Views\\Home\\Kaymak.cshtml",
+              "ViewState": "AQIAAJ0BAAAAAAAAAAAAANABAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T20:18:52.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Tereyagi.cshtml",
+              "DocumentMoniker": "G:\\Special Disk\\WEB\\S\u00FCt \u00DCr\u00FCnleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\Views\\Home\\Tereyagi.cshtml",
+              "RelativeDocumentMoniker": "PocketWord\\Views\\Home\\Tereyagi.cshtml",
+              "ToolTip": "G:\\Special Disk\\WEB\\S\u00FCt \u00DCr\u00FCnleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\Views\\Home\\Tereyagi.cshtml",
+              "RelativeToolTip": "PocketWord\\Views\\Home\\Tereyagi.cshtml",
+              "ViewState": "AQIAAJwBAAAAAAAAAAAAALcBAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T20:19:22.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Yogurt.cshtml",
+              "DocumentMoniker": "G:\\Special Disk\\WEB\\S\u00FCt \u00DCr\u00FCnleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\Views\\Home\\Yogurt.cshtml",
+              "RelativeDocumentMoniker": "PocketWord\\Views\\Home\\Yogurt.cshtml",
+              "ToolTip": "G:\\Special Disk\\WEB\\S\u00FCt \u00DCr\u00FCnleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\Views\\Home\\Yogurt.cshtml",
+              "RelativeToolTip": "PocketWord\\Views\\Home\\Yogurt.cshtml",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAAAIoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T20:17:45.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Hakkimda.cshtml",
+              "DocumentMoniker": "G:\\Special Disk\\WEB\\S\u00FCt \u00DCr\u00FCnleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\Views\\Home\\Hakkimda.cshtml",
+              "RelativeDocumentMoniker": "PocketWord\\Views\\Home\\Hakkimda.cshtml",
+              "ToolTip": "G:\\Special Disk\\WEB\\S\u00FCt \u00DCr\u00FCnleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\Views\\Home\\Hakkimda.cshtml",
+              "RelativeToolTip": "PocketWord\\Views\\Home\\Hakkimda.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACIAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T20:09:23.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "G:\\Special Disk\\WEB\\S\u00FCt \u00DCr\u00FCnleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "PocketWord\\Properties\\launchSettings.json",
+              "ToolTip": "G:\\Special Disk\\WEB\\S\u00FCt \u00DCr\u00FCnleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\Properties\\launchSettings.json",
+              "RelativeToolTip": "PocketWord\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-20T19:29:59.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\Special Disk\\WEB\\S\u00FCt \u00DCr\u00FCnleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\Program.cs",
+              "RelativeDocumentMoniker": "PocketWord\\Program.cs",
+              "ToolTip": "G:\\Special Disk\\WEB\\S\u00FCt \u00DCr\u00FCnleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\Program.cs",
+              "RelativeToolTip": "PocketWord\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T19:31:17.465Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

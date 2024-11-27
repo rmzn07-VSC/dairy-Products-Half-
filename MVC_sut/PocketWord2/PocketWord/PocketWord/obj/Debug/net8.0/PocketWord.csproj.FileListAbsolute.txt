@@ -1,0 +1,150 @@
+D:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\bin\Debug\net8.0\appsettings.Development.json
+D:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\bin\Debug\net8.0\appsettings.json
+D:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\bin\Debug\net8.0\PocketWord.staticwebassets.runtime.json
+D:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\bin\Debug\net8.0\PocketWord.exe
+D:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\bin\Debug\net8.0\PocketWord.deps.json
+D:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\bin\Debug\net8.0\PocketWord.runtimeconfig.json
+D:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\bin\Debug\net8.0\PocketWord.dll
+D:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\bin\Debug\net8.0\PocketWord.pdb
+D:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.GeneratedMSBuildEditorConfig.editorconfig
+D:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.AssemblyInfoInputs.cache
+D:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.AssemblyInfo.cs
+D:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.csproj.CoreCompileInputs.cache
+D:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.MvcApplicationPartsAssemblyInfo.cache
+D:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.RazorAssemblyInfo.cache
+D:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.RazorAssemblyInfo.cs
+D:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\staticwebassets.build.json
+D:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\staticwebassets.development.json
+D:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\staticwebassets\msbuild.PocketWord.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\staticwebassets\msbuild.build.PocketWord.props
+D:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.PocketWord.props
+D:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.PocketWord.props
+D:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\scopedcss\bundle\PocketWord.styles.css
+D:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\scopedcss\projectbundle\PocketWord.bundle.scp.css
+D:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.dll
+D:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\refint\PocketWord.dll
+D:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.pdb
+D:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.genruntimeconfig.cache
+D:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\ref\PocketWord.dll
+E:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\bin\Debug\net8.0\appsettings.Development.json
+E:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\bin\Debug\net8.0\appsettings.json
+E:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\bin\Debug\net8.0\PocketWord.staticwebassets.runtime.json
+E:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\bin\Debug\net8.0\PocketWord.exe
+E:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\bin\Debug\net8.0\PocketWord.deps.json
+E:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\bin\Debug\net8.0\PocketWord.runtimeconfig.json
+E:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\bin\Debug\net8.0\PocketWord.dll
+E:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\bin\Debug\net8.0\PocketWord.pdb
+E:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.GeneratedMSBuildEditorConfig.editorconfig
+E:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.AssemblyInfoInputs.cache
+E:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.AssemblyInfo.cs
+E:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.csproj.CoreCompileInputs.cache
+E:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.MvcApplicationPartsAssemblyInfo.cache
+E:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.RazorAssemblyInfo.cache
+E:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.RazorAssemblyInfo.cs
+E:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\staticwebassets.build.json
+E:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\staticwebassets.development.json
+E:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\staticwebassets\msbuild.PocketWord.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\staticwebassets\msbuild.build.PocketWord.props
+E:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.PocketWord.props
+E:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.PocketWord.props
+E:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\staticwebassets.pack.json
+E:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\scopedcss\bundle\PocketWord.styles.css
+E:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\scopedcss\projectbundle\PocketWord.bundle.scp.css
+E:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.dll
+E:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\refint\PocketWord.dll
+E:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.pdb
+E:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.genruntimeconfig.cache
+E:\Special Disk\WEB\webProje\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\ref\PocketWord.dll
+D:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\bin\Debug\net8.0\appsettings.Development.json
+D:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\bin\Debug\net8.0\appsettings.json
+D:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\bin\Debug\net8.0\PocketWord.staticwebassets.runtime.json
+D:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\bin\Debug\net8.0\PocketWord.exe
+D:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\bin\Debug\net8.0\PocketWord.deps.json
+D:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\bin\Debug\net8.0\PocketWord.runtimeconfig.json
+D:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\bin\Debug\net8.0\PocketWord.dll
+D:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\bin\Debug\net8.0\PocketWord.pdb
+D:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.GeneratedMSBuildEditorConfig.editorconfig
+D:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.AssemblyInfoInputs.cache
+D:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.AssemblyInfo.cs
+D:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.csproj.CoreCompileInputs.cache
+D:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.MvcApplicationPartsAssemblyInfo.cache
+D:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.RazorAssemblyInfo.cache
+D:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.RazorAssemblyInfo.cs
+D:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\staticwebassets.build.json
+D:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\staticwebassets.development.json
+D:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\staticwebassets\msbuild.PocketWord.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\staticwebassets\msbuild.build.PocketWord.props
+D:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.PocketWord.props
+D:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.PocketWord.props
+D:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\scopedcss\bundle\PocketWord.styles.css
+D:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\scopedcss\projectbundle\PocketWord.bundle.scp.css
+D:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.dll
+D:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\refint\PocketWord.dll
+D:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.pdb
+D:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.genruntimeconfig.cache
+D:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\ref\PocketWord.dll
+E:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\bin\Debug\net8.0\appsettings.Development.json
+E:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\bin\Debug\net8.0\appsettings.json
+E:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\bin\Debug\net8.0\PocketWord.staticwebassets.runtime.json
+E:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\bin\Debug\net8.0\PocketWord.exe
+E:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\bin\Debug\net8.0\PocketWord.deps.json
+E:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\bin\Debug\net8.0\PocketWord.runtimeconfig.json
+E:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\bin\Debug\net8.0\PocketWord.dll
+E:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\bin\Debug\net8.0\PocketWord.pdb
+E:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.GeneratedMSBuildEditorConfig.editorconfig
+E:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.AssemblyInfoInputs.cache
+E:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.AssemblyInfo.cs
+E:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.csproj.CoreCompileInputs.cache
+E:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.MvcApplicationPartsAssemblyInfo.cache
+E:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.RazorAssemblyInfo.cache
+E:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.RazorAssemblyInfo.cs
+E:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\staticwebassets.build.json
+E:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\staticwebassets.development.json
+E:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\staticwebassets\msbuild.PocketWord.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\staticwebassets\msbuild.build.PocketWord.props
+E:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.PocketWord.props
+E:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.PocketWord.props
+E:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\staticwebassets.pack.json
+E:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\scopedcss\bundle\PocketWord.styles.css
+E:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\scopedcss\projectbundle\PocketWord.bundle.scp.css
+E:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.dll
+E:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\refint\PocketWord.dll
+E:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.pdb
+E:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.genruntimeconfig.cache
+E:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\ref\PocketWord.dll
+G:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\bin\Debug\net8.0\appsettings.Development.json
+G:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\bin\Debug\net8.0\appsettings.json
+G:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\bin\Debug\net8.0\PocketWord.staticwebassets.runtime.json
+G:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\bin\Debug\net8.0\PocketWord.exe
+G:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\bin\Debug\net8.0\PocketWord.deps.json
+G:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\bin\Debug\net8.0\PocketWord.runtimeconfig.json
+G:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\bin\Debug\net8.0\PocketWord.dll
+G:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\bin\Debug\net8.0\PocketWord.pdb
+G:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.GeneratedMSBuildEditorConfig.editorconfig
+G:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.AssemblyInfoInputs.cache
+G:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.AssemblyInfo.cs
+G:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.csproj.CoreCompileInputs.cache
+G:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.MvcApplicationPartsAssemblyInfo.cache
+G:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.RazorAssemblyInfo.cache
+G:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.RazorAssemblyInfo.cs
+G:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\staticwebassets.build.json
+G:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\staticwebassets.development.json
+G:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\staticwebassets\msbuild.PocketWord.Microsoft.AspNetCore.StaticWebAssets.props
+G:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\staticwebassets\msbuild.build.PocketWord.props
+G:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.PocketWord.props
+G:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.PocketWord.props
+G:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\staticwebassets.pack.json
+G:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+G:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\scopedcss\bundle\PocketWord.styles.css
+G:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\scopedcss\projectbundle\PocketWord.bundle.scp.css
+G:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.dll
+G:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\refint\PocketWord.dll
+G:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.pdb
+G:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\PocketWord.genruntimeconfig.cache
+G:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\ref\PocketWord.dll
+E:\Special Disk\WEB\Süt Ürünleri\MVC_sut\PocketWord2\PocketWord\PocketWord\obj\Debug\net8.0\scopedcss\Views\Shared\_LayoutSut.cshtml.rz.scp.css

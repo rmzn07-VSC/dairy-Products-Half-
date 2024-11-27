@@ -1,0 +1,57 @@
+ <div class="slider">  
+    <!-- Slider'ımızın ana gövdesi olacak -->   
+   <div class="kodlayiruk-slider">
+       <!--Her bir fade' bir slideshow bölümünü oluşturur.-->
+       <div class="slide fade">
+           <div class="number">8 / 1</div>
+           <img src="Resources/anasayfa/resim8.png" class="slide-image" />
+           <div class="text">Süt Ürünleri</div>
+       </div>
+   
+       <div class="slide fade">
+           <div class="number">8 / 2</div>
+           <img src="Resources/anasayfa/resim1.png" class="slide-image" />
+           <div class="text">Süt</div>
+       </div>
+   
+       <div class="slide fade">
+           <div class="number">8 / 3</div>
+           <img src="Resources/anasayfa/resim2.png" class="slide-image" />
+           <div class="text">Peynir</div>
+       </div>
+
+       <div class="slide fade">
+        <div class="number">8 / 4</div>
+        <img src="Resources/anasayfa/resim3.png" class="slide-image" />
+        <div class="text">Yoğurt</div>
+    </div>
+
+        <div class="slide fade">
+          <div class="number">8 / 5</div>
+          <img src="Resources/anasayfa/resim4.png" class="slide-image" />
+          <div class="text">Kaymak</div>
+      </div>
+
+
+
+      <div class="slide fade">
+        <div class="number">8 / 6</div>
+        <img src="Resources/anasayfa/resim6.png" class="slide-image" />
+        <div class="text">Tereyağı</div>
+      </div>
+
+
+   
+       <!-- İleri-Geri Butonları -->
+       <a class="prev" onclick="slideRoute(-1)">&#10094;</a>
+       <a class="next" onclick="slideRoute(1)">&#10095;</a>
+   </div>
+   <br/>
+   
+   <!--Slider'ımızın alt kısmında bulunacak pagination bölümü-->
+   <div style="text-align:center">
+       <span class="dot" onclick="currentSlide(1)"></span>
+       <span class="dot" onclick="currentSlide(2)"></span>
+       <span class="dot" onclick="currentSlide(3)"></span>
+   </div>
+   </div>

@@ -1,0 +1,971 @@
+<html>
+<head>
+<title>Süt</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="belirtilen-div" id="belirtilenDiv"><img src="Resources/süt/ok.png"></div>
+
+
+
+  <button class="sagsol" id="solaGit" onclick="solaGit()">Sola Git</button>
+  <button class="sagsol" id="sagaGit" onclick="sagaGit()">Sağa Git</button>
+ 
+
+<nav>
+  <div class="wrapper">
+    <div class="logo"><a href="#">Sağlığın ve lezzetin mükemmel uyumu, yoğurtta buluşur.</a></div>
+    <input type="radio" name="slider" id="menu-btn">
+    <input type="radio" name="slider" id="close-btn">
+    <ul class="nav-links">
+      <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+      <li><a href="index.html" >Ana Sayfa</a></li>
+      <li><a href="Hakkimda.html">Hakkımda</a></li>      <li>
+       <a href="#" class="desktop-item">Süt Ürünleri</a>
+        <input type="checkbox" id="showDrop">
+        <label for="showDrop" class="mobile-item">Süt Ürünleri</label>
+        <ul class="drop-menu">
+          <li><a href="Sut.html">Süt</a></li>
+          <li><a href="Peynir.html">Peynir</a></li>
+          <li><a href="#">Yoğurt</a></li>
+		  <li><a href="Kaymak.html">Kaymak</a></li>
+          <li><a href="Tereyagi.html">Tereyağı</a></li>
+        </ul>
+      </li>
+      
+      
+    </ul>
+    <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+  </div>
+</nav><br><br><br><br><br>
+
+<div class="container">
+  <div class="categories">
+      <!-- Kategorileri buraya ekleyin -->
+      <ul class="icerik-links"><br><br><br><br><br>
+        <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label><H1 style="color:rgb(255, 255, 255); text-align: center;  background-color: rgb(255, 0, 0); height: 50; padding-top: 8px; margin-left: -10px; margin-right: -10px; margin-top: 5px;">YOĞURT ÇEŞİDİ:</H1>
+        <br><br><br>
+        <li><a href="#" id = "kirmizi" onclick="showContent('tumu')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tümü&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li><br>
+        <li><a href="#" onclick="showContent('aromali')" style="width:100%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Doğal Yoğurt&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li><br>
+        <li><a href="#" onclick="showContent('soyali')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Meyveli Yoğurtlar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li><br>
+        <li><a href="#" onclick="showContent('cocuk')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kefir&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li><br>
+        <li><a href="#" onclick="showContent('devam')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Süzme Yoğurt&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li><br>
+        <li><a href="#" onclick="showContent('laktoz')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yoğurtlu Tatlılar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li><br>
+        <li><a href="#" onclick="showContent('light')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yoğurtlu Soslar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li><br>
+
+
+        <p class="digerrr">Diğer Süt ürünlerimize <br> de bakmak isterseniz <br> <b><a href="#" class="tikla"onclick="showDiv()"><span >buraya</span></a></b> tıklayın, size<br> yolu göstereceğim! </p>
+
+        
+        
+    
+  </div>
+  <p class="kategori_adi" id="tumu"><b>Tüm Yoğurtlar</b>, Yoğurlar hakkında herşeyi burada görebilirsiniz.</p>
+  <p class="kategori_adi" id="aromali"><b>Doğal Yoğurt</b>, Sadece süt ve yoğurt kültürü kullanılarak hazırlanan temel yoğurt çeşidi.</p>
+  <p class="kategori_adi" id="soyali"><b>Meyveli Yoğurtlar</b>, Çeşitli meyve püreleri veya parçaları ile tatlandırılmış yoğurtlar.</p>
+  <p class="kategori_adi" id="cocuk"><b>Kefir</b>,  Yoğurt kültürü ve kefir mayası ile fermente edilmiş bir içecek.</p>
+  <p class="kategori_adi" id="devam"><b>Süzme Yoğurt</b>,  Süzme işlemiyle suyu alınmış, kıvamlı bir yoğurt çeşidi.</p>
+  <p class="kategori_adi" id="laktoz"><b>Yoğurtlu Tatlılar</b>, Sütlü tatlıların içerisinde yoğurt kullanılarak yapılan tatlı çeşitleri.</p>
+  <p class="kategori_adi" id="light"><b>Yoğurtlu Soslar</b>, Salatalar ve yemekler için kullanılan baharatlı veya tatlı yoğurt bazlı soslar.</p>
+
+  <div class="product" id="aromali">
+    <img src="Resources/yogurt/dogal/evyapımı.jpg" alt="Ürün Resmi"><br>
+    <p class="yazi_ortala">Ev Yapımı Yoğurt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Doğal Yoğurt</span></p><br>
+    <button onclick="ekranAc_cilekaroma()">Satın Al</button>
+</div>
+<div id="ekran_cilekaroma" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+     inek tereyağı
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_cilekaroma()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div>
+</div>
+<div class="product" id="aromali">
+  <img src="Resources/yogurt/dogal/organikdogal.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Organik Yoğurt</p><br>
+  <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Doğal Yoğurt</span></p><br>
+  <button onclick="ekranAc()">Satın Al</button>
+</div>
+<div id="ekran" class="modal">
+<div class="modal-icerik">
+  
+  <div class="icerik-sol">
+    <p>dfhdfdfgdgdgddgdg</p>
+  </div>
+  <div class="icerik-sag">
+    <span class="kapat" onclick="ekranKapat()">&times;</span>
+    <p>Burada sol taraftaki içeriğiniz olabilir.</p>
+  </div>
+</div>
+</div>
+<div class="product" id="aromali">
+  <img src="Resources/yogurt/dogal/sade.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Sade Yoğurt</p><br>
+  <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Doğal Yoğurt</span></p><br>
+  <button onclick="ekranAc()">Satın Al</button>
+</div>
+<div id="ekran" class="modal">
+<div class="modal-icerik">
+  
+  <div class="icerik-sol">
+    <p>dfhdfdfgdgdgddgdg</p>
+  </div>
+  <div class="icerik-sag">
+    <span class="kapat" onclick="ekranKapat()">&times;</span>
+    <p>Burada sol taraftaki içeriğiniz olabilir.</p>
+  </div>
+</div>
+</div>
+<div class="product" id="aromali">
+  <img src="Resources/yogurt/dogal/tamyagli.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Tam Yağlı Yoğurt</p><br>
+  <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Doğal Yoğurt</span></p><br>
+  <button onclick="ekranAc()">Satın Al</button>
+</div>
+<div id="ekran" class="modal">
+<div class="modal-icerik">
+  
+  <div class="icerik-sol">
+    <p>dfhdfdfgdgdgddgdg</p>
+  </div>
+  <div class="icerik-sag">
+    <span class="kapat" onclick="ekranKapat()">&times;</span>
+    <p>Burada sol taraftaki içeriğiniz olabilir.</p>
+  </div>
+</div>
+</div>
+<div class="product" id="aromali">
+  <img src="Resources/yogurt/dogal/yagsiz.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Yağsız Yoğurt</p><br>
+  <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Doğal Yoğurt</span></p><br>
+  <button onclick="ekranAc()">Satın Al</button>
+</div>
+<div id="ekran" class="modal">
+<div class="modal-icerik">
+  
+  <div class="icerik-sol">
+    <p>dfhdfdfgdgdgddgdg</p>
+  </div>
+  <div class="icerik-sag">
+    <span class="kapat" onclick="ekranKapat()">&times;</span>
+    <p>Burada sol taraftaki içeriğiniz olabilir.</p>
+  </div>
+</div>
+</div>
+<div class="product" id="aromali">
+  <img src="Resources/yogurt/dogal/yarimyagli.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Yarım Yağlı Yoğurt</p><br>
+  <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Doğal Yoğurt</span></p><br>
+  <button onclick="ekranAc()">Satın Al</button>
+</div>
+<div id="ekran" class="modal">
+<div class="modal-icerik">
+  
+  <div class="icerik-sol">
+    <p>dfhdfdfgdgdgddgdg</p>
+  </div>
+  <div class="icerik-sag">
+    <span class="kapat" onclick="ekranKapat()">&times;</span>
+    <p>Burada sol taraftaki içeriğiniz olabilir.</p>
+  </div>
+</div>
+</div>
+
+<div class="product" id="soyali">
+<img src="Resources/yogurt/meyve/ahududu.jpg" alt="Ürün Resmi"><br>
+<p class="yazi_ortala">Ahududulu Yoğurt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Meyveli Yoğurtlar</span></p><br>
+<button onclick="ekranAc_cikolatacocuk()">Satın Al</button>
+</div>
+<div id="ekran_cikolatacocuk" class="modal">
+<div class="modal-icerik">
+  
+  <div class="icerik-sol">
+    <p>cocuk</p>
+  </div>
+  <div class="icerik-sag">
+    <span class="kapat" onclick="ekranKapat_cikolatacocuk()">&times;</span>
+    <p>Burada sol cocuk içeriğiniz olabilir.</p>
+  </div>
+</div>
+</div>
+<div class="product" id="soyali">
+<img src="Resources/yogurt/meyve/ananas.jpg" alt="Ürün Resmi"><br>
+<p class="yazi_ortala">Ananaslı Yoğurt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Meyveli Yoğurtlar</span></p><br>
+<button onclick="ekranAc_cilekcocuk()">Satın Al</button>
+</div>
+<div id="ekran_cilekcocuk" class="modal">
+<div class="modal-icerik">
+  
+  <div class="icerik-sol">
+    <p>cilek</p>
+  </div>
+  <div class="icerik-sag">
+    <span class="kapat" onclick="ekranKapat_cilekcocuk()">&times;</span>
+    <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+  </div>
+</div>
+</div>
+<div class="product" id="soyali" >
+<img src="Resources/yogurt/meyve/cilek.jpg" alt="Ürün Resmi"><br>
+<p class="yazi_ortala">Çilekli Yoğurt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Meyveli Yoğurtlar</span></p><br>
+<button onclick="ekranAc_dvitamincocuk()">Satın Al</button>
+</div>
+<div id="ekran_dvitamincocuk" class="modal">
+<div class="modal-icerik">
+  
+  <div class="icerik-sol">
+    <p>d vitamini</p>
+  </div>
+  <div class="icerik-sag">
+    <span class="kapat" onclick="ekranKapat_dvitamincocuk()">&times;</span>
+    <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+  </div>
+</div>
+</div>
+<div class="product" id="soyali">
+<img src="Resources/yogurt/meyve/elmalı.jpg" alt="Ürün Resmi"><br>
+<p class="yazi_ortala">Elmalı Yoğurt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Meyveli Yoğurtlar</span></p><br>
+<button onclick="ekranAc_bebekcocuk()">Satın Al</button>
+</div>
+<div id="ekran_bebekcocuk" class="modal">
+<div class="modal-icerik">
+  
+  <div class="icerik-sol">
+    <p>bebek</p>
+  </div>
+  <div class="icerik-sag">
+    <span class="kapat" onclick="ekranKapat_bebekcocuk()">&times;</span>
+    <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+  </div>
+</div>
+</div>
+<div class="product" id="soyali">
+  <img src="Resources/yogurt/meyve/muz.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Muzlu Yoğurt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Meyveli Yoğurtlar</span></p><br>
+  <button onclick="ekranAc_bebekcocuk()">Satın Al</button>
+  </div>
+  <div id="ekran_bebekcocuk" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <p>bebek</p>
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_bebekcocuk()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div>
+  </div>
+<div class="product" id="cocuk">
+<img src="Resources/yogurt/kefir/klasik.jpg" alt="Ürün Resmi"><br>
+<p class="yazi_ortala">Klasik Kefir</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Kefir</span></p><br>
+<button onclick="ekranAc_bebekcocuk()">Satın Al</button>
+</div>
+<div id="ekran_bebekcocuk" class="modal">
+<div class="modal-icerik">
+  
+  <div class="icerik-sol">
+    <p>bebek</p>
+  </div>
+  <div class="icerik-sag">
+    <span class="kapat" onclick="ekranKapat_bebekcocuk()">&times;</span>
+    <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+  </div>
+</div>
+</div>
+
+<div class="product" id="cocuk">
+<img src="Resources/yogurt/kefir/laktosuz.jpg" alt="Ürün Resmi"><br>
+<p class="yazi_ortala">Laktosuz Kefir</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Kefir</span></p><br>
+<button onclick="ekranAc_bebekcocuk()">Satın Al</button>
+</div>
+<div id="ekran_bebekcocuk" class="modal">
+<div class="modal-icerik">
+  
+  <div class="icerik-sol">
+    <p>bebek</p>
+  </div>
+  <div class="icerik-sag">
+    <span class="kapat" onclick="ekranKapat_bebekcocuk()">&times;</span>
+    <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+  </div>
+</div>
+</div>
+
+<div class="product" id="cocuk">
+<img src="Resources/yogurt/kefir/meyveli.jpg" alt="Ürün Resmi"><br>
+<p class="yazi_ortala">Meyveli Kefir</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Kefir</span></p><br>
+<button onclick="ekranAc_bebekcocuk()">Satın Al</button>
+</div>
+<div id="ekran_bebekcocuk" class="modal">
+<div class="modal-icerik">
+  
+  <div class="icerik-sol">
+    <p>bebek</p>
+  </div>
+  <div class="icerik-sag">
+    <span class="kapat" onclick="ekranKapat_bebekcocuk()">&times;</span>
+    <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+  </div>
+</div>
+</div>
+
+<div class="product" id="cocuk">
+<img src="Resources/yogurt/kefir/süzme.jpg" alt="Ürün Resmi"><br>
+<p class="yazi_ortala">Süzme Kefir</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Kefir</span></p><br>
+<button onclick="ekranAc_bebekcocuk()">Satın Al</button>
+</div>
+<div id="ekran_bebekcocuk" class="modal">
+<div class="modal-icerik">
+  
+  <div class="icerik-sol">
+    <p>bebek</p>
+  </div>
+  <div class="icerik-sag">
+    <span class="kapat" onclick="ekranKapat_bebekcocuk()">&times;</span>
+    <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+  </div>
+</div>
+</div>
+
+
+
+<div class="product" id="devam">
+<img src="Resources/yogurt/süzme/light.jpg" alt="Ürün Resmi"><br>
+<p class="yazi_ortala">Light Süzme Yoğurt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Süzme Yoğurt</span></p><br>
+<button onclick="ekranAc_bademdevam()">Satın Al</button>
+</div>
+<div id="ekran_bademdevam" class="modal">
+<div class="modal-icerik">
+  
+  <div class="icerik-sol">
+    <p>badem</p>
+  </div>
+  <div class="icerik-sag">
+    <span class="kapat" onclick="ekranKapat_bademdevam()">&times;</span>
+    <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+  </div>
+</div>
+</div>
+<div class="product" id="devam">
+<img src="Resources/yogurt/süzme/tamyagli.jpg" alt="Ürün Resmi"><br>
+<p class="yazi_ortala">Tam Yağlı Süzme Yoğurt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Süzme Yoğurt</span></p><br>
+<button onclick="ekranAc_hindistandevam()">Satın Al</button>
+</div>
+<div id="ekran_hindistandevam" class="modal">
+<div class="modal-icerik">
+  
+  <div class="icerik-sol">
+    <p>hindistan</p>
+  </div>
+  <div class="icerik-sag">
+    <span class="kapat" onclick="ekranKapat_hindistandevam()">&times;</span>
+    <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+  </div>
+</div>
+</div>
+<div class="product" id="devam" >
+<img src="Resources/yogurt/süzme/sade.jpg" alt="Ürün Resmi"><br>
+<p class="yazi_ortala">Sade Süzme Yoğurt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Süzme Yoğurt</span></p><br>
+<button onclick="ekranAc_inekdevam()">Satın Al</button>
+</div>
+<div id="ekran_inekdevam" class="modal">
+<div class="modal-icerik">
+  
+  <div class="icerik-sol">
+    <p>inek</p>
+  </div>
+  <div class="icerik-sag">
+    <span class="kapat" onclick="ekranKapat_inekdevam()">&times;</span>
+    <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+  </div>
+</div>
+</div>
+<div class="product" id="devam">
+<img src="Resources/yogurt/süzme/yarimyagli.jpg" alt="Ürün Resmi"><br>
+<p class="yazi_ortala" style=" position: relative;">Yarım Yağlı Süzme Yoğurt</p><br>    <p style="text-align: center; "><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Süzme Yoğurt</span></p><br>
+<button onclick="ekranAc_kakaohindistandevam()">Satın Al</button>
+</div>
+<div id="ekran_kakaohindistandevam" class="modal">
+<div class="modal-icerik">
+  
+  <div class="icerik-sol">
+    <p>kakao hindistan</p>
+  </div>
+  <div class="icerik-sag">
+    <span class="kapat" onclick="ekranKapat_kakaohindistandevam()">&times;</span>
+    <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+  </div>
+</div>
+</div>
+<div class="product" id="devam">
+  <img src="Resources/yogurt/süzme/örganik.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala" style=" position: relative;">Organik Süzme Yoğurt</p><br>    <p style="text-align: center; "><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Süzme Yoğurt</span></p><br>
+  <button onclick="ekranAc_kakaohindistandevam()">Satın Al</button>
+  </div>
+  <div id="ekran_kakaohindistandevam" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <p>kakao hindistan</p>
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_kakaohindistandevam()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div>
+  </div>
+
+
+
+<div class="product" id="laktoz">
+<img src="Resources/yogurt/tatlı/cheesecake.jpg" alt="Ürün Resmi"><br>
+<p class="yazi_ortala">Yoğurtlu Cheesecake</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Yoğurtlu Tatlılar</span></p><br>
+<button onclick="ekranAc_laktozbadem()">Satın Al</button>
+</div>
+<div id="ekran_laktozbadem" class="modal">
+<div class="modal-icerik">
+  
+  <div class="icerik-sol">
+    <p>bademmmmm</p>
+  </div>
+  <div class="icerik-sag">
+    <span class="kapat" onclick="ekranKapat_laktozbadem()">&times;</span>
+    <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+  </div>
+</div></div>
+<div class="product" id="laktoz">
+<img src="Resources/yogurt/tatlı/kek.jpg" alt="Ürün Resmi"><br>
+<p class="yazi_ortala">Yoğurtlu Kek</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Yoğurtlu Tatlılar</span></p><br>
+<button onclick="ekranAc_laktozbezelye()">Satın Al</button>
+</div>
+<div id="ekran_laktozbezelye" class="modal">
+<div class="modal-icerik">
+  
+  <div class="icerik-sol">
+    <p>bezelye</p>
+  </div>
+  <div class="icerik-sag">
+    <span class="kapat" onclick="ekranKapat_laktozbezelye()">&times;</span>
+    <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+  </div>
+</div></div>
+<div class="product" id="laktoz">
+<img src="Resources/yogurt/tatlı/magnolia.jpg" alt="Ürün Resmi"><br>
+<p class="yazi_ortala">Yoğurtlu Magnolia</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Yoğurtlu Tatlılar</span></p><br>
+<button onclick="ekranAc_laktozfindik()">Satın Al</button>
+</div>
+<div id="ekran_laktozfindik" class="modal">
+<div class="modal-icerik">
+  
+  <div class="icerik-sol">
+    <p>fındık</p>
+  </div>
+  <div class="icerik-sag">
+    <span class="kapat" onclick="ekranKapat_laktozfindik()">&times;</span>
+    <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+  </div>
+</div></div>
+<div class="product" id="laktoz">
+<img src="Resources/yogurt/tatlı/mousse.jpg" alt="Ürün Resmi"><br>
+<p class="yazi_ortala">Yoğurtlu Mousse</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Yoğurtlu Tatlılar</span></p><br>
+<button onclick="ekranAc_laktozhindistancevizi()">Satın Al</button>
+</div>
+<div id="ekran_laktozhindistancevizi" class="modal">
+<div class="modal-icerik">
+  
+  <div class="icerik-sol">
+    <p>hindistan</p>
+  </div>
+  <div class="icerik-sag">
+    <span class="kapat" onclick="ekranKapat_laktozhindistancevizi()">&times;</span>
+    <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+  </div>
+</div></div>
+<div class="product" id="laktoz">
+  <img src="Resources/yogurt/tatlı/muhallebi.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Yoğurtlu Muhallebi</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Yoğurtlu Tatlılar</span></p><br>
+  <button onclick="ekranAc_laktozhindistancevizi()">Satın Al</button>
+  </div>
+  <div id="ekran_laktozhindistancevizi" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <p>hindistan</p>
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_laktozhindistancevizi()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div></div>
+  <div class="product" id="laktoz">
+    <img src="Resources/yogurt/tatlı/puding.jpg" alt="Ürün Resmi"><br>
+    <p class="yazi_ortala">Yoğurtlu Puding</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Yoğurtlu Tatlılar</span></p><br>
+    <button onclick="ekranAc_laktozhindistancevizi()">Satın Al</button>
+    </div>
+    <div id="ekran_laktozhindistancevizi" class="modal">
+    <div class="modal-icerik">
+      
+      <div class="icerik-sol">
+        <p>hindistan</p>
+      </div>
+      <div class="icerik-sag">
+        <span class="kapat" onclick="ekranKapat_laktozhindistancevizi()">&times;</span>
+        <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+      </div>
+    </div></div>
+
+<div class="product" id="light">
+  <img src="Resources/yogurt/sos/cacık.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Cacık Soslu Yoğurt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Yoğurtlu Soslar</span></p><br>
+  <button onclick="ekranAc_laktozhindistancevizi()">Satın Al</button>
+  </div>
+  <div id="ekran_laktozhindistancevizi" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <p>hindistan</p>
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_laktozhindistancevizi()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div></div>
+
+  <div class="product" id="light">
+    <img src="Resources/yogurt/sos/ceviz.jpg" alt="Ürün Resmi"><br>
+    <p class="yazi_ortala">Ceviz Soslu Yoğurt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Yoğurtlu Soslar</span></p><br>
+    <button onclick="ekranAc_laktozhindistancevizi()">Satın Al</button>
+    </div>
+    <div id="ekran_laktozhindistancevizi" class="modal">
+    <div class="modal-icerik">
+      
+      <div class="icerik-sol">
+        <p>hindistan</p>
+      </div>
+      <div class="icerik-sag">
+        <span class="kapat" onclick="ekranKapat_laktozhindistancevizi()">&times;</span>
+        <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+      </div>
+    </div></div>
+
+    <div class="product" id="light">
+      <img src="Resources/yogurt/sos/dereotu.jpg" alt="Ürün Resmi"><br>
+      <p class="yazi_ortala">Dereotlu Soslu Yoğurt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Yoğurtlu Soslar</span></p><br>
+      <button onclick="ekranAc_laktozhindistancevizi()">Satın Al</button>
+      </div>
+      <div id="ekran_laktozhindistancevizi" class="modal">
+      <div class="modal-icerik">
+        
+        <div class="icerik-sol">
+          <p>hindistan</p>
+        </div>
+        <div class="icerik-sag">
+          <span class="kapat" onclick="ekranKapat_laktozhindistancevizi()">&times;</span>
+          <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+        </div>
+      </div></div>
+
+      <div class="product" id="light">
+        <img src="Resources/yogurt/sos/sarımsak.jpg" alt="Ürün Resmi"><br>
+        <p class="yazi_ortala">Sarımsak Soslu Yoğurt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Yoğurtlu Soslar</span></p><br>
+        <button onclick="ekranAc_laktozhindistancevizi()">Satın Al</button>
+        </div>
+        <div id="ekran_laktozhindistancevizi" class="modal">
+        <div class="modal-icerik">
+          
+          <div class="icerik-sol">
+            <p>hindistan</p>
+          </div>
+          <div class="icerik-sag">
+            <span class="kapat" onclick="ekranKapat_laktozhindistancevizi()">&times;</span>
+            <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+          </div>
+        </div></div>
+        <div class="product" id="light">
+          <img src="Resources/yogurt/sos/tzatziki.jpg" alt="Ürün Resmi"><br>
+          <p class="yazi_ortala">Tzatziki Soslu Yoğurt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Yoğurtlu Soslar</span></p><br>
+          <button onclick="ekranAc_laktozhindistancevizi()">Satın Al</button>
+          </div>
+          <div id="ekran_laktozhindistancevizi" class="modal">
+          <div class="modal-icerik">
+            
+            <div class="icerik-sol">
+              <p>hindistan</p>
+            </div>
+            <div class="icerik-sag">
+              <span class="kapat" onclick="ekranKapat_laktozhindistancevizi()">&times;</span>
+              <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+            </div>
+          </div></div>
+</div>
+
+
+
+
+
+
+<div class="footers">
+  <footer>
+<br><br>
+Ramazan 522 11/A || Hızır Reis MTAL<br><br>
+<ul class="footer-links">
+  <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+  <li><a href="https://www.instagram.com/hizirreism.t.a.l/" target="_blank">Instagram</a></li>
+  <li><a href="https://twitter.com/hizirreism" target="_blank">X (Twitter)</a></li>
+  <li><a href="https://hizirreistml.meb.k12.tr/" target="_blank">Offical Web Site</a></li>
+</ul>
+
+
+  </footer>
+</div>
+<script>
+window.addEventListener("wheel", function(e) {
+    // prevent default vertical scrolling
+    e.preventDefault();
+    
+    // scroll horizontally instead
+    window.scrollBy(e.deltaY, 0);
+  }, { passive: false });  // use passive option false to make preventDefault() work
+
+
+
+  function showContent(categoryId) {
+    var contents = document.getElementsByClassName('product');
+    if (categoryId === 'tumu') {
+      // Tüm içerikleri göster
+      for (var i = 0; i < contents.length; i++) {
+        contents[i].style.display = 'block';
+      }
+      
+    } else {
+      // Belirli kategoriye göre içerikleri göster
+      for (var i = 0; i < contents.length; i++) {
+        if (contents[i].id === categoryId) {
+          contents[i].style.display = 'block';
+        } else {
+          contents[i].style.display = 'none';
+        }
+      }
+    }
+
+
+    
+    var contents = document.getElementsByClassName('kategori_adi');
+    
+    // Belirli kategoriye göre içerikleri göster
+    for (var i = 0; i < contents.length; i++) {
+      if (contents[i].id === categoryId) {
+        contents[i].style.display = 'block';
+      } else {
+        contents[i].style.display = 'none';
+      }
+    }
+  }
+  
+ // Tüm p elemanlarını seç
+ var tumu = document.getElementById("tumu");
+  var pList = document.querySelectorAll(".kategori_adi");
+
+  // Her bir p elemanını döngüyle kontrol et
+  pList.forEach(function(p) {
+    // Eğer p elemanının id'si tumu ise göster, değilse gizle
+    if (p.id === "tumu") {
+      p.style.display = "block";
+    } else {
+      p.style.display = "none";
+    }
+  });
+
+// Tüm butonları seç
+var buttons = document.querySelectorAll(".icerik-links li a");
+
+// Her bir buton için click olayı ekle
+buttons.forEach(function(button) {
+  button.addEventListener("click", function() {
+    // Tüm butonların arka plan rengini ve metin rengini varsayılan yap
+    buttons.forEach(function(btn) {
+      btn.style.backgroundColor = "#b4b4b4";
+      btn.style.color = "#000000";
+    });
+
+    // Tıklanan butonun arka plan rengini ve metin rengini değiştir
+    this.style.backgroundColor = "#000000";
+    this.style.color = "#f2f2f2";
+  });
+});
+
+// Sayfa yüklendiğinde "tumu" ID'sine sahip butonun arka plan rengini kırmızı yap
+window.onload = function() {
+  var tumuButton = document.getElementById("kirmizi");
+  tumuButton.style.backgroundColor = "#000000";
+  tumuButton.style.color = "#f2f2f2";
+};
+
+
+
+
+
+
+
+// İçeriği kaydırmak için fare tekerleği olayını dinleme
+document.querySelector('.icerik-sol').addEventListener('wheel', function(event) {
+  // Yalnızca y dikey kaydırma için
+  if (event.deltaY !== 0) {
+    // Eğer içerik yukarıda değilse ve aşağı kaydırılmak isteniyorsa veya içerik aşağıda değilse ve yukarı kaydırılmak isteniyorsa kaydırma işlemi yap
+    if ((this.scrollTop !== 0 && event.deltaY < 0) || (this.scrollTop !== (this.scrollHeight - this.clientHeight) && event.deltaY > 0)) {
+      this.scrollTop += event.deltaY;
+      // Fare tekerleği varsayılan davranışını engelleme (sayfa kaydırma)
+      event.preventDefault();
+    }
+  }
+});
+
+
+
+function showDiv() {
+    var div = document.getElementById('belirtilenDiv');
+    div.style.display = "block";
+
+    // Belirli bir süre sonra div'i gizle
+    setTimeout(function() {
+      div.style.display = "none";
+    }, 5000); // 2 saniye (2000 milisaniye)
+  }
+ 
+
+
+  function ekranAc_laktozbadem() {
+    document.getElementById('ekran_laktozbadem').style.display = 'block';
+  }
+  
+  function ekranKapat_laktozbadem() {
+    document.getElementById('ekran_laktozbadem').style.display = 'none';
+  }
+  function ekranAc_laktozbezelye( ) {
+    document.getElementById('ekran_laktozbezelye').style.display = 'block';
+  }
+  
+  function ekranKapat_laktozbezelye() {
+    document.getElementById('ekran_laktozbezelye').style.display = 'none';
+  }
+  function ekranAc_laktozfindik() {
+    document.getElementById('ekran_laktozfindik').style.display = 'block';
+  }
+  
+  function ekranKapat_laktozfindik() {
+    document.getElementById('ekran_laktozfindik').style.display = 'none';
+  }
+  function ekranAc_laktozhindistancevizi() {
+    document.getElementById('ekran_laktozhindistancevizi').style.display = 'block';
+  }
+  
+  function ekranKapat_laktozhindistancevizi() {
+    document.getElementById('ekran_laktozhindistancevizi').style.display = 'none';
+  }
+  function ekranAc_laktozpirinc() {
+    document.getElementById('ekran_laktozpirinc').style.display = 'block';
+  }
+  
+  function ekranKapat_laktozpirinc() {
+    document.getElementById('ekran_laktozpirinc').style.display = 'none';
+  }
+  function ekranAc_laktozquiona() {
+    document.getElementById('ekran_laktozquiona').style.display = 'block';
+  }
+  
+  function ekranKapat_laktozquiona() {
+    document.getElementById('ekran_laktozquiona').style.display = 'none';
+  }
+  function ekranAc_laktozsoya() {
+    document.getElementById('ekran_laktozsoya').style.display = 'block';
+  }
+  
+  function ekranKapat_laktozsoya() {
+    document.getElementById('ekran_laktozsoya').style.display = 'none';
+  }
+  function ekranAc_laktozyulaf() {
+    document.getElementById('ekran_laktozyulaf').style.display = 'block';
+  }
+  function ekranKapat_laktozyulaf() {
+    document.getElementById('ekran_laktozyulaf').style.display = 'none';
+  }
+  
+  function ekranKapat_lightbadem() {
+    document.getElementById('ekran_lightbadem').style.display = 'none';
+  }
+  function ekranAc_lightbadem() {
+    document.getElementById('ekran_lightbadem').style.display = 'block';
+  }
+  
+  function ekranKapat_lightfindik() {
+    document.getElementById('ekran_lightfindik').style.display = 'none';
+  }
+  function ekranAc_lightfindik() {
+    document.getElementById('ekran_lightfindik').style.display = 'block';
+  }
+  
+  function ekranKapat_lighthindistan() {
+    document.getElementById('ekran_lighthindistan').style.display = 'none';
+  }
+  function ekranAc_lighthindistan() {
+    document.getElementById('ekran_lighthindistan').style.display = 'block';
+  }
+  
+  function ekranKapat_lightinek() {
+    document.getElementById('ekran_lightinek').style.display = 'none';
+  }
+  function ekranAc_lightinek() {
+    document.getElementById('ekran_lightinek').style.display = 'block';
+  }
+  
+  function ekranKapat_lightkeci() {
+    document.getElementById('ekran_lightkeci').style.display = 'none';
+  }
+  function ekranAc_lightkeci() {
+    document.getElementById('ekran_lightkeci').style.display = 'block';
+  }
+  
+  function ekranKapat_lightpirinc() {
+    document.getElementById('ekran_lightpirinc').style.display = 'none';
+  }
+  function ekranAc_lightpirinc() {
+    document.getElementById('ekran_lightpirinc').style.display = 'block';
+  }
+  
+  function ekranKapat_lightsoya() {
+    document.getElementById('ekran_lightsoya').style.display = 'none';
+  }
+  function ekranAc_lightsoya() {
+    document.getElementById('ekran_lightsoya').style.display = 'block';
+  }
+  
+  function ekranKapat_lightyulaf() {
+    document.getElementById('ekran_lightyulaf').style.display = 'none';
+  }
+  function ekranAc_lightyulaf() {
+    document.getElementById('ekran_lightyulaf').style.display = 'block';
+  }
+  
+  function ekranKapat_yarimbadem() {
+    document.getElementById('ekran_yarimbadem').style.display = 'none';
+  }
+  function ekranAc_yarimbadem() {
+    document.getElementById('ekran_yarimbadem').style.display = 'block';
+  }
+  
+  function ekranKapat_yarimbufalo() {
+    document.getElementById('ekran_yarimbufalo').style.display = 'none';
+  }
+  function ekranAc_yarimbufalo() {
+    document.getElementById('ekran_yarimbufalo').style.display = 'block';
+  }
+
+  function ekranKapat_yarimfindik() {
+    document.getElementById('ekran_yarimfindik').style.display = 'none';
+  }
+  function ekranAc_yarimfindik() {
+    document.getElementById('ekran_yarimfindik').style.display = 'block';
+  }
+  
+  function ekranKapat_yarimhindistan() {
+    document.getElementById('ekran_yarimhindistan').style.display = 'none';
+  }
+  function ekranAc_yarimhindistan() {
+    document.getElementById('ekran_yarimhindistan').style.display = 'block';
+  }
+
+  function ekranKapat_yariminek() {
+    document.getElementById('ekran_yariminek').style.display = 'none';
+  }
+  function ekranAc_yariminek() {
+    document.getElementById('ekran_yariminek').style.display = 'block';
+  }
+  
+  function ekranKapat_yarimkeci() {
+    document.getElementById('ekran_yarimkeci').style.display = 'none';
+  }
+  function ekranAc_yarimkeci() {
+    document.getElementById('ekran_yarimkici').style.display = 'block';
+  }
+
+  function ekranKapat_yarimmanda() {
+    document.getElementById('ekran_yarimmanda').style.display = 'none';
+  }
+  function ekranAc_yarimmanda() {
+    document.getElementById('ekran_yarimmanda').style.display = 'block';
+  }
+  
+  function ekranKapat_yarimsoya() {
+    document.getElementById('ekran_yarimsoya').style.display = 'none';
+  }
+  function ekranAc_yarimsoya() {
+    document.getElementById('ekran_yarimsoya').style.display = 'block';
+  }
+
+  function ekranKapat_yarimyulaf() {
+    document.getElementById('ekran_yarimyulaf').style.display = 'none';
+  }
+  function ekranAc_yarimyulaf() {
+    document.getElementById('ekran_yarimyulaf').style.display = 'block';
+  }
+  
+  function ekranKapat_organikbadem() {
+    document.getElementById('ekran_organikbadem').style.display = 'none';
+  }
+  function ekranAc_organikbadem() {
+    document.getElementById('ekran_organikbadem').style.display = 'block';
+  }
+  function ekranKapat_organikhindistan() {
+    document.getElementById('ekran_organikhindistan').style.display = 'none';
+  }
+  function ekranAc_organikhindistan() {
+    document.getElementById('ekran_organikhindistan').style.display = 'block';
+  }
+  function ekranKapat_organikinek() {
+    document.getElementById('ekran_organikinek').style.display = 'none';
+  }
+  function ekranAc_organikinek() {
+    document.getElementById('ekran_organikinek').style.display = 'block';
+  }
+  function ekranKapat_organikkeci() {
+    document.getElementById('ekran_organikkeci').style.display = 'none';
+  }
+  function ekranAc_organikkeci() {
+    document.getElementById('ekran_organikkeci').style.display = 'block';
+  }
+  function ekranKapat_organikkoyun() {
+    document.getElementById('ekran_organikkoyun').style.display = 'none';
+  }
+  function ekranAc_organikkoyun() {
+    document.getElementById('ekran_organikkoyun').style.display = 'block';
+  }
+  function ekranKapat_organikpirinc() {
+    document.getElementById('ekran_organikpirinc').style.display = 'none';
+  }
+  function ekranAc_organikpirinc() {
+    document.getElementById('ekran_organikpirinc').style.display = 'block';
+  }
+  function ekranKapat_organiksoya() {
+    document.getElementById('ekran_organiksoya').style.display = 'none';
+  }
+  function ekranAc_organiksoya() {
+    document.getElementById('ekran_organiksoya').style.display = 'block';
+  }
+  function ekranKapat_organikyulaf() {
+    document.getElementById('ekran_organikyulaf').style.display = 'none';
+  }
+  function ekranAc_organikyulaf() {
+    document.getElementById('ekran_organikyulaf').style.display = 'block';
+  }
+</script>
+<script src="script.js"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,589 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PocketWord.bundle.scp.css",
+      "PackagePath": "staticwebassets\\PocketWord.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\main\\logo.png",
+      "PackagePath": "staticwebassets\\images\\main\\logo.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\kaymak\\kavrulmus\\1.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\kaymak\\kavrulmus\\1.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\kaymak\\kavrulmus\\2.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\kaymak\\kavrulmus\\2.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\kaymak\\kavrulmus\\3.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\kaymak\\kavrulmus\\3.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\kaymak\\kavrulmus\\4.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\kaymak\\kavrulmus\\4.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\kaymak\\mayali\\1.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\kaymak\\mayali\\1.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\kaymak\\mayali\\2.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\kaymak\\mayali\\2.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\kaymak\\mayali\\3.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\kaymak\\mayali\\3.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\kaymak\\mayali\\4.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\kaymak\\mayali\\4.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\kaymak\\pastorize\\1.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\kaymak\\pastorize\\1.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\kaymak\\pastorize\\2.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\kaymak\\pastorize\\2.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\kaymak\\pastorize\\3.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\kaymak\\pastorize\\3.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\kaymak\\pastorize\\4.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\kaymak\\pastorize\\4.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\kaymak\\taze\\1.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\kaymak\\taze\\1.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\kaymak\\taze\\2.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\kaymak\\taze\\2.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\kaymak\\taze\\3.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\kaymak\\taze\\3.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\kaymak\\taze\\4.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\kaymak\\taze\\4.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\peynir\\cecil\\1.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\peynir\\cecil\\1.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\peynir\\cecil\\2.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\peynir\\cecil\\2.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\peynir\\cecil\\3.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\peynir\\cecil\\3.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\peynir\\cecil\\4.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\peynir\\cecil\\4.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\peynir\\hellim\\1.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\peynir\\hellim\\1.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\peynir\\hellim\\2.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\peynir\\hellim\\2.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\peynir\\hellim\\3.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\peynir\\hellim\\3.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\peynir\\hellim\\4.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\peynir\\hellim\\4.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\peynir\\lor\\1.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\peynir\\lor\\1.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\peynir\\lor\\2.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\peynir\\lor\\2.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\peynir\\lor\\3.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\peynir\\lor\\3.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\peynir\\lor\\4.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\peynir\\lor\\4.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\peynir\\taze\\1.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\peynir\\taze\\1.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\peynir\\taze\\2.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\peynir\\taze\\2.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\peynir\\taze\\3.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\peynir\\taze\\3.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\peynir\\taze\\4.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\peynir\\taze\\4.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\sut\\cikolata\\1.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\sut\\cikolata\\1.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\sut\\cikolata\\2.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\sut\\cikolata\\2.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\sut\\cikolata\\3.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\sut\\cikolata\\3.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\sut\\cikolata\\4.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\sut\\cikolata\\4.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\sut\\cilek\\1.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\sut\\cilek\\1.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\sut\\cilek\\2.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\sut\\cilek\\2.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\sut\\cilek\\3.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\sut\\cilek\\3.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\sut\\cilek\\4.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\sut\\cilek\\4.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\sut\\muz\\1.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\sut\\muz\\1.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\sut\\muz\\2.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\sut\\muz\\2.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\sut\\muz\\3.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\sut\\muz\\3.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\sut\\muz\\4.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\sut\\muz\\4.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\sut\\vanilya\\1.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\sut\\vanilya\\1.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\sut\\vanilya\\2.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\sut\\vanilya\\2.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\sut\\vanilya\\3.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\sut\\vanilya\\3.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\sut\\vanilya\\4.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\sut\\vanilya\\4.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\tereyagi\\feslegenli\\1.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\tereyagi\\feslegenli\\1.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\tereyagi\\feslegenli\\2.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\tereyagi\\feslegenli\\2.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\tereyagi\\feslegenli\\3.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\tereyagi\\feslegenli\\3.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\tereyagi\\feslegenli\\4.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\tereyagi\\feslegenli\\4.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\tereyagi\\keci\\1.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\tereyagi\\keci\\1.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\tereyagi\\keci\\2.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\tereyagi\\keci\\2.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\tereyagi\\keci\\3.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\tereyagi\\keci\\3.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\tereyagi\\keci\\4.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\tereyagi\\keci\\4.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\tereyagi\\kekikli\\1.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\tereyagi\\kekikli\\1.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\tereyagi\\kekikli\\2.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\tereyagi\\kekikli\\2.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\tereyagi\\kekikli\\3.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\tereyagi\\kekikli\\3.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\tereyagi\\kekikli\\4.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\tereyagi\\kekikli\\4.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\tereyagi\\standarttuzlu\\1.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\tereyagi\\standarttuzlu\\1.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\tereyagi\\standarttuzlu\\2.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\tereyagi\\standarttuzlu\\2.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\tereyagi\\standarttuzlu\\3.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\tereyagi\\standarttuzlu\\3.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\tereyagi\\standarttuzlu\\4.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\tereyagi\\standarttuzlu\\4.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\yogurt\\ev\\1.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\yogurt\\ev\\1.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\yogurt\\ev\\2.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\yogurt\\ev\\2.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\yogurt\\ev\\3.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\yogurt\\ev\\3.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\yogurt\\ev\\4.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\yogurt\\ev\\4.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\yogurt\\organik\\1.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\yogurt\\organik\\1.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\yogurt\\organik\\2.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\yogurt\\organik\\2.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\yogurt\\organik\\3.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\yogurt\\organik\\3.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\yogurt\\organik\\4.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\yogurt\\organik\\4.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\yogurt\\sade\\1.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\yogurt\\sade\\1.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\yogurt\\sade\\2.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\yogurt\\sade\\2.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\yogurt\\sade\\3.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\yogurt\\sade\\3.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\yogurt\\sade\\4.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\yogurt\\sade\\4.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\yogurt\\tamyag\\1.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\yogurt\\tamyag\\1.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\yogurt\\tamyag\\2.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\yogurt\\tamyag\\2.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\yogurt\\tamyag\\3.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\yogurt\\tamyag\\3.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\images\\uruns\\yogurt\\tamyag\\4.png",
+      "PackagePath": "staticwebassets\\images\\uruns\\yogurt\\tamyag\\4.png"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\Special Disk\\WEB\\Süt Ürünleri\\MVC_sut\\PocketWord2\\PocketWord\\PocketWord\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PocketWord.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.PocketWord.props",
+      "PackagePath": "build\\PocketWord.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.PocketWord.props",
+      "PackagePath": "buildMultiTargeting\\PocketWord.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.PocketWord.props",
+      "PackagePath": "buildTransitive\\PocketWord.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

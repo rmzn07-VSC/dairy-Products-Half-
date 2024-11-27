@@ -1,0 +1,425 @@
+﻿<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yan Yana Kutular</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+    <style>
+
+        html, body {
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            min-width: 1500px;
+        }
+
+        .box {
+            width: calc(25% - 10px);
+            height: 580px;
+            background-color: #f0f0f0;
+            border: 3px solid #000;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .resim {
+            height: 470px;
+            width: 100%; /* Resimlerin container'ı doldurması için */
+            border: 2px solid #000;
+            border-radius: 10px;
+            object-fit: cover; /* Resimlerin oranlarını koruyarak sığması için */
+        }
+
+        .btn {
+            width: 300px;
+            z-index: 1000;
+            position: relative;
+            left: -1170px;
+            top: 29px;
+            margin-top: 5px;
+        }
+
+        .yazi {
+            text-align: center;
+            font-weight: bolder;
+            font-size: 20px;
+            color: black;
+            text-align: center;
+        }
+
+        .box .container {
+            margin-top: auto;
+        }
+
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .foto {
+            max-width: 400px;
+            height: 600px;
+            margin: auto; /* Resmi yatayda ortalamak için */
+            display: block; /* Resmi blok olarak göstermek için */
+        }
+
+        .carousel-control-prev,
+        .carousel-control-next {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50%;
+            z-index: 10;
+            opacity: 1;
+            height: 50px;
+            width: 50px;
+            position: absolute;
+            top: 250px; /* Butonları 200px aşağıya indirir */
+        }
+
+
+        .carousel-control-prev-icon {
+            color: white;
+            font-size: 24px;
+            line-height: 50px;
+            content: "\2039"; /* Sol ok karakteri */
+        }
+
+        .carousel-control-next-icon {
+            color: white;
+            font-size: 24px;
+            line-height: 50px;
+            content: "\203A"; /* Sağ ok karakteri */
+        }
+
+        ::-webkit-scrollbar {
+            display: none;
+        }
+
+        .satinAlin {
+            font-family: Arial, sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+            color: yellow; /* Yazı rengi */
+            background-color: black; /* Arkaplan rengi */
+            padding: 10px 20px; /* Yazı etrafındaki iç boşluk */
+            border-radius: 10px; /* Köşelerin yuvarlanma derecesi */
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Gölgelendirme */
+        }
+
+        .yeni_resim {
+            border: 2px solid #000;
+            height: 450px;
+            border-radius: 10px;
+        }
+
+        .ozel {
+            margin-bottom: 20px; /* Maddeler arasında 20 piksel boşluk bırakır */
+        }
+
+    </style>
+</head>
+<body>
+    <br>
+    <p class="satinAlin">Peynirler</p>
+
+    <div class="row">
+        <div class="col-md-3">
+            <div class="container">
+                <div class="box">
+                    <img src="/images/uruns/peynir/cecil/1.png" class="yeni_resim d-block w-100">
+                    <div class="container mt-3">
+                        <p class="yazi">Çeçil Peynir</p>
+                        <button type="button" class="btn btn-dark btn-block" data-toggle="modal" data-target="#myModal9">Daha Fazla Bilgi</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="container">
+                <div class="box">
+                    <img src="/images/uruns/peynir/hellim/1.png" class="yeni_resim d-block w-100">
+                    <div class="container mt-3">
+                        <p class="yazi">Hellim Peynir</p>
+                        <button type="button" class="btn btn-dark btn-block" data-toggle="modal" data-target="#myModal10">Daha Fazla Bilgi</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="container">
+                <div class="box">
+                    <img src="/images/uruns/peynir/lor/1.png" class="yeni_resim d-block w-100">
+                    <div class="container mt-3">
+                        <p class="yazi">Lor Peynir</p>
+                        <button type="button" class="btn btn-dark btn-block" data-toggle="modal" data-target="#myModal11">Daha Fazla Bilgi</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="container">
+                <div class="box">
+                    <img src="/images/uruns/peynir/taze/1.png" class="yeni_resim d-block w-100">
+                    <div class="container mt-3">
+                        <p class="yazi">Taze Peynir</p>
+                        <button type="button" class="btn btn-dark btn-block" data-toggle="modal" data-target="#myModal12">Daha Fazla Bilgi</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- Modal 1 -->
+
+    <div class="modal fade" id="myModal9">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Çeçil Peynir</h4>
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                </div>
+                <div class="modal-body">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="foto d-block w-100" src="~/images/uruns/peynir/cecil/2.png" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="foto d-block w-100" src="~/images/uruns/peynir/cecil/3.png" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="foto d-block w-100" src="~/images/uruns/peynir/cecil/4.png" alt="Third slide">
+                            </div>
+                        </div>
+
+                    </div>
+                    <hr>
+                    <iframe style="position:relative; right:-100px; border-radius:10px;" width="560" height="315" src="https://www.youtube.com/embed/fSkY9ppDwI8" frameborder="0" allowfullscreen></iframe>
+                    <hr>
+                    <h2>Çeçil Peyniri Özellikleri</h2>
+                    <ul>
+                        <li class="ozel">Çeçil peyniri, probiyotik içeriğiyle sindirim sağlığını destekler ve bağırsak florasını dengeler.</li>
+                        <li class="ozel">Çeçil peyniri, içerdiği kalsiyum ve fosfor ile diş sağlığını korur ve diş çürümelerini önleyebilir.</li>
+                        <li class="ozel">Çeçil peyniri, içerdiği A vitamini ile göz sağlığını destekler ve görme yeteneğini güçlendirebilir.</li>
+                        <li class="ozel">Çeçil peyniri, içerdiği çinko ile cilt sağlığını korur ve ciltteki iltihaplanmaları azaltabilir.</li>
+                        <li class="ozel">Çeçil peyniri, içerdiği omega-3 yağ asitleri ile beyin fonksiyonlarını destekler ve bilişsel yetenekleri artırabilir.</li>
+                        <li class="ozel">Çeçil peyniri, içerdiği lif ile tokluk hissini artırır ve kilo kontrolüne yardımcı olabilir.</li>
+                        <li class="ozel">Çeçil peyniri, lezzetli ve besleyici bir besin olmanın yanı sıra çocuklara sağlıklı beslenme alışkanlıkları kazandırmak için ideal bir seçenektir.</li>
+                    </ul>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal fade" id="myModal10">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Hellim Peyniri</h4>
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                </div>
+                <div class="modal-body">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="foto d-block w-100" src="~/images/uruns/peynir/hellim/2.png" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="foto d-block w-100" src="~/images/uruns/peynir/hellim/3.png" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="foto d-block w-100" src="~/images/uruns/peynir/hellim/4.png" alt="Third slide">
+                            </div>
+                        </div>
+
+                    </div>
+                    <hr>
+                    <iframe style="position:relative; right:-100px; border-radius:10px;" width="560" height="315" src="https://www.youtube.com/embed/zjeZtpM0MrE" frameborder="0" allowfullscreen></iframe>
+                    <hr>
+                    <h2>Hellim peynirinin Özellikleri</h2>
+                    <ul>
+                        <li class="ozel">Hellim peyniri, kalsiyum ve protein açısından zengin bir besindir.</li>
+                        <li class="ozel">Hellim peyniri, kemik sağlığını destekleyen kalsiyum içerir.</li>
+                        <li class="ozel">Hellim peyniri, içerdiği protein ile kasları güçlendirir ve onarımını destekler.</li>
+                        <li class="ozel">Hellim peyniri, içerdiği B12 vitamini ile sinir sistemi sağlığını destekler.</li>
+                        <li class="ozel">Hellim peyniri, sindirimi destekleyebilir ve sindirim sisteminin düzenli çalışmasına yardımcı olabilir.</li>
+                        <li class="ozel">Hellim peyniri, içerdiği fosfor ile diş ve kemik sağlığını destekleyebilir.</li>
+                        <li class="ozel">Hellim peyniri, lezzetli ve doyurucu bir atıştırmalık olmanın yanı sıra sağlıklı bir beslenme programında çeşitlilik sağlar.</li>
+                    </ul>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="myModal11">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Lor Peyniri</h4>
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                </div>
+                <div class="modal-body">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="foto d-block w-100" src="~/images/uruns/peynir/lor/2.png" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="foto d-block w-100" src="~/images/uruns/peynir/lor/3.png" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="foto d-block w-100" src="~/images/uruns/peynir/lor/4.png" alt="Third slide">
+                            </div>
+                        </div>
+
+                    </div>
+                    <hr>
+                    <iframe style="position:relative; right:-100px; border-radius:10px;" width="560" height="315" src="https://www.youtube.com/embed/JJ7V_Yau9ws" frameborder="0" allowfullscreen></iframe>
+                    <hr>
+                    <h2>Lor Peynirinin Özellikleri</h2>
+                    <ul>
+                        <li class="ozel">Lor peyniri, düşük yağ ve yüksek protein içeriğiyle dengeli bir besindir. Ayrıca düşük kalori içeriğiyle kilo kontrolüne yardımcı olabilir ve sağlıklı bir diyetin parçası olarak tercih edilebilir.</li>
+                        <li class="ozel">Lor peyniri, içerdiği kalsiyum ile kemik sağlığını destekler. Bunun yanı sıra içerdiği protein ile kas yapımını destekleyebilir ve tokluk hissini artırarak atıştırmalıklar arasında tercih edilebilir.</li>
+                        <li class="ozel">Lor peyniri, sindirimi kolaylaştırır ve sindirim sisteminin düzenli çalışmasına yardımcı olabilir. Ayrıca içerdiği folat ile hücre yenilenmesini destekler ve hamilelik döneminde önemli bir besindir.</li>
+                        <li class="ozel">Lor peyniri, içerdiği B2 vitamini ile enerji metabolizmasını destekler ve cilt sağlığını korur. Düşük laktoz içeriği ile laktoz intoleransı olan bireyler tarafından kolaylıkla tüketilebilir.</li>
+                        <li class="ozel">Lor peyniri, düşük sodyum içeriği ile kan basıncını düzenlemeye yardımcı olabilir. İçerdiği potasyum ile kas ve sinir fonksiyonlarını destekleyebilir ve kan basıncını dengeleyebilir.</li>
+                        <li class="ozel">Lor peyniri, içerdiği fosfor ile diş ve kemik sağlığını destekler. Ayrıca içerdiği A vitamini ile göz sağlığını destekler ve antioksidan özellik gösterebilir.</li>
+                        <li class="ozel">Lor peyniri, lezzetli ve hafif bir atıştırmalık olmanın yanı sıra pek çok yemeğin içinde kullanılabilir, böylece besin değerini artırır. Çeşitli meyve veya sebzelerle kombin edilerek besin çeşitliliğini artırabilir ve sağlıklı atıştırmalıklar oluşturabilir.</li>
+                    </ul>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="myModal12">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Taze Peynir</h4>
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                </div>
+                <div class="modal-body">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="foto d-block w-100" src="~/images/uruns/peynir/taze/2.png" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="foto d-block w-100" src="~/images/uruns/peynir/taze/3.png" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="foto d-block w-100" src="~/images/uruns/peynir/taze/4.png" alt="Third slide">
+                            </div>
+                        </div>
+
+                    </div>
+                    <hr>
+                    <iframe style="position:relative; right:-100px; border-radius:10px;" width="560" height="315" src="https://www.youtube.com/embed/geU1s4bAZZk" frameborder="0" allowfullscreen></iframe>
+                    <hr>
+                    <h2>Taze Peynirin Özellikleri</h2>
+                    <ul>
+                        <li class="ozel">Taze peynir, düşük yağ içeriğiyle hafif bir besindir ve kilo kontrolüne yardımcı olabilir.</li>
+                        <li class="ozel">Taze peynir, yüksek protein içeriğiyle kas yapımını destekler ve tokluk hissini artırabilir.</li>
+                        <li class="ozel">Taze peynir, kalsiyum açısından zengin bir kaynaktır ve kemik sağlığını destekleyebilir.</li>
+                        <li class="ozel">Taze peynir, probiyotik özelliklere sahip olabilir ve sindirim sistemi sağlığını destekleyebilir.</li>
+                        <li class="ozel">Taze peynir, içerdiği B vitaminleri ile enerji seviyelerini artırabilir ve metabolizmayı destekleyebilir.</li>
+                        <li class="ozel">Taze peynir, düşük tuz içeriğiyle kan basıncını dengeleyebilir ve kalp sağlığını koruyabilir.</li>
+                        <li class="ozel">Taze peynir, lezzetli ve çok yönlü bir besin olmanın yanı sıra salatalarda, sandviçlerde veya atıştırmalıklarda kullanılabilir.</li>
+                    </ul>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+
+    <br>
+    <br>
+
+    <br>
+    <br>
+
+    <br>
+    <br>
+
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var modals = document.querySelectorAll('.modal');
+
+            modals.forEach(function (modal) {
+                modal.addEventListener('show.bs.modal', function (e) {
+                    document.body.style.overflow = 'hidden';
+                });
+
+                modal.addEventListener('hidden.bs.modal', function (e) {
+                    document.body.style.overflow = 'auto';
+                });
+            });
+        });
+        $(document).ready(function () {
+            $('.carousel').carousel({
+                interval: 1000 // Resimlerin geçiş aralığı (milisaniye cinsinden)
+            });
+        });
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+</body>
+</html>

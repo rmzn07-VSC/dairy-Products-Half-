@@ -1,0 +1,437 @@
+﻿<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yan Yana Kutular</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+    <style>
+
+        html, body {
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            min-width: 1500px;
+        }
+
+        .box {
+            width: calc(25% - 10px);
+            height: 580px;
+            background-color: #f0f0f0;
+            border: 3px solid #000;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .resim {
+            height: 470px;
+            width: 100%; /* Resimlerin container'ı doldurması için */
+            border: 2px solid #000;
+            border-radius: 10px;
+            object-fit: cover; /* Resimlerin oranlarını koruyarak sığması için */
+        }
+
+        .btn {
+            width: 300px;
+            z-index: 1000;
+            position: relative;
+            left: -1170px;
+            top: 29px;
+            margin-top: 5px;
+        }
+
+        .yazi {
+            text-align: center;
+            font-weight: bolder;
+            font-size: 20px;
+            color: black;
+            text-align: center;
+        }
+
+        .box .container {
+            margin-top: auto;
+        }
+
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .foto {
+            max-width: 400px;
+            height: 600px;
+            margin: auto; /* Resmi yatayda ortalamak için */
+            display: block; /* Resmi blok olarak göstermek için */
+        }
+
+        .carousel-control-prev,
+        .carousel-control-next {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50%;
+            z-index: 10;
+            opacity: 1;
+            height: 50px;
+            width: 50px;
+            position: absolute;
+            top: 250px; /* Butonları 200px aşağıya indirir */
+        }
+
+
+        .carousel-control-prev-icon {
+            color: white;
+            font-size: 24px;
+            line-height: 50px;
+            content: "\2039"; /* Sol ok karakteri */
+        }
+
+        .carousel-control-next-icon {
+            color: white;
+            font-size: 24px;
+            line-height: 50px;
+            content: "\203A"; /* Sağ ok karakteri */
+        }
+
+        ::-webkit-scrollbar {
+            display: none;
+        }
+
+        .satinAlin {
+            font-family: Arial, sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+            color: yellow; /* Yazı rengi */
+            background-color: black; /* Arkaplan rengi */
+            padding: 10px 20px; /* Yazı etrafındaki iç boşluk */
+            border-radius: 10px; /* Köşelerin yuvarlanma derecesi */
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Gölgelendirme */
+        }
+
+        .yeni_resim {
+            border: 2px solid #000;
+            height: 450px;
+            border-radius: 10px;
+        }
+
+        .ozel {
+            margin-bottom: 20px; /* Maddeler arasında 20 piksel boşluk bırakır */
+        }
+
+    </style>
+</head>
+<body>
+    <br>
+    <p class="satinAlin">Kaymaklar</p>
+
+    <div class="row">
+        <div class="col-md-3">
+            <div class="container">
+                <div class="box">
+                    <img src="/images/uruns/kaymak/kavrulmus/1.png" class="yeni_resim d-block w-100">
+                    <div class="container mt-3">
+                        <p class="yazi">Kavrulmuş Kaymak</p>
+                        <button type="button" class="btn btn-dark btn-block" data-toggle="modal" data-target="#myModal9">Daha Fazla Bilgi</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="container">
+                <div class="box">
+                    <img src="/images/uruns/kaymak/mayali/1.png" class="yeni_resim d-block w-100">
+                    <div class="container mt-3">
+                        <p class="yazi">Mayalı Kaymak</p>
+                        <button type="button" class="btn btn-dark btn-block" data-toggle="modal" data-target="#myModal10">Daha Fazla Bilgi</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="container">
+                <div class="box">
+                    <img src="/images/uruns/kaymak/pastorize/1.png" class="yeni_resim d-block w-100">
+                    <div class="container mt-3">
+                        <p class="yazi">Pastorize Edilmiş Kaymak</p>
+                        <button type="button" class="btn btn-dark btn-block" data-toggle="modal" data-target="#myModal11">Daha Fazla Bilgi</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="container">
+                <div class="box">
+                    <img src="/images/uruns/kaymak/taze/1.png" class="yeni_resim d-block w-100">
+                    <div class="container mt-3">
+                        <p class="yazi">Taze Kaymak</p>
+                        <button type="button" class="btn btn-dark btn-block" data-toggle="modal" data-target="#myModal12">Daha Fazla Bilgi</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- Modal 1 -->
+
+    <div class="modal fade" id="myModal9">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Kavrulmuş Kaymak</h4>
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                </div>
+                <div class="modal-body">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="foto d-block w-100" src="~/images/uruns/kaymak/kavrulmus/2.png" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="foto d-block w-100" src="~/images/uruns/kaymak/kavrulmus/3.png" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="foto d-block w-100" src="~/images/uruns/kaymak/kavrulmus/4.png" alt="Third slide">
+                            </div>
+                        </div>
+
+                    </div>
+                    <hr>
+                    <iframe style="position:relative; right:-100px; border-radius:10px;" width="560" height="315" src="https://www.youtube.com/embed/KT50ndakRW4" frameborder="0" allowfullscreen></iframe>
+                    <hr>
+                    <h2>Kavrulmuş Kaymak Özellikleri</h2>
+                    <ul>
+                        <li class="ozel">Kavrulmuş kaymak, taze peynirin zengin ve kremamsı tadını yoğunlaştırır ve kıtır bir doku kazandırır.</li>
+                        <li class="ozel">Kavrulmuş kaymak, yüksek yağ içeriğiyle tatlı bir lezzet sunar ve özellikle kahvaltılarda veya tatlılarda tercih edilir.</li>
+                        <li class="ozel">Kavrulmuş kaymak, taze peynirin besleyici özelliklerini korurken, ekstra lezzet ve aroma katmanı oluşturur.</li>
+                        <li class="ozel">Kavrulmuş kaymak, fırında veya tavada hafifçe kızartılarak hazırlanabilir ve sıcak servis edildiğinde enfes bir lezzet sunar.</li>
+                        <li class="ozel">Kavrulmuş kaymak, kahvaltıların ve tatlıların vazgeçilmez bir parçası olabilir ve çeşitli tariflerde kullanılabilir.</li>
+                        <li class="ozel">Kavrulmuş kaymak, içerdiği yüksek kalsiyum ile kemik sağlığını destekler ve dişlerin güçlenmesine yardımcı olabilir.</li>
+                        <li class="ozel">Kavrulmuş kaymak, enerji verici bir atıştırmalık olarak tüketilebilir ve gün içindeki yorgunluğu azaltabilir.</li>
+                        <li class="ozel">Kavrulmuş kaymak, içerdiği A ve E vitaminleri ile cilt sağlığını destekler ve antioksidan etkiler gösterebilir.</li>
+                        <li class="ozel">Kavrulmuş kaymak, sindirimi kolaylaştırır ve probiyotik özellikleri ile sindirim sistemini dengeler.</li>
+                        <li class="ozel">Kavrulmuş kaymak, taze peynirin doğal lezzetini korurken, ekstra bir tat katmanı sunar ve yemek deneyimini zenginleştirir.</li>
+                    </ul>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal fade" id="myModal10">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Mayalı Kaymak</h4>
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                </div>
+                <div class="modal-body">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="foto d-block w-100" src="~/images/uruns/kaymak/mayali/2.png" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="foto d-block w-100" src="~/images/uruns/kaymak/mayali/3.png" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="foto d-block w-100" src="~/images/uruns/kaymak/mayali/4.png" alt="Third slide">
+                            </div>
+                        </div>
+
+                    </div>
+                    <hr>
+                    <iframe style="position:relative; right:-100px; border-radius:10px;" width="560" height="315" src="https://www.youtube.com/embed/ZhLlKf4TDFA" frameborder="0" allowfullscreen></iframe>
+                    <hr>
+                    <h2>Mayalı Kaymak Özellikleri</h2>
+                    <ul>
+                        <li class="ozel">Mayalı kaymak, yoğun ve kremsi bir dokuya sahiptir ve taze sütün zengin lezzetini yoğunlaştırır.</li>
+                        <li class="ozel">Mayalı kaymak, fermente edilmiş sütle hazırlandığından probiyotik özelliklere sahiptir ve sindirim sağlığını destekler.</li>
+                        <li class="ozel">Mayalı kaymak, içerdiği yüksek kalsiyum ile kemik ve diş sağlığını destekler.</li>
+                        <li class="ozel">Mayalı kaymak, protein açısından zengindir ve kas yapımını destekler, tokluk hissini artırır.</li>
+                        <li class="ozel">Mayalı kaymak, içerdiği A ve E vitaminleri ile cilt sağlığını korur ve antioksidan özellik gösterir.</li>
+                        <li class="ozel">Mayalı kaymak, lezzetli bir atıştırmalık olarak tüketilebilir veya çeşitli tariflerde kullanılabilir.</li>
+                        <li class="ozel">Mayalı kaymak, kahvaltılarda veya tatlılarda kullanılarak yemeklere zenginlik katar ve tadını artırır.</li>
+                        <li class="ozel">Mayalı kaymak, bağışıklık sistemini güçlendirir ve vücudu hastalıklara karşı korur.</li>
+                        <li class="ozel">Mayalı kaymak, sindirimi kolaylaştırır ve sindirim sisteminin dengelenmesine yardımcı olur.</li>
+                        <li class="ozel">Mayalı kaymak, fermente sütle hazırlanmasıyla maya kokusu ve ekstra bir aroma katmanı ekler, böylece lezzetini zenginleştirir.</li>
+                    </ul>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="myModal11">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Pastorize Edilmiş Kaymak</h4>
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                </div>
+                <div class="modal-body">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="foto d-block w-100" src="~/images/uruns/kaymak/pastorize/2.png" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="foto d-block w-100" src="~/images/uruns/kaymak/pastorize/3.png" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="foto d-block w-100" src="~/images/uruns/kaymak/pastorize/4.png" alt="Third slide">
+                            </div>
+                        </div>
+
+                    </div>
+                    <hr>
+                    <iframe style="position:relative; right:-100px; border-radius:10px;" width="560" height="315" src="https://www.youtube.com/embed/jd7ZPEX9J80" frameborder="0" allowfullscreen></iframe>
+                    <hr>
+                    <h2>Pastörize Edilmiş Kaymak Özellikleri</h2>
+                    <ul>
+                        <li class="ozel">Pastörize edilmiş kaymak, uzun raf ömrüne sahip olmasıyla bilinir ve taze sütün kalitesini korur.</li>
+                        <li class="ozel">Pastörize edilmiş kaymak, pastörizasyon işlemiyle zararlı mikroorganizmaların öldürülmesi sağlanır, böylece güvenli bir tüketim sağlanır.</li>
+                        <li class="ozel">Pastörize edilmiş kaymak, içerdiği yüksek kalsiyum ile kemik ve diş sağlığını destekler.</li>
+                        <li class="ozel">Pastörize edilmiş kaymak, kremsi dokusu ve zengin tadıyla tatlı ve tuzlu tariflerde kullanılarak lezzet katar.</li>
+                        <li class="ozel">Pastörize edilmiş kaymak, içerdiği doymuş yağlarla enerji verici bir besin olup tokluk hissini artırır.</li>
+                        <li class="ozel">Pastörize edilmiş kaymak, çeşitli vitaminler ve mineraller içerir, böylece sağlıklı bir beslenme programının parçası olabilir.</li>
+                        <li class="ozel">Pastörize edilmiş kaymak, kahvaltılarda ekmek veya kruvasanla birlikte tüketilebilir veya tatlılarda ve pastalarda kullanılarak lezzet artırıcı bir bileşen olabilir.</li>
+                        <li class="ozel">Pastörize edilmiş kaymak, içerdiği antioksidanlar ile hücreleri korur ve vücutta serbest radikallere karşı mücadele eder.</li>
+                        <li class="ozel">Pastörize edilmiş kaymak, sindirimi kolaylaştırır ve sindirim sisteminin sağlıklı çalışmasını destekler.</li>
+                        <li class="ozel">Pastörize edilmiş kaymak, özenle işlenmiş ve sterilize edilmiş taze sütten üretildiği için güvenilir bir tüketim seçeneği sunar.</li>
+                    </ul>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="myModal12">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Taze Kaymak</h4>
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                </div>
+                <div class="modal-body">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="foto d-block w-100" src="~/images/uruns/kaymak/taze/2.png" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="foto d-block w-100" src="~/images/uruns/kaymak/taze/3.png" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="foto d-block w-100" src="~/images/uruns/kaymak/taze/4.png" alt="Third slide">
+                            </div>
+                        </div>
+
+                    </div>
+                    <hr>
+                    <iframe style="position:relative; right:-100px; border-radius:10px;" width="560" height="315" src="https://www.youtube.com/embed/u2c2mS0MGfw" frameborder="0" allowfullscreen></iframe>
+                    <hr>
+                    <h2>Taze Kaymak Özellikleri</h2>
+                    <ul>
+                        <li class="ozel">Taze kaymak, taze sütten elde edilir ve doğal bir lezzet sunar.</li>
+                        <li class="ozel">Taze kaymak, yoğun ve kremsi bir dokuya sahiptir ve tatlı bir lezzetle bütünleşir.</li>
+                        <li class="ozel">Taze kaymak, yüksek yağ içeriğiyle besleyicidir ve enerji sağlar.</li>
+                        <li class="ozel">Taze kaymak, içerdiği kalsiyum ile kemik sağlığını destekler ve dişleri güçlendirir.</li>
+                        <li class="ozel">Taze kaymak, içerdiği vitaminler ve mineraller ile cilt sağlığını destekler ve antioksidan özelliklere sahiptir.</li>
+                        <li class="ozel">Taze kaymak, çeşitli tatlı ve tuzlu tariflerde kullanılabilir ve lezzetini artırır.</li>
+                        <li class="ozel">Taze kaymak, kahvaltılarda ekmek veya simit ile tüketilebilir veya tatlılar için harika bir eklentidir.</li>
+                        <li class="ozel">Taze kaymak, doğal ve katkısız bir ürün olduğu için sağlıklı bir beslenme seçeneğidir.</li>
+                        <li class="ozel">Taze kaymak, ferahlatıcı ve doyurucu bir tadıyla keyifli bir atıştırmalıktır.</li>
+                        <li class="ozel">Taze kaymak, günlük tüketimde tazelik ve lezzet sunar ve birçok tarifte vazgeçilmez bir bileşen haline gelir.</li>
+                    </ul>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+
+    <br>
+    <br>
+
+    <br>
+    <br>
+
+    <br>
+    <br>
+
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var modals = document.querySelectorAll('.modal');
+
+            modals.forEach(function (modal) {
+                modal.addEventListener('show.bs.modal', function (e) {
+                    document.body.style.overflow = 'hidden';
+                });
+
+                modal.addEventListener('hidden.bs.modal', function (e) {
+                    document.body.style.overflow = 'auto';
+                });
+            });
+        });
+        $(document).ready(function () {
+            $('.carousel').carousel({
+                interval: 1000 // Resimlerin geçiş aralığı (milisaniye cinsinden)
+            });
+        });
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+</body>
+</html>

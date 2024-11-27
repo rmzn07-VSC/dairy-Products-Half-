@@ -1,0 +1,448 @@
+﻿<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yan Yana Kutular</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+    <style>
+
+        html, body {
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            min-width: 1500px;
+        }
+
+        .box {
+            width: calc(25% - 10px);
+            height: 580px;
+            background-color: #f0f0f0;
+            border: 3px solid #000;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .resim {
+            height: 470px;
+            width: 100%; /* Resimlerin container'ı doldurması için */
+            border: 2px solid #000;
+            border-radius: 10px;
+            object-fit: cover; /* Resimlerin oranlarını koruyarak sığması için */
+        }
+
+        .btn {
+            width: 300px;
+            z-index: 1000;
+            position: relative;
+            left: -1170px;
+            top: 29px;
+            margin-top: 5px;
+        }
+
+        .yazi {
+            text-align: center;
+            font-weight: bolder;
+            font-size: 20px;
+            color: black;
+            text-align: center;
+        }
+
+        .box .container {
+            margin-top: auto;
+        }
+
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .foto {
+            max-width: 400px;
+            height: 600px;
+            margin: auto; /* Resmi yatayda ortalamak için */
+            display: block; /* Resmi blok olarak göstermek için */
+        }
+
+        .carousel-control-prev,
+        .carousel-control-next {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50%;
+            z-index: 10;
+            opacity: 1;
+            height: 50px;
+            width: 50px;
+            position: absolute;
+            top: 250px; /* Butonları 200px aşağıya indirir */
+        }
+
+
+        .carousel-control-prev-icon {
+            color: white;
+            font-size: 24px;
+            line-height: 50px;
+            content: "\2039"; /* Sol ok karakteri */
+        }
+
+        .carousel-control-next-icon {
+            color: white;
+            font-size: 24px;
+            line-height: 50px;
+            content: "\203A"; /* Sağ ok karakteri */
+        }
+
+        ::-webkit-scrollbar {
+            display: none;
+        }
+
+        .satinAlin {
+            font-family: Arial, sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+            color: yellow; /* Yazı rengi */
+            background-color: black; /* Arkaplan rengi */
+            padding: 10px 20px; /* Yazı etrafındaki iç boşluk */
+            border-radius: 10px; /* Köşelerin yuvarlanma derecesi */
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Gölgelendirme */
+        }
+
+        .yeni_resim {
+            border: 2px solid #000;
+            height: 450px;
+            border-radius: 10px;
+        }
+
+        .ozel {
+            margin-bottom: 20px; /* Maddeler arasında 20 piksel boşluk bırakır */
+        }
+
+    </style>
+</head>
+<body>
+    <br>
+    <p class="satinAlin">Sütler</p>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="container">
+                <div class="box">
+                    <img src="/images/uruns/sut/cilek/1.png" class="yeni_resim d-block w-100">
+                    <div class="container mt-3">
+                        <p class="yazi">Çilekli Süt</p>
+                        <button type="button" class="btn btn-dark btn-block" data-toggle="modal" data-target="#myModal1">Daha Fazla Bilgi</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="container">
+                <div class="box">
+                    <img src="/images/uruns/sut/cikolata/1.png" class="yeni_resim d-block w-100">
+                    <div class="container mt-3">
+                        <p class="yazi">Çikolatalı Süt</p>
+                        <button type="button" class="btn btn-dark btn-block" data-toggle="modal" data-target="#myModal2">Daha Fazla Bilgi</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="container">
+                <div class="box">
+                    <img src="/images/uruns/sut/muz/1.png" class="yeni_resim d-block w-100">
+                    <div class="container mt-3">
+                        <p class="yazi">Muzlu Süt</p>
+                        <button type="button" class="btn btn-dark btn-block" data-toggle="modal" data-target="#myModal3">Daha Fazla Bilgi</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="container">
+                <div class="box">
+                    <img src="/images/uruns/sut/vanilya/1.png" class="yeni_resim d-block w-100">
+                    <div class="container mt-3">
+                        <p class="yazi">Vanilyalı Süt</p>
+                        <button type="button" class="btn btn-dark btn-block" data-toggle="modal" data-target="#myModal4">Daha Fazla Bilgi</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 1 -->
+    <div class="modal fade" id="myModal1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Çilekli Süt</h4>
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                </div>
+                <div class="modal-body">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="foto d-block w-100" src="~/images/uruns/sut/cilek/2.png" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="foto d-block w-100" src="~/images/uruns/sut/cilek/3.png" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="foto d-block w-100" src="~/images/uruns/sut/cilek/4.png" alt="Third slide">
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <hr>
+
+                    <iframe style="position:relative; right:-100px; border-radius:10px;" width="560" height="315" src="https://www.youtube.com/embed/fjK_CYniMx0" frameborder="0" allowfullscreen></iframe>
+
+                    <hr>
+                    <h1>Çilekli Sütün Faydaları</h1>
+                    <br>
+
+                    <ul>
+                        <li class="ozel">Çilekli süt, çilek ve sütün birleşimiyle yüksek miktarda vitamin ve mineral içerir.</li>
+
+                        <li class="ozel">Çilekli süt, vücuda kalsiyum sağlayarak kemik sağlığını destekler.</li>
+
+                        <li class="ozel">İçeriğindeki antioksidanlar sayesinde çilekli süt, vücudu serbest radikallerin zararlı etkilerine karşı korur.</li>
+                        <li class="ozel">Çilekli süt, sindirim sistemini destekleyen lif içeriğine sahiptir.</li>
+                        <li class="ozel">Çilek, içerdiği C vitamini ile bağışıklık sistemini güçlendirir ve çilekli süt bu faydalı vitamini içerir.</li>
+                        <li class="ozel">Çilekli süt, enerji seviyelerini artırabilir ve günlük aktiviteler için gereken enerjiyi sağlayabilir.</li>
+                        <li class="ozel">Çilekli süt, kan basıncını düzenlemeye yardımcı olan potasyum içerir.</li>
+                        <li class="ozel">Çilekli süt, içerdiği protein ile kas sağlığını destekler.</li>
+                        <li class="ozel">Çilekli süt, içeriğindeki folat ile hücrelerin ve dokuların yenilenmesine yardımcı olabilir.</li>
+                        <li class="ozel">Lezzetli ve besleyici olmasının yanı sıra çilekli süt, çocukların süt tüketme alışkanlığını geliştirmelerine yardımcı olabilir.</li>
+                    </ul>
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal fade" id="myModal2">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Çikolatalı Süt</h4>
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                </div>
+                <div class="modal-body">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="foto d-block w-100" src="/images/uruns/sut/cikolata/2.png" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="foto d-block w-100" src="/images/uruns/sut/cikolata/3.png" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="foto d-block w-100" src="/images/uruns/sut/cikolata/4.png" alt="Third slide">
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <hr>
+                    <iframe style="position:relative; right:-100px; border-radius:10px;" width="560" height="315" src="https://www.youtube.com/embed/chygi1L_YJ0" frameborder="0" allowfullscreen></iframe>
+                    <hr>
+                    <h1>Çikolatalı Sütün Faydaları</h1>
+                    <br>
+
+                    <ul>
+                        <li class="ozel">Çikolatalı süt, kalsiyum ve protein bakımından zengin bir içecektir.</li>
+                        <li class="ozel">Çikolatalı süt, kemik sağlığını destekleyen kalsiyum içerir.</li>
+                        <li class="ozel">Kakao içeriği, çikolatalı sütü antioksidanlar bakımından zengin yapar ve hücrelere zarar veren serbest radikallere karşı korur.</li>
+                        <li class="ozel">Çikolatalı süt, enerji seviyelerini artırabilir ve günlük aktiviteler için gereken enerjiyi sağlayabilir.</li>
+                        <li class="ozel">Kakao, içerdiği flavonoidler sayesinde kalp sağlığını destekler ve kan basıncını düzenler.</li>
+                        <li class="ozel">Çikolatalı süt, çocuklara kalsiyum alımını teşvik edebilir ve kemik gelişimini destekleyebilir.</li>
+                        <li class="ozel">Kakao, beyin fonksiyonlarını iyileştirebilir ve bilişsel performansı artırabilir.</li>
+                        <li class="ozel">Çikolatalı süt, egzersiz sonrası kas iyileşmesini hızlandırabilir ve kas kütlesini artırabilir.</li>
+                        <li class="ozel">Kakao içeriği, ruh halini iyileştiren endorfin ve serotonin salgılanmasını teşvik edebilir.</li>
+                        <li class="ozel">Çikolatalı süt, lezzetli ve besleyici bir alternatif olarak çocukların süt tüketme alışkanlığını geliştirebilir.</li>
+                    </ul>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal fade" id="myModal3">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Muzlu Süt</h4>
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                </div>
+                <div class="modal-body">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="foto d-block w-100" src="~/images/uruns/sut/muz/2.png" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="foto d-block w-100" src="~/images/uruns/sut/muz/3.png" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="foto d-block w-100" src="~/images/uruns/sut/muz/4.png" alt="Third slide">
+                            </div>
+                        </div>
+
+                    </div>
+                    <hr>
+                    <iframe style="position:relative; right:-100px; border-radius:10px;" width="560" height="315" src="https://www.youtube.com/embed/WwZh_glHsNg" frameborder="0" allowfullscreen></iframe>
+                    <hr>
+                    <h1>Muzlu Sütün Faydaları</h1>
+                    <br>
+
+                    <ul>
+                        <li class="ozel">Muzlu süt, potasyum ve vitamin bakımından zengin bir içecektir.</li>
+                        <li class="ozel">Muzlu süt, kasları güçlendiren potasyum içerir.</li>
+                        <li class="ozel">Muz, içerdiği lif sayesinde sindirim sistemini düzenleyebilir ve kabızlık riskini azaltabilir.</li>
+                        <li class="ozel">Muzlu süt, içerdiği B6 vitamini ile enerji seviyelerini artırabilir ve stresle başa çıkmaya yardımcı olabilir.</li>
+                        <li class="ozel">Muzlu süt, sindirimi kolaylaştırır ve mideyi yatıştırabilir, bu da sindirim rahatsızlıklarını hafifletebilir.</li>
+                        <li class="ozel">Muzlu süt, günlük lif ihtiyacını karşılayarak sindirim sağlığını destekler.</li>
+                        <li class="ozel">Muz, içerdiği potasyum sayesinde kan basıncını düzenleyebilir ve kalp sağlığını destekleyebilir.</li>
+                        <li class="ozel">Muzlu süt, içerdiği kalsiyum ve proteinle kemik sağlığını destekler.</li>
+                        <li class="ozel">Muz, içerdiği magnezyum ile kas kramplarını önleyebilir ve kasların sağlıklı fonksiyonlarını sürdürmesine yardımcı olabilir.</li>
+                        <li class="ozel">Muzlu süt, lezzetli ve besleyici bir içecek olmanın yanı sıra çocuklara sağlıklı beslenme alışkanlıkları kazandırmak için ideal bir seçenektir.</li>
+                    </ul>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 4 -->
+    <div class="modal fade" id="myModal4">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Vanilyalı Süt</h4>
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                </div>
+                <div class="modal-body">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="foto d-block w-100" src="~/images/uruns/sut/vanilya/2.png" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="foto d-block w-100" src="~/images/uruns/sut/vanilya/3.png" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="foto d-block w-100" src="~/images/uruns/sut/vanilya/4.png" alt="Third slide">
+                            </div>
+                        </div>
+
+                    </div>
+                    <hr>
+                    <iframe style="position:relative; right:-100px; border-radius:10px;" width="560" height="315" src="https://www.youtube.com/embed/O72m90NPnBE" frameborder="0" allowfullscreen></iframe>
+                    <hr>
+                    <h2>Vanilyalı Sütün Faydaları</h2>
+                    <ul>
+                        <li class="ozel">Vanilyalı süt, kalsiyum ve D vitamini bakımından zengin bir içecektir.</li>
+                        <li class="ozel">Vanilyalı süt, kemikleri güçlendiren kalsiyum içerir.</li>
+                        <li class="ozel">Vanilyalı süt, sindirimi düzenleyebilir ve sindirim sistemini destekleyebilir.</li>
+                        <li class="ozel">Vanilyalı süt, içerdiği D vitamini ile bağışıklık sistemini güçlendirebilir.</li>
+                        <li class="ozel">Vanilyalı süt, sindirimi kolaylaştırır ve mide sağlığını destekleyebilir.</li>
+                        <li class="ozel">Vanilyalı süt, günlük kalsiyum ihtiyacını karşılayarak kemik sağlığını destekler.</li>
+                        <li class="ozel">Vanilyalı süt, içerdiği proteinle kasların sağlıklı fonksiyonlarını destekler.</li>
+                        <li class="ozel">Vanilyalı süt, lezzetli ve besleyici bir içecek olmanın yanı sıra çocuklara sağlıklı beslenme alışkanlıkları kazandırmak için ideal bir seçenektir.</li>
+                    </ul>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+
+    <br>
+    <br>
+
+    <br>
+    <br>
+
+    <br>
+    <br>
+
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var modals = document.querySelectorAll('.modal');
+
+            modals.forEach(function (modal) {
+                modal.addEventListener('show.bs.modal', function (e) {
+                    document.body.style.overflow = 'hidden';
+                });
+
+                modal.addEventListener('hidden.bs.modal', function (e) {
+                    document.body.style.overflow = 'auto';
+                });
+            });
+        });
+        $(document).ready(function () {
+            $('.carousel').carousel({
+                interval: 1000 // Resimlerin geçiş aralığı (milisaniye cinsinden)
+            });
+        });
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+</body>
+</html>

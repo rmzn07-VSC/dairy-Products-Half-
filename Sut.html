@@ -1,0 +1,3253 @@
+<html>
+<head>
+<title>Süt</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="belirtilen-div" id="belirtilenDiv"><img src="Resources/süt/ok.png"></div>
+
+
+
+  <button class="sagsol" id="solaGit" onclick="solaGit()">Sola Git</button>
+  <button class="sagsol" id="sagaGit" onclick="sagaGit()">Sağa Git</button>
+ 
+
+<nav>
+  <div class="wrapper">
+    <div class="logo"><a href="#">Güne süt içerek başlamak, enerji dolu bir günün başlangıcıdır.</a></div>
+    <input type="radio" name="slider" id="menu-btn">
+    <input type="radio" name="slider" id="close-btn">
+    <ul class="nav-links">
+      <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+      <li><a href="index.html" >Ana Sayfa</a></li>
+      <li><a href="Hakkimda.html">Hakkımda</a></li>      <li>
+       <a href="#" class="desktop-item">Süt Ürünleri</a>
+        <input type="checkbox" id="showDrop">
+        <label for="showDrop" class="mobile-item">Süt Ürünleri</label>
+        <ul class="drop-menu">
+          <li><a href="#">Süt</a></li>
+          <li><a href="Peynir.html">Peynir</a></li>
+          <li><a href="Yogurt.html">Yoğurt</a></li>
+		  <li><a href="Kaymak.html">Kaymak</a></li>
+          <li><a href="Tereyagi.html">Tereyağı</a></li>
+        </ul>
+      </li>
+      
+      
+    </ul>
+    <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+  </div>
+</nav><br><br><br><br><br>
+
+<div class="container">
+  <div class="categories">
+      <!-- Kategorileri buraya ekleyin -->
+      <ul class="icerik-links"><br><br><br><br><br>
+        <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label><H1 style="color:rgb(255, 255, 255); text-align: center;  background-color: rgb(255, 0, 0); height: 50; padding-top: 8px; margin-left: -10px; margin-right: -10px; margin-top: 5px;">SÜT ÇEŞİDİ:</H1>
+        <br><br><br>
+        <li><a href="#" id = "kirmizi" onclick="showContent('tumu')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tümü&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li><br>
+        <li><a href="#" onclick="showContent('aromali')" style="width:100%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aromalı Süt&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li><br>
+        <li><a href="#" onclick="showContent('soyali')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Soya Sütü&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li><br>
+        <li><a href="#" onclick="showContent('cocuk')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Çocuk Sütü&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li><br>
+        <li><a href="#" onclick="showContent('devam')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Devam Sütü&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li><br>
+        <li><a href="#" onclick="showContent('laktoz')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Laktozsuz Süt&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li><br>
+        <li><a href="#" onclick="showContent('light')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Light Süt&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li><br>
+        <li><a href="#" onclick="showContent('yarim')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yarım Yağlı Süt&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li><br>
+        <li><a href="#" onclick="showContent('organik')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Organik Süt&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li><br>
+        
+
+        <p class="diger">Diğer Süt ürünlerimize <br> de bakmak isterseniz <br> <b><a href="#" class="tikla"onclick="showDiv()"><span >buraya</span></a></b> tıklayın, size<br> yolu göstereceğim! </p>
+
+        
+        
+    
+  </div>
+  <p class="kategori_adi" id="tumu"><b>Tüm Sütler</b>, sütler hakkında herşeyi burada görebilirsiniz.</p>
+  <p class="kategori_adi" id="aromali"><b>Aromalı süt</b>, sütün içerisine çeşitli tatlandırıcılar veya meyve aromaları eklenerek yapılan bir süt çeşididir.</p>
+  <p class="kategori_adi" id="soyali"><b>Soya sütü</b>, soya fasulyesinden yapılan bitkisel bir süt alternatifidir.</p>
+  <p class="kategori_adi" id="cocuk"><b>Çocuk sütü</b>, bebeklerin ve küçük çocukların beslenmesi için özel olarak formüle edilmiş süt ürünüdür.</p>
+  <p class="kategori_adi" id="devam"><b>Devam sütü</b>, bebeklerin katı gıdalara geçiş döneminde ve sonrasında kullanılan özel bir süt türüdür.</p>
+  <p class="kategori_adi" id="laktoz"><b>Laktozsuz süt</b>, laktoz içermeyen veya laktoz miktarı düşük olan süt alternatifidir.</p>
+  <p class="kategori_adi" id="light"><b>Light süt</b>, düşük yağ içeriğine sahip süt çeşididir.</p>
+  <p class="kategori_adi" id="yarim"><b>Yarım yağlı süt</b>, kısmen yağ içeriği azaltılmış süt çeşididir.</p>
+  <p class="kategori_adi" id="organik"><b>Organik süt</b>, organik tarım yöntemleriyle yetiştirilen ineklerden elde edilen süt demektir.</p>
+  
+  <div class="product" id="aromali">
+      <img src="Resources/süt/aromali/sut_cilek.jpg" alt="Ürün Resmi"><br>
+      <p class="yazi_ortala">Çilekli Süt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Aromalı Süt</span></p><br>
+      <button onclick="ekranAc_cilekaroma()">Satın Al</button>
+  </div>
+  <div id="ekran_cilekaroma" class="modal">
+    <div class="modal-icerik">
+      
+      <div class="icerik-sol">
+        <h1><strong>Çilekli Süt İçeriği: Sağlık Dolu Bir Lezzet</strong></h1><br>
+
+<p>Çilekli süt, hem çileğin hem de sütün sağlık yararlarını bir araya getirerek besleyici bir içecek haline gelir. İşte çilekli sütün sağlık yararlarından bazıları:</p><br>
+
+<h2><strong>1. Vitamin ve Mineral Deposu</strong></h2><br>
+
+<p>Çilek, C vitamini, K vitamini, folat ve potasyum gibi birçok vitamin ve mineral kaynağıdır. Süt ise kalsiyum, protein ve B vitaminleri gibi besin maddeleri açısından zengindir. Dolayısıyla, çilekli süt tüketerek vücudunuzun ihtiyaç duyduğu birçok önemli besin maddesini alabilirsiniz.</p><br>
+
+<h2><strong>2. Antioksidanlarla Dolu</strong></h2><br>
+
+<p>Çilek, güçlü antioksidanlar olan polifenoller açısından zengindir. Bu antioksidanlar, vücuttaki serbest radikallerle savaşarak hücresel hasarı azaltmaya yardımcı olabilir. Bu da yaşlanmayı yavaşlatabilir ve çeşitli hastalıkların riskini azaltabilir.</p><br>
+
+<h2><strong>3. Sindirimi Destekler</strong></h2><br>
+
+<p>Süt, sindirimi destekleyen probiyotikler içerir. Bu probiyotikler, sindirim sisteminizin sağlıklı kalmasına ve sindirim sorunlarının önlenmesine yardımcı olabilir. Çilekli sütü düzenli olarak tüketmek sindirim sisteminizin dengede kalmasına yardımcı olabilir.</p><br>
+
+<h2><strong>Çilekli Süt Nasıl Yapılır?</strong></h2><br>
+
+<p>Çilekli süt yapmak oldukça kolaydır ve evde rahatlıkla hazırlanabilir. İşte adım adım çilekli süt yapımı:</p><br>
+
+<p><strong>Malzemeler:</strong></p><br>
+
+<ul>
+  <li>Taze çilek</li>
+  <li>Süt</li>
+  <li>Bal veya şeker (isteğe bağlı)</li>
+</ul><br>
+
+<p><strong>Yapılışı:</strong></p><br>
+
+<ol>
+  <li>İlk olarak, taze çilekleri yıkayın ve saplarını çıkarın. Ardından, blender veya mutfak robotu kullanarak çilekleri püre haline getirin.</li><br>
+  <li>Püre haline getirilmiş çilekleri bir süzgeçten geçirerek çekirdeklerinden ayırın.</li><br>
+  <li>Bir sürahiye süt ekleyin. İsteğe bağlı olarak, tatlandırmak için bal veya şeker ekleyebilirsiniz.</li><br>
+  <li>Karışımı iyice karıştırın ve buzdolabında soğumaya bırakın.</li><br>
+  <li>Soğuduktan sonra, çilekli sütü bardaklara dökün ve isteğe bağlı olarak taze çilek dilimleriyle süsleyerek servis yapın.</li><br>
+</ol><br>
+
+<p>Çilekli sütünüz hazır! Bu basit tarifle, sağlıklı ve lezzetli bir içeceği kolayca evinizde yapabilirsiniz.</p><br>
+
+<h2><strong>Sonuç</strong></h2><br>
+
+<p>Çilekli süt, sağlık dolu bir lezzet alternatifi sunar. İçeriğindeki çilek ve süt, bir araya geldiğinde besleyici ve tatmin edici bir içecek ortaya çıkarır. Sağlık yararlarıyla dolu olan çilekli sütü evinizde kolayca yapabilirsiniz. Sağlıklı bir yaşam tarzı için düzenli olarak çilekli süt tüketmeyi düşünebilirsiniz.</p><br>
+
+      </div>
+      <div class="icerik-sag">
+        <span class="kapat" onclick="ekranKapat_cilekaroma()">&times;</span>
+        <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+      </div>
+    </div>
+  </div>
+  <div class="product" id="aromali">
+    <img src="Resources/süt/aromali/sut_cikolata.jpg" alt="Ürün Resmi"><br>
+    <p class="yazi_ortala">Çikolatalı Süt</p><br>
+    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Aromalı Süt</span></p><br>
+    <button onclick="ekranAc()">Satın Al</button>
+</div>
+<div id="ekran" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      
+<h1><Strong>Çikolatalı Süt Nedir? İşte Detaylı Anlatımı</strong></h1><br>
+
+<h2>Çikolatalı Süt Nedir?</h2><br>
+
+<p>Çikolatalı süt, sütün içerisine eklenen kakao ile hazırlanan lezzetli bir içecektir. Genellikle çocuklar arasında popüler olan bu içecek, aynı zamanda yetişkinler için de tercih edilebilir bir seçenektir. Çikolatalı sütün ana malzemeleri arasında süt, kakao tozu ve şeker bulunur. Bu içecek, besleyici ve lezzetli bir alternatif oluşturur.</p><br>
+
+<h2>Çikolatalı Sütün Faydaları</h2><br>
+
+<ul>
+  <li><strong>Kalsiyum Kaynağı:</strong> Çikolatalı süt, kalsiyum açısından zengin bir içecektir. Bu nedenle, kemik sağlığını destekleyebilir ve kemik erimesi riskini azaltabilir.</li><br>
+  <li><strong>Protein İçeriği:</strong> İçerdiği protein sayesinde, çikolatalı süt kasların gelişimine ve güçlenmesine yardımcı olabilir.</li><br>
+  <li><strong>Enerji Verici:</strong> İçerdiği şeker ve karbonhidratlar sayesinde, çikolatalı süt enerji verici bir içecek olarak tercih edilebilir.</li><br>
+  <li><strong>Antioksidanlar:</strong> Kakao içeriği sayesinde, çikolatalı süt antioksidanlar bakımından zengin bir içecek olarak bilinir.</li><br>
+</ul>
+
+<h2>Nasıl Yapılır?</h2><br>
+
+<p>Çikolatalı sütü evde kolayca yapabilirsiniz. İhtiyacınız olan malzemeler şunlardır:</p><br>
+
+<ol>
+  <li>Yarım litre süt</li><br>
+  <li>2 yemek kaşığı kakao tozu</li><br>
+  <li>2 yemek kaşığı şeker</li><br>
+</ol>
+
+<p><strong>Yapılışı ise şu adımlardan oluşur:</strong></p><br>
+
+<ol>
+  <li>Bir tencerede sütü ısıtın.</li><br>
+  <li>Isınan sütün içine kakao tozunu ve şekeri ekleyin.</li><br>
+  <li>Karışımı iyice çırpın ve kaynamaya bırakın.</li><br>
+  <li>Kaynadıktan sonra ocaktan alın ve içmeye hazır hale getirin.</li><br>
+</ol>
+
+<h2>Çikolatalı Sütü Nasıl Servis Etmeliyiz?</h2><br>
+
+<p>Çikolatalı sütü servis ederken, üzerine biraz çikolata rendesi veya kakao tozu serperek görsel açıdan da çekici hale getirebilirsiniz. Soğuk olarak tüketilmesi tavsiye edilir ve özellikle kahvaltıda veya atıştırmalık olarak tercih edilebilir.</p><br>
+
+<h2>Sonuç</h2><br>
+
+<p>Çikolatalı süt, besleyici özellikleri ve lezzetli tadıyla hem çocukların hem de yetişkinlerin sevdiği bir içecektir. Evde kolayca hazırlanabilir ve sağlık açısından da birçok fayda sunar. İster sade içerek ister tariflerinize ekleyerek kullanabilirsiniz.</p><br>
+
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat()">&times;</span>
+      <p>Burada sol taraftaki içeriğiniz olabilir.</p>
+    </div>
+  </div>
+</div>
+<div class="product" id="aromali">
+  <img src="Resources/süt/aromali/sut_muz.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Muzlu Süt</p><br>
+  <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Aromalı Süt</span></p><br>
+  <button onclick="ekranAc_muzaroma()">Satın Al</button>
+</div>
+<div id="ekran_muzaroma" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <h1>Muzlu Sütün İçeriği ve Faydaları</h1><br>
+
+      <h2>Potasyum Zengini</h2><br>
+      
+      <p>Muzlu süt, içerdiği yüksek potasyum sayesinde vücudunuzun sıvı dengesini sağlar, kas fonksiyonlarını destekler ve kan basıncını düzenler.</p><br>
+      
+      <h2>Kalsiyum Kaynağı</h2><br>
+      
+      <p>Sütün içeriğindeki kalsiyum, kemik ve diş sağlığını korumaya yardımcı olurken, muzun içerdiği kalsiyum da bu etkiyi güçlendirir.</p><br>
+      
+      <h2>Vitaminler</h2><br>
+      
+      <p>Muzlu süt, A, C, E ve K gibi vitaminler açısından zengindir. Bu vitaminler vücudunuzun genel sağlığını destekler ve bağışıklık sistemini güçlendirir.</p><br>
+      
+      <h2>Enerji Verici</h2><br>
+      
+      <p>Muz, doğal bir enerji kaynağıdır ve içerdiği şekerlerle enerji seviyelerini artırır. Bu nedenle, muzlu süt spor öncesi veya sonrasında enerji ihtiyacını karşılamak için ideal bir içecektir.</p><br>
+      
+      <h2>Karbonhidrat İçeriği</h2><br>
+      
+      <p>Muzlu süt, içerdiği karbonhidratlar ile tokluk hissi sağlar ve uzun süreli enerji sağlar.</p><br>
+      
+      <h2>Nasıl Yapılır?</h2><br>
+      
+      <p>Muzlu sütü evde kolayca yapabilirsiniz. İhtiyacınız olan malzemeler şunlardır:</p><br>
+      
+      <ol>
+        <li>1 adet olgun muz</li><br>
+        <li>1 bardak süt (isteğe bağlı olarak yağsız veya tam yağlı süt tercih edebilirsiniz)</li><br>
+        <li>Blender veya mikser</li><br>
+      </ol>
+      
+      <p><strong>Yapılışı ise şu adımlardan oluşur:</strong></p><br>
+      
+      <ol>
+        <li>Olgun bir muzu soyun ve dilimleyin.</li><br>
+        <li>Dilimlediğiniz muzu blender veya mikserde püre haline getirin.</li><br>
+        <li>Püre haline gelen muzun üzerine bir bardak süt ekleyin.</li><br>
+        <li>İsteğe bağlı olarak biraz bal veya vanilya ekleyerek tatlandırabilirsiniz.</li><br>
+        <li>Tüm malzemeleri iyice karıştırın ve pürüzsüz bir kıvam elde edene kadar karıştırmaya devam edin.</li><br>
+      </ol>
+      
+      <h2>Servis Önerileri</h2><br>
+      
+      <p>Muzlu sütü soğuk olarak servis edebilirsiniz. Üzerine biraz tarçın veya kakao serperek aroma katabilirsiniz. Ayrıca, içine birkaç buz küpü ekleyerek daha ferah bir içecek haline getirebilirsiniz.</p><br>
+      
+      <h2>Sonuç</h2><br>
+      
+      <p>Muzlu süt, besleyici içeriği ve lezzetli tadıyla hem sağlıklı bir içecek hem de enerji kaynağıdır. Evde kolayca hazırlanabilir ve günlük beslenme rutininize ekleyerek sağlığınıza katkı sağlayabilirsiniz.</p><br>
+      
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_muzaroma()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddasdasdsadasdadasdadastaki içeriğiniz olabilir.</p>
+    </div>
+  </div>
+</div>
+
+<div class="product" id="aromali">
+  <img src="Resources/süt/aromali/sut_vanilya.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Vanilyalı Süt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Aromalı Süt</span></p><br>
+  <button onclick="ekranAc_vanilyaaroma()">Satın Al</button>
+</div>
+<div id="ekran_vanilyaaroma" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <h1>Vanilyalı Süt Nedir?</h1><br>
+
+<p>Vanilyalı süt, sütün içerisine eklenen vanilya özü veya vanilya aroması ile hazırlanan bir içecektir. Bu içecek genellikle tatlı ve hafif vanilya tadıyla bilinir. Vanilyalı süt, genellikle çocuklar arasında popüler olan bir içecektir ancak yetişkinler de tercih edebilirler.</p><br>
+
+<h2>Vanilyalı Sütün İçeriği ve Faydaları</h2><br>
+
+<ul>
+  <li><strong>Vanilya Aroması:</strong> Vanilyalı süt, içerisindeki vanilya aromasıyla lezzetli bir tat sunar ve içimi daha keyifli hale getirir.</li><br>
+  <li><strong>Besleyici:</strong> Sütün içeriğindeki kalsiyum, protein ve diğer besleyici öğeler vanilyalı sütü besleyici bir içecek haline getirir.</li><br>
+  <li><strong>Tatlandırıcı Alternatif:</strong> Şeker ilave edilmeden doğal vanilya aromasıyla tatlandırılan vanilyalı süt, şeker alımını azaltmak isteyenler için de iyi bir alternatif olabilir.</li><br>
+  <li><strong>Kafeinsiz:</strong> Vanilyalı süt, kafein içermez ve bu nedenle günün her saati rahatlıkla tüketilebilir.</li><br>
+  <li><strong>Yatıştırıcı Etki:</strong> Vanilya, bazı kişilerde yatıştırıcı bir etki yapabilir ve stresle başa çıkmaya yardımcı olabilir.</li><br>
+</ul>
+
+<h2>Nasıl Yapılır?</h2><br>
+
+<p><strong>Vanilyalı sütü evde kolayca hazırlayabilirsiniz. İhtiyacınız olan malzemeler şunlardır:</strong></p><br>
+
+<ol>
+  <li>1 litre süt</li><br>
+  <li>2-3 çay kaşığı vanilya özü veya vanilya ekstraktı</li><br>
+  <li>2 yemek kaşığı toz şeker (isteğe bağlı)</li><br>
+</ol>
+
+<p><strong>Yapılışı ise şu adımlardan oluşur:</strong></p><br>
+
+<ol>
+  <li>Bir tencerede sütü ısıtın. Kaynamamasına dikkat edin.</li><br>
+  <li>Isınan sütün içine vanilya özü veya vanilya ekstraktı ekleyin.</li><br>
+  <li>İsteğe bağlı olarak toz şekeri ekleyin ve karıştırın.</li><br>
+  <li>Karışımı bir süre daha hafif ateşte karıştırarak ısıtın, ancak kaynatmayın.</li><br>
+  <li>Ocaktan alın ve soğumaya bırakın.</li><br>
+  <li>Soğuduktan sonra buzdolabında bir süre dinlendirin ve ardından servis yapın.</li><br>
+</ol>
+
+<h2>Servis Önerileri</h2><br>
+
+<p>Vanilyalı sütü soğuk veya ılık olarak servis edebilirsiniz. Üzerine biraz tarçın serperek veya çikolata rendesi ekleyerek lezzetini artırabilirsiniz. Ayrıca, vanilyalı sütü kahve veya çayın içine ekleyerek farklı tatlar deneyebilirsiniz.</p><br>
+
+<h2>Sonuç</h2><br>
+
+<p>Vanilyalı süt, lezzetli tadı ve besleyici özellikleriyle tercih edilen bir içecektir. Evde kolayca hazırlanabilir ve çeşitli servis önerileriyle farklı tatlar deneyebilirsiniz.</p><br>
+
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_vanilyaaroma()">&times;</span>
+      <p>Burada sol vanilya içeriğiniz olabilir.</p>
+    </div>
+  </div>
+</div>
+
+<div class="product" id="cocuk">
+  <img src="Resources/süt/cocuk/cocuk_cikolata.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Çikolatalı Süt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Çocuk Sütü</span></p><br>
+  <button onclick="ekranAc_cikolatacocuk()">Satın Al</button>
+</div>
+<div id="ekran_cikolatacocuk" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <h1>Çikolatalı Çocuk Sütü Nedir?</h1><br>
+
+      <p>Çikolatalı "çocuk sütü", genellikle çocuklar için özel olarak formüle edilmiş ve çikolata tadında olan bir içecektir. Bu ürün, çocukların süt tüketimini teşvik etmek ve onlara besleyici bir içecek sunmak amacıyla geliştirilmiştir. Çikolatalı çocuk sütü genellikle vitaminler, mineraller ve proteinler açısından zengindir ve çocukların büyüme ve gelişme sürecinde ihtiyaç duydukları besin öğelerini içerir.</p><br>
+      
+      <h2>Çikolatalı Çocuk Sütünün İçeriği ve Faydaları</h2><br>
+      
+      <ul>
+        <li><strong>Besleyici İçerik:</strong> Çikolatalı çocuk sütü, genellikle kalsiyum, protein, vitamin D, vitaminler (A, B12, C) ve mineraller açısından zengindir. Bu besin öğeleri, çocukların kemik sağlığı, bağışıklık sistemi ve genel büyüme ve gelişmesi için önemlidir.</li><br>
+        <li><strong>Lezzetli Tad:</strong> Çikolatalı çocuk sütü, çocukların seveceği tatlı ve çikolata aromasına sahiptir. Bu nedenle, çocukların süt tüketimini artırmak için etkili bir seçenek olabilir.</li><br>
+        <li><strong>Kemik Sağlığı:</strong> İçerdiği kalsiyum sayesinde, çikolatalı çocuk sütü çocukların kemiklerinin güçlenmesine ve sağlıklı bir şekilde büyümelerine yardımcı olabilir.</li><br>
+        <li><strong>Bağışıklık Sistemi Desteği:</strong> İçerdiği vitaminler ve minerallerle çocukların bağışıklık sistemini güçlendirebilir ve hastalıklara karşı dirençlerini artırabilir.</li><br>
+        <li><strong>Enerji ve Aktivite:</strong> İçerdiği protein ve karbonhidratlar sayesinde, çikolatalı çocuk sütü çocukların enerji seviyelerini artırarak günlük aktivitelerde daha aktif olmalarını sağlayabilir.</li><br>
+      </ul>
+      
+      <h2>Nasıl Kullanılır?</h2><br>
+      
+      <p>Çikolatalı çocuk sütü genellikle hazır olarak satılır ve tüketim için hazırdır. Çocuklar için öğünlerle veya atıştırmalıklarla birlikte tercih edilebilir. İçerisindeki besleyici öğeler sayesinde, çocukların sağlıklı bir diyetle birlikte düzenli olarak tüketmesi önerilir.</p><br>
+      
+      <h2>Sonuç</h2><br>
+      
+      <p>Çikolatalı çocuk sütü, çocukların süt tüketimini artırmak ve onlara besleyici bir içecek sunmak amacıyla geliştirilmiş özel bir üründür. İçeriğindeki besin öğeleriyle çocukların sağlıklı büyümelerine ve gelişmelerine katkı sağlar. Ancak, çocukların beslenme düzeninde çeşitliliği sağlamak ve dengeli bir beslenme için diğer besin gruplarını da içeren bir diyetin önemi unutulmamalıdır.</p><br>
+      
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_cikolatacocuk()">&times;</span>
+      <p>Burada sol cocuk içeriğiniz olabilir.</p>
+    </div>
+  </div>
+</div>
+<div class="product" id="cocuk">
+  <img src="Resources/süt/cocuk/cocuk_cilek.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Çilekli Süt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Çocuk Sütü</span></p><br>
+  <button onclick="ekranAc_cilekcocuk()">Satın Al</button>
+</div>
+<div id="ekran_cilekcocuk" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <h1>Çilekli Çocuk Sütü Nedir ve Nasıl Yapılır?</h1><br>
+      
+      <h2>İçeriği ve Besleyici Özellikleri</h2><br>
+      
+      <p><strong>Çilek:</strong> İçerdiği doğal şekerlerle tatlılık sağlayan çilek, aynı zamanda C vitamini açısından da zengindir ve bağışıklık sistemini destekler.</p><br>
+      <p><strong>Süt:</strong> Süt, kalsiyum, protein ve diğer besleyici öğeler açısından zengindir ve çocukların kemik ve kas gelişimine katkı sağlar.</p><br>
+      <p><strong>Tatlandırıcı:</strong> Çilekli çocuk sütü genellikle doğal tatlandırıcılarla hazırlanır ve şeker ilavesi minimum düzeydedir.</p><br>
+      <p><strong>Enerji Verici:</strong> İçerdiği besin öğeleri sayesinde çilekli çocuk sütü, çocukların enerji seviyelerini artırarak günlük aktivitelerini destekler.</p><br>
+      
+      <h2>Nasıl Yapılır?</h2><br>
+      
+      <p><strong>Çilekli çocuk sütünü evde kolayca hazırlayabilirsiniz. İhtiyacınız olan malzemeler şunlardır:</strong></p><br>
+      
+      <ol>
+        <li>Yarım su bardağı taze çilek (dilimlenmiş veya püre halinde)</li><br>
+        <li>1 bardak süt (yağsız veya tam yağlı tercih edilebilir)</li><br>
+        <li>1 tatlı kaşığı bal veya agave şurubu (isteğe bağlı, doğal tatlandırıcı olarak)</li><br>
+      </ol><br>
+      
+      <p><strong>Yapılışı ise şu adımlardan oluşur:</strong></p><br>
+      
+      <ol>
+        <li>Taze çilekleri yıkayın ve dilimleyin veya püre haline getirin.</li><br>
+        <li>Bir blender veya mikserde çilekleri ve sütü bir araya getirin.</li><br>
+        <li>İsteğe bağlı olarak bal veya agave şurubunu ekleyerek tatlandırın.</li><br>
+        <li>Tüm malzemeleri iyice karıştırın ve pürüzsüz bir kıvam elde edene kadar karıştırmaya devam edin.</li><br>
+        <li>Karışımı bir süzgeçten geçirerek pürüzsüz bir süt elde edebilirsiniz.</li><br>
+        <li>Servis yapmadan önce buzdolabında bir süre dinlendirin.</li><br>
+      </ol><br>
+      
+      <h2>Servis Önerileri</h2><br>
+      
+      <p>Çilekli çocuk sütünü soğuk veya ılık olarak servis edebilirsiniz. Üzerine birkaç dilim çilek veya nane yaprakları ekleyerek görsel açıdan daha çekici hale getirebilirsiniz. Ayrıca, çocukların sevdiği renkli pipetler veya süslemelerle servis ederek keyifli bir içecek haline getirebilirsiniz.</p><br>
+      
+      <h2>Sonuç</h2><br>
+      
+      <p>Çilekli çocuk sütü, hem lezzetli hem de besleyici bir içecek olup çocukların sağlıklı büyümelerine katkı sağlar. Evde kolayca hazırlanabilir ve çocukların seveceği bir alternatif sunar.</p><br>
+      
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_cilekcocuk()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div>
+</div>
+<div class="product" id="cocuk" >
+  <img src="Resources/süt/cocuk/cocuk_dvitamin.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">D Vitaminli Süt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Çocuk Sütü</span></p><br>
+  <button onclick="ekranAc_dvitamincocuk()">Satın Al</button>
+</div>
+<div id="ekran_dvitamincocuk" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <h1><strong>D Vitaminli "Çocuk Sütü" Nedir?</strong></h1><br>
+
+      <p>D vitaminli çocuk sütü, çocukların sağlıklı büyüme ve gelişimini desteklemek amacıyla özel olarak formüle edilmiş bir süt çeşididir. Bu süt, içerdiği D vitamini ile çocukların kemik sağlığını güçlendirirken, kalsiyum ve diğer besleyici öğeler ile genel sağlık için gerekli olan besinleri sağlar. Genellikle anne sütüne benzer özellikler taşıyan bu süt, çocukların beslenme ihtiyaçlarına uygun olarak hazırlanır ve çocukların büyüme sürecinde önemli bir rol oynar.</p><br>
+      
+      <h2><strong>D Vitaminli Çocuk Sütünün İçeriği ve Faydaları</strong></h2><br>
+      
+      <p><strong>D Vitamini:</strong> Özellikle kemik sağlığı için önemli olan D vitamini, güneş ışığından yeterince alınamadığında veya beslenme yoluyla desteklenmesi gerektiğinde önem kazanır. D vitaminli çocuk sütü, bu ihtiyacı karşılamak için özel olarak formüle edilmiştir.</p><br>
+      <p><strong>Kalsiyum ve Diğer Mineraller:</strong> Kemik ve diş sağlığı için gerekli olan kalsiyum, magnezyum, fosfor gibi mineraller çocuk sütünde bulunur ve sağlıklı büyüme ve gelişim için önemlidir.</p><br>
+      <p><strong>Protein:</strong> Çocukların kas ve dokularının gelişimini destekleyen protein, çocuk sütünde dengeli bir şekilde bulunur.</p><br>
+      <p><strong>B12 Vitamini:</strong> Sinir sistemi ve kan hücreleri için önemli olan B12 vitamini, çocukların enerji seviyelerini korumasına ve genel sağlık durumunu iyileştirmesine yardımcı olur.</p><br>
+      <p><strong>Omega-3 Yağ Asitleri:</strong> Beyin gelişimi için önemli olan omega-3 yağ asitleri, çocuk sütünde yer alarak zihinsel gelişime katkı sağlar.</p><br>
+      
+      <h2><strong>Nasıl Hazırlanır ve Tüketilir?</strong></h2><br>
+      
+      <p>D vitaminli çocuk sütü, genellikle hazır olarak satılan paketlerde bulunur ve kullanımı oldukça kolaydır. İhtiyacınıza göre uygun ölçülerde sütü bardağa dökerek çocuğunuza verebilirsiniz. Özellikle kahvaltıda veya atıştırmalık olarak tercih edilebilir.</p><br>
+      
+      <h2><strong>Dikkat Edilmesi Gerekenler</strong></h2><br>
+      
+      <p>Çocuk sütü alırken ambalaj üzerindeki kullanım talimatlarına ve son kullanma tarihine dikkat edilmelidir.</p><br>
+      <p>Çocuğunuzun yaşına ve beslenme ihtiyaçlarına uygun olan çocuk sütünü seçmeye özen gösterin.</p><br>
+      <p>Sütün saklanması için uygun koşulları sağlayarak tazeliğini koruyun.</p><br>
+      
+      <h2><strong>Sonuç</strong></h2><br>
+      
+      <p>D vitaminli çocuk sütü, çocukların sağlıklı büyüme ve gelişimini desteklemek için özel olarak formüle edilmiş besleyici bir içecektir. Sağlıklı beslenme alışkanlıkları kazandırmak ve çocukların ihtiyaç duyduğu besinleri karşılamak için güvenle tercih edilebilir.</p><br>
+          </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_dvitamincocuk()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div>
+</div>
+<div class="product" id="cocuk">
+  <img src="Resources/süt/cocuk/cocuk_formül.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Bebek Formüllü Süt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Çocuk Sütü</span></p><br>
+  <button onclick="ekranAc_bebekcocuk()">Satın Al</button>
+</div>
+<div id="ekran_bebekcocuk" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <h1><strong>Bebek Formüllü "Çocuk Sütü" Nedir?</strong></h1><br>
+      <p>Bebek formüllü "çocuk sütü", genellikle 1 yaşından büyük çocukların tüketebileceği özel bir süt çeşididir. Bu süt, bebek formülü olarak da adlandırılır ve bebeklerin ihtiyaçlarına uygun olarak formüle edilmiştir. Çocuk sütü, çocukların büyüme ve gelişim döneminde ihtiyaç duydukları besin öğelerini içerir ve genellikle demir, DHA, kalsiyum gibi besin öğeleri eklenerek zenginleştirilir. </p><br>
+      
+      <h2><strong>Çocuk Sütünün İçeriği ve Faydaları</strong></h2><br>
+      
+      <p><strong>Demir:</strong> Çocuk sütü genellikle demir içeriği yüksek olarak formüle edilir. Demir, çocukların kan yapımı ve sağlıklı büyüme gelişimi için önemli bir mineraldir.</p><br>
+      <p><strong>DHA ve Omega-3 Yağ Asitleri:</strong> Bazı çocuk sütleri, beyin ve göz gelişimi için gereken DHA ve omega-3 yağ asitleri içerebilir. Bu besin öğeleri, çocukların bilişsel fonksiyonlarını destekler.</p><br>
+      <p><strong>Kalsiyum:</strong> Çocuk sütü, kemik ve diş sağlığı için önemli olan kalsiyum içeriği ile de zenginleştirilir.</p><br>
+      <p><strong>Vitaminler ve Mineraller:</strong> A, C, D gibi vitaminler ile çinko, magnezyum gibi mineraller çocuk sütlerinde bulunabilir. Bu besin öğeleri, çocukların genel sağlık ve bağışıklık sistemini destekler.</p><br>
+      
+      <h2><strong>Nasıl Kullanılır?</strong></h2><br>
+      
+      <p>Çocuk sütü, genellikle hazır bir şekilde satılır ve kullanımı oldukça basittir. Ambalaj üzerindeki talimatlara göre hazırlanır ve çocuğunuzun yaşına ve kilosuna göre doğru miktarlarda tüketilmesi önerilir. Hazır çocuk sütleri genellikle steril ve güvenli bir şekilde üretilir, bu nedenle evde hazırlamaya gerek yoktur.</p><br>
+      
+      <h2><strong>Kimler İçin Uygundur?</strong></h2><br>
+      
+      <p>Çocuk sütleri genellikle 1 yaşından büyük çocuklar için uygundur. Ancak, her çocuğun ihtiyaçları farklı olduğu için doktor tavsiyesi almak önemlidir. Özellikle alerji veya hassasiyet durumlarında doktorunuzun önerdiği ürünleri tercih etmek önemlidir.</p><br>
+      
+      <h2><strong>Sonuç</strong></h2><br>
+      
+      <p>Bebek formüllü "çocuk sütü", çocukların büyüme ve gelişim döneminde ihtiyaç duydukları besin öğelerini içeren özel bir süt çeşididir. Demir, DHA, kalsiyum gibi besin öğeleri içerir ve genellikle 1 yaşından büyük çocuklar için uygundur. Ancak, kullanmadan önce doktorunuza danışmanız önemlidir.</p><br>
+      
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_bebekcocuk()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div>
+</div>
+<div class="product" id="cocuk">
+  <img src="Resources/süt/cocuk/cocuk_kalsiyum.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Kalsiyumlu Süt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Çocuk Sütü</span></p><br>
+  <button onclick="ekranAc_kalsiyumcocuk()">Satın Al</button>
+</div>
+<div id="ekran_kalsiyumcocuk" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <h1><strong>Kalsiyumlu Çocuk Sütü Nedir?</strong></h1><br>
+      <p>
+        Kalsiyumlu çocuk sütü, özellikle çocukların kemik ve diş gelişimini desteklemek için tasarlanmış özel bir süt ürünüdür. Bu süt genellikle çocuklara özel olarak formüle edilmiş ve içerisinde yüksek oranda kalsiyum, vitaminler ve mineraller bulunduran bir içecektir. Kalsiyumlu çocuk sütü, genellikle bebeklerden başlayarak çocukların büyüme ve gelişme dönemlerinde kullanılmaktadır.</p><br>
+      
+      <h2><strong>Kalsiyumlu Çocuk Sütünün İçeriği ve Faydaları</strong></h2><br>
+      
+      <p><strong>Yüksek Kalsiyum İçeriği:</strong> Bu sütün en belirgin özelliği yüksek kalsiyum içeriğidir. Kalsiyum, çocukların kemik ve diş sağlığını destekler, kemik gelişimini teşvik eder ve kemik yoğunluğunu artırır.</p><br>
+      <p><strong>Vitamin ve Mineraller:</strong> Kalsiyumlu çocuk sütü, genellikle A, D, E, B12 gibi vitaminlerle zenginleştirilmiştir. Bu vitaminler çocukların genel sağlığını destekler ve büyüme sürecinde önemli rol oynar.</p><br>
+      <p><strong>Protein İçeriği:</strong> Protein, çocukların kas gelişimini ve güçlenmesini destekler. Kalsiyumlu çocuk sütü genellikle yeterli miktarda protein içerir.</p><br>
+      <p><strong>DHA ve Omega-3:</strong> Bazı kalsiyumlu çocuk sütleri, beyin gelişimini desteklemek için DHA ve Omega-3 yağ asitleri gibi önemli besinleri de içerebilir.</p><br>
+      <p><strong>Kolay Sindirilebilirlik:</strong> Bu sütün sindirimi kolaydır ve çocukların hassas sindirim sistemleri için uygundur.</p><br>
+      <p><strong>Kafeinsiz ve Katkı Maddesi İçermeyen Formül:</strong> Kalsiyumlu çocuk sütleri genellikle kafeinsizdir ve katkı maddesi içermez. Bu da çocukların sağlığı açısından önemlidir.</p><br>
+      
+      <h2><strong>Nasıl Kullanılır?</strong></h2><br>
+      
+      <p>Kalsiyumlu çocuk sütü genellikle günlük beslenme programına ek olarak kullanılır. Özellikle çocukların süt tüketimini artırmak ve kalsiyum ihtiyaçlarını karşılamak için tercih edilir. Çocuklar için önerilen miktar, yaşlarına ve sağlık durumlarına göre değişebilir. Bu nedenle, çocuğunuzun doktoruyla görüşerek doğru miktarı belirlemeniz önemlidir.</p><br>
+      
+      <h2><strong>Hangi Durumlarda Tercih Edilir?</strong></h2><br>
+      
+      <ul>
+        <li>Çocukların kalsiyum ihtiyacını karşılamak için</li><br>
+        <li>Kemik ve diş gelişimini desteklemek için</li><br>
+        <li>Protein ve vitamin/mineral alımını artırmak için</li><br>
+        <li>Hassas sindirim sistemine sahip çocuklar için uygun bir alternatif olabilir.</li><br>
+      </ul>
+      <h2><strong>Sonuç</strong></h2><br>
+      
+      <p>Kalsiyumlu çocuk sütü, çocukların büyüme ve gelişme dönemlerinde önemli bir rol oynayan besleyici bir içecektir. Ancak kullanmadan önce çocuğunuzun sağlık durumu ve doktor tavsiyesi önemlidir.</p><br><br>
+      
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_kalsiyumcocuk()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div>
+</div>
+<div class="product" id="cocuk" >
+  <img src="Resources/süt/cocuk/cocuk_laktosuz.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Laktosuz Süt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Çocuk Sütü</span></p><br>
+  <button onclick="ekranAc_laktozcocuk()">Satın Al</button>
+</div>
+<div id="ekran_laktozcocuk" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <h1>Laktosuz Çocuk Sütü Nedir?</h1><br>
+
+<p>Laktosuz çocuk sütü, özellikle laktoz intoleransı olan çocuklar için tasarlanmış özel bir içecektir. Laktoz intoleransı, vücudun laktoz adı verilen süt şekerini sindirememe durumudur. Bu durumda, çocuklar süt içtiklerinde sindirim sorunları yaşayabilirler. Laktosuz çocuk sütü ise içeriğindeki laktoz oranını azaltarak veya tamamen çıkararak bu sorunu çözmeyi amaçlar. Bu sayede, çocuklar sağlıklı bir şekilde süt tüketebilirler.</p><br>
+
+<h2>Laktosuz Çocuk Sütünün İçeriği ve Faydaları</h2><br>
+
+<ul>
+  <li><strong>Laktoz İçermeme:</strong> Laktosuz çocuk sütü, laktoz intoleransı olan çocuklar için ideal bir alternatif sunar. Sindirimi kolaydır ve sindirim sistemi üzerinde olumsuz etkileri minimaldir.</li><br>
+  <li><strong>Kalsiyum ve Protein:</strong> Çocukların büyüme ve gelişimini destekleyen kalsiyum ve protein içeriği yeterli düzeydedir. Kemik ve kas sağlığı için önemlidir.</li><br>
+  <li><strong>Vitamin ve Mineral Zengini:</strong> Laktosuz çocuk sütü genellikle vitaminler ve minerallerle zenginleştirilir. Özellikle D vitamini, demir ve çinko gibi besin öğeleri çocukların sağlıklı büyüme ve gelişimine katkı sağlar.</li><br>
+  <li><strong>Kolesterol İçermeme:</strong> Kalp sağlığını olumlu yönde etkilemek için düşük veya hiç kolestrol içermez.</li><br>
+  <li><strong>Hassas Sindirim:</strong> Laktoz intoleransı olan çocukların hassas sindirim sistemleri için daha kolay sindirilebilir bir içecek alternatifi sunar.</li><br>
+</ul>
+
+<h2>Nasıl Kullanılır?</h2><br>
+
+<p>Laktosuz çocuk sütü, genellikle doğrudan içilebilir veya kahvaltı ürünleriyle birlikte tüketilebilir. Ancak, kullanmadan önce çocuğunuzun beslenme uzmanı veya doktoruyla görüşerek uygun kullanımı hakkında bilgi almanız önemlidir. Uzmanlar, çocuğunuzun yaşına, sağlık durumuna ve beslenme ihtiyaçlarına uygun bir kullanım önerisi verebilirler.</p><br>
+
+<h2>Laktosuz Çocuk Sütü Nereden Temin Edilir?</h2><br>
+
+<p>Laktosuz çocuk sütü, marketlerde genellikle bebek ve çocuk beslenme ürünleri bölümünde bulunabilir. Ayrıca, internet üzerinden de temin edilebilir ve farklı markaların çeşitli seçenekleri mevcuttur. Ürünü satın almadan önce etiketini dikkatlice okuyarak içeriğini ve önerilen kullanım şeklini kontrol etmek önemlidir.</p><br>
+
+<h2>Özet</h2><br>
+
+<p>Laktosuz çocuk sütü, laktoz intoleransı olan çocuklar için özel olarak formüle edilmiş sağlıklı ve besleyici bir içecektir. Ancak, kullanmadan önce mutlaka çocuğunuzun sağlık profesyoneliyle görüşerek uygun kullanımını belirlemeniz önemlidir.</p><br><br>
+
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_laktozcocuk()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div>
+</div>
+<div class="product" id="cocuk" >
+  <img src="Resources/süt/cocuk/cocuk_muz.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Muzlu Süt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Çocuk Sütü</span></p><br>
+  <button onclick="ekranAc_muzlucocuk()">Satın Al</button>
+</div>
+<div id="ekran_muzcocuk" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+     <h1>Muzlu Çocuk Sütü Nedir?</h1><br>
+<p><strong>Muzlu çocuk sütü</strong>, çocukların sağlıklı büyüme ve gelişimine katkı sağlamak amacıyla özel olarak hazırlanan bir içecektir. İçeriğindeki muzun doğal tatlılığıyla lezzetlendirilen bu içecek, genellikle çocukların severek tükettiği bir alternatiftir.</p><br>
+
+<h2>Besleyici Değerleri</h2><br>
+<p>Muzlu çocuk sütü, içeriğindeki muzun doğal şekerleriyle enerji verici bir içecektir.</p><br>
+<p>Sütün kalsiyum ve protein içeriği, kemik ve kas sağlığını destekleyerek çocukların büyüme sürecinde önemli rol oynar.</p><br>
+<p>Muzun içerdiği vitaminler ve mineraller ise çocukların bağışıklık sistemini güçlendirir ve genel sağlıklarını destekler.</p><br>
+
+<h2>Evde Nasıl Yapılır?</h2><br>
+<p>Evde muzlu çocuk sütü yapmak oldukça kolaydır. İhtiyacınız olan malzemeler:</p><br>
+<ul>
+  <li>1 adet olgun muz</li><br>
+  <li>1 bardak süt (isteğe bağlı olarak yağsız veya tam yağlı süt tercih edebilirsiniz)</li><br>
+  <li>Blender veya mikser</li><br>
+</ul>
+<p><strong>Yapılışı:</strong></p><br>
+<ol>
+  <li>Olgun bir muzu soyun ve dilimleyin.</li><br>
+  <li>Dilimlediğiniz muzu blender veya mikserde püre haline getirin.</li><br>
+  <li>Püre haline gelen muzun üzerine bir bardak süt ekleyin.</li><br>
+  <li>İsteğe bağlı olarak biraz bal veya vanilya ekleyerek tatlandırabilirsiniz.</li><br>
+  <li>Tüm malzemeleri iyice karıştırın ve pürüzsüz bir kıvam elde edene kadar karıştırmaya devam edin.</li><br>
+</ol>
+
+<h2>Çocuklar İçin Faydaları</h2><br>
+<p>Muzlu süt, çocukların günlük besin ihtiyaçlarını karşılamaya yardımcı olur ve enerji seviyelerini artırır.</p><br>
+<p>Sindirimi kolay olan bu içecek, çocukların sağlıklı bir şekilde büyümelerine katkı sağlar.</p><br>
+<p>Ayrıca, muzun içeriğindeki potasyum çocukların kas fonksiyonlarını destekler ve kan basıncını düzenler.</p><br>
+
+<h2>Dikkat Edilmesi Gerekenler</h2><br>
+<p>Muzlu sütü tüketirken aşırıya kaçmamak önemlidir, çünkü içeriğindeki doğal şeker miktarına dikkat etmek gerekebilir.</p><br>
+<p>Herhangi bir alerji durumu varsa, muzlu sütü tüketmeden önce doktora danışmak önemlidir.</p><br>
+
+                                      
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_muzlucocuk()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div>
+</div>
+<div class="product" id="cocuk" >
+  <img src="Resources/süt/cocuk/cocuk_omega3.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Omega 3 Destekli Süt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Çocuk Sütü</span></p><br>
+  <button onclick="ekranAc_omega3cocuk()">Satın Al</button>
+</div>
+<div id="ekran_omega3cocuk" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <h1>Omega-3 Destekli Çocuk Sütü Nedir?</h1><br>
+      <p><strong>Omega-3 destekli çocuk sütü</strong>, çocukların sağlıklı büyüme ve gelişimini desteklemek için özel olarak formüle edilmiş bir içecektir.</p><br>
+      
+      <h2>İçeriği ve Faydaları</h2><br>
+      <p>İçeriğindeki omega-3 yağ asitleri (DHA ve EPA), çocukların beyin fonksiyonlarını ve göz sağlığını geliştirir.</p><br>
+      <p>Omega-3 yağ asitleri, bağışıklık sistemini güçlendirir ve vücuttaki iltihaplanmayı azaltıcı etkilere sahiptir.</p><br>
+      <p>Göz sağlığını korur ve genel vücut gelişimine katkı sağlar.</p><br>
+      
+      <h2>Omega-3 Destekli Çocuk Sütünün Kaynakları</h2><br>
+      <p>Balık yağından elde edilen omega-3 yağları (DHA ve EPA).</p><br>
+      <p>Bitkisel kaynaklı omega-3 yağları içeren süt alternatifleri.</p><br>
+      
+      <h2>Çocuklar İçin Faydaları</h2><br>
+      <p>Beyin fonksiyonlarını geliştirir, konsantrasyon ve öğrenme yeteneğini artırır.</p><br>
+      <p>Göz sağlığını korur ve genel vücut sağlığını destekler.</p><br>
+      <p>Bağışıklık sistemini güçlendirir ve iltihaplanmayı azaltıcı etkilere sahiptir.</p><br>
+      
+      <h2>Nasıl Tüketilmelidir?</h2><br>
+      <p>Beslenme uzmanı veya doktor önerisi doğrultusunda günlük porsiyon miktarı belirlenmelidir.</p><br>
+      <p>Çocukların özel sağlık durumları veya alerjileri varsa, doktora danışmak önemlidir.</p><br>
+      
+      <h1>Sonuç</h1><br>
+      <p>Omega-3 destekli çocuk sütü, çocukların sağlıklı büyüme ve gelişimini desteklemek için önemli bir içecektir. İçeriğindeki omega-3 yağ asitleri, beyin fonksiyonlarını geliştirir, göz sağlığını korur ve genel vücut sağlığına katkı sağlar. Ancak, tüketim miktarı ve özel sağlık durumları konusunda uzman görüşü almak önemlidir.</p><br>
+      
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_omega3cocuk()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div>
+</div>
+<div class="product" id="cocuk" >
+  <img src="Resources/süt/cocuk/cocuk_vanilyalı.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Vanilyalı Süt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Çocuk Sütü</span></p><br>
+  <button onclick="ekranAc_vanilyacocuk()">Satın Al</button>
+</div>
+<div id="ekran_vanilyacocuk" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <h1>Vanilyalı Çocuk Sütü Nedir?</h1><br>
+      <p><strong>Vanilyalı çocuk sütü</strong>, çocukların günlük beslenme ihtiyaçlarını karşılamak amacıyla vanilya aroması eklenerek hazırlanan bir içecektir.</p><br>
+      
+      <h2>İçeriği ve Besleyici Değerleri</h2><br>
+      <p>Vanilya Aroması: Lezzetli vanilya aroması içeceğin tadını artırır ve çocukların severek tüketmesini sağlar.</p><br>
+      <p>Kalsiyum ve Protein: Sütün içeriğindeki kalsiyum ve protein, kemik ve kas sağlığını destekler.</p><br>
+      <p>Vitamin ve Mineral Zenginliği: Vanilyalı çocuk sütü, çocukların sağlıklı büyüme ve gelişimine katkı sağlayan vitaminler ve mineraller içerir.</p><br>
+      
+      <h2>Evde Nasıl Yapılır?</h2><br>
+      <p>Evde vanilyalı çocuk sütü yapmak için süt, vanilya özü veya vanilya ekstraktı ve isteğe bağlı olarak tatlandırıcı kullanabilirsiniz. Bu malzemeleri karıştırarak ve çocuğunuzun damak zevkine göre ayarlayarak hazırlayabilirsiniz.</p><br>
+      
+      <h2>Lezzetli ve Besleyici Bir Alternatif</h2><br>
+      <p>Vanilyalı çocuk sütü, çocukların günlük kalsiyum ihtiyaçlarını karşılayarak kemik sağlığını destekler.</p><br>
+      <p>Lezzetli vanilya aromasıyla çocukların keyifle tüketmesini sağlar ve sağlıklı beslenmeyi teşvik eder.</p><br>
+      
+      <h2>Dikkat Edilmesi Gerekenler</h2><br>
+      <p>Vanilyalı çocuk sütü içerisindeki şeker miktarına dikkat edilmelidir. Aşırı şeker tüketimi çocukların sağlığına zarar verebilir.</p><br>
+      <p>Çocuğunuzun alerjik reaksiyonları varsa, içeriğini kontrol ederek doktorunuza danışmalısınız.</p><br>
+      
+      <h1>Sonuç</h1><br>
+      <p>Vanilyalı çocuk sütü, lezzetli vanilya aromasıyla çocukların keyifle tükettiği ve sağlıklı büyüme ve gelişimlerine katkı sağlayan bir içecektir. Evde kolayca hazırlanabilir ve çocukların beslenme programına dahil edilerek sağlıklı bir alternatif sunar.</p><br>
+      
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_vanilyacocuk()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div>
+</div>
+
+<div class="product" id="devam">
+  <img src="Resources/süt/devam/devam_badem.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Bademli Süt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Devam Sütü</span></p><br>
+  <button onclick="ekranAc_bademdevam()">Satın Al</button>
+</div>
+<div id="ekran_bademdevam" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <h1>Bademli Devam Sütü Nedir?</h1><br>
+      <p><strong>Bademli devam sütü</strong>, badem içeriğiyle zenginleştirilmiş ve çocukların büyüme ve gelişimini desteklemek için özel olarak formüle edilmiş bir içecektir.</p><br>
+      
+      <h2>Besleyici Değerleri</h2><br>
+      <ul>
+        <li>Badem içeriği, sağlıklı yağlar ve vitaminler açısından zengindir, bu da çocukların beyin gelişimi için önemlidir.</li><br>
+        <li>Sütün kalsiyum, protein ve diğer besin öğeleri içeriği, kemik ve kas sağlığı için önemlidir.</li><br>
+      </ul>
+      
+      <h2>Bademli Devam Sütü ve Laktoz İçeriği</h2><br>
+      <ul>
+        <li>Bademli devam sütü genellikle laktoz intoleransı olan çocuklar için tercih edilen bir alternatiftir, çünkü laktoz içeriği düşüktür veya tamamen çıkarılmıştır.</li><br>
+      </ul>
+      
+      <h2>Evde Nasıl Yapılır?</h2><br>
+      <p>Evde bademli devam sütü yapmak için bademi suda bekletip sonra soyarak badem sütü yapabilirsiniz. Badem sütü ile normal devam sütünü karıştırarak bademli devam sütü elde edebilirsiniz.</p><br>
+      
+      <h2>Çocuklar İçin Faydaları</h2><br>
+      <ul>
+        <li>Bademli devam sütü, çocukların sağlıklı büyüme ve gelişimine katkı sağlar.</li><br>
+        <li>Badem içeriği, antioksidanlar ve sağlıklı yağlar içerir, bu da çocukların genel sağlık durumunu iyileştirir.</li><br>
+      </ul>
+      
+      <h2>Dikkat Edilmesi Gerekenler</h2><br>
+      <ul>
+        <li>Bademli devam sütünün içerdiği badem miktarına dikkat etmek önemlidir, aşırı tüketim bazı çocuklarda alerjik reaksiyonlara neden olabilir.</li><br>
+        <li>Herhangi bir alerji durumu varsa, bademli devam sütü tüketmeden önce doktora danışmak önemlidir.</li><br>
+      </ul>
+      
+      <h1>Sonuç</h1><br>
+      <p>Bademli devam sütü, badem içeriğiyle zenginleştirilmiş ve çocukların sağlıklı büyüme ve gelişimini destekleyen bir içecektir. Ancak, tüketiminde dikkatli olunmalı ve herhangi bir alerji durumu varsa doktora danışılmalıdır.</p><br>
+      
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_bademdevam()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div>
+</div>
+<div class="product" id="devam">
+  <img src="Resources/süt/devam/devam_hindistan.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Hindistan Cevizli Süt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Devam Sütü</span></p><br>
+  <button onclick="ekranAc_hindistandevam()">Satın Al</button>
+</div>
+<div id="ekran_hindistandevam" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <h1>Hindistan Cevizli Devam Sütü Nedir?</h1><br>
+      <p><strong>Hindistan cevizli devam sütü</strong>, çocukların büyüme sürecinde ihtiyaç duydukları besinleri sağlamak amacıyla özel olarak formüle edilmiş bir içecektir.</p><br>
+      
+      <h2>İçeriği ve Faydaları</h2><br>
+      <ul>
+        <li><strong>Kalsiyum ve Protein Zengini:</strong> İçeriğindeki kalsiyum ve protein, çocukların kemik ve kas gelişimini destekler.</li><br>
+        <li><strong>Vitamin ve Mineral İçeriği:</strong> Vitamin A, C, D ve çinko gibi önemli besin öğelerini içerir, bu da bağışıklık sistemi güçlendirir ve genel sağlık açısından faydalıdır.</li><br>
+        <li><strong>Enerji Verici:</strong> İçeriğindeki doğal yağlar ve karbonhidratlar çocuklara enerji verir ve günlük aktivitelerini destekler.</li><br>
+        <li><strong>Sindirimi Kolay:</strong> Hindistan cevizi içeriği sayesinde sindirimi kolaydır ve hassas mideye sahip çocuklar için uygundur.</li><br>
+      </ul>
+      
+      <h2>Hindistan cevizli devam sütünü evde nasıl yapabilirsiniz?</h2><br>
+      <p><strong>Malzemeler:</strong></p><br>
+      <ul>
+        <li>1 su bardağı Hindistan cevizi sütü (marketlerden temin edilebilir veya evde hazırlanabilir)</li><br>
+        <li>1 olgun muz</li><br>
+        <li>1 yemek kaşığı bal veya agave şurubu (isteğe bağlı, tatlandırmak için kullanılır)</li><br>
+        <li>Blender veya mikser</li><br>
+      </ul>
+      <p><strong>Yapılışı:</strong></p><br>
+      <ol>
+        <li>Olgun muzu soyun ve dilimleyin.</li><br>
+        <li>Blender veya mikser kabına dilimlenmiş muzu ekleyin.</li><br>
+        <li>Üzerine Hindistan cevizi sütünü ve tatlandırıcı olarak bal veya agave şurubunu ekleyin.</li><br>
+        <li>Tüm malzemeleri iyice karıştırın ve pürüzsüz bir kıvam elde edene kadar karıştırmaya devam edin.</li><br>
+        <li>Hazırladığınız Hindistan cevizli devam sütünü bir süzgeç veya ince bir tülbent yardımıyla süzün.</li><br>
+        <li>Süzdüğünüz sütü bir şişeye veya kapaklı bir kavanoza aktarın ve buzdolabında saklayın.</li><br>
+        <li>Soğuk olarak servis edebilir veya üzerine biraz tarçın veya Hindistan cevizi rendesi ekleyerek tatlandırabilirsiniz.</li><br>
+      </ol>
+      
+      <h2>Çocuklar İçin Faydaları</h2><br>
+      <ul>
+        <li><strong>Büyüme ve Gelişimi Destekler:</strong> İçeriğindeki besin öğeleri, çocukların sağlıklı büyümesine ve gelişmesine katkı sağlar.</li><br>
+        <li><strong>Bağışıklık Sistemini Güçlendirir:</strong> Vitamin ve mineral içeriği, çocukların bağışıklık sistemini güçlendirerek hastalıklara karşı dirençli olmalarını sağlar.</li><br>
+        <li><strong>Zihinsel ve Fiziksel Performansı Artırır:</strong> Enerji verici özellikleriyle çocukların zihinsel ve fiziksel performansını artırır ve günlük aktivitelerini destekler.</li><br>
+      </ul>
+      
+      <h2>Dikkat Edilmesi Gerekenler</h2><br>
+      <ul>
+        <li><strong>Alerji Durumu:</strong> Hindistan cevizine karşı alerjisi olan çocukların tüketmeden önce doktora danışmaları önemlidir.</li><br>
+        <li><strong>Porsiyon Kontrolü:</strong> Tüketim miktarı çocuğun yaşına ve beslenme ihtiyacına göre ayarlanmalıdır.</li><br>
+      </ul>
+      
+      <h1>Sonuç</h1><br>
+      <p>Hindistan cevizli devam sütü, besleyici içeriği ve çocukların sağlığına katkı sağlayan faydalarıyla önemli bir içecektir. Evde yapılabileceği gibi marketlerde de bulunabilir ve çocukların günlük beslenme programına eklenerek sağlıklı bir alternatif oluşturabilir.</p><br>
+      
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_hindistandevam()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div>
+</div>
+<div class="product" id="devam" >
+  <img src="Resources/süt/devam/devam_inek.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">İnek Sütü</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Devam Sütü</span></p><br>
+  <button onclick="ekranAc_inekdevam()">Satın Al</button>
+</div>
+<div id="ekran_inekdevam" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <h1>İnek Sütü Bazlı Devam Sütü Nedir?</h1><br>
+<p><strong>İnek sütü bazlı devam sütü</strong>, çocukların büyüme sürecinde ihtiyaç duydukları besinleri sağlamak amacıyla özel olarak formüle edilmiş bir içecektir.</p><br>
+
+<h2>İçeriği ve Faydaları</h2><br>
+<ul>
+  <li><strong>Kalsiyum ve Protein Zengini:</strong> İçeriğindeki kalsiyum ve protein, çocukların kemik ve kas gelişimini destekler.</li><br>
+  <li><strong>Vitamin ve Mineral İçeriği:</strong> Vitamin A, C, D ve demir gibi önemli besin öğelerini içerir, bu da bağışıklık sistemi güçlendirir ve genel sağlık açısından faydalıdır.</li><br>
+  <li><strong>Enerji Verici:</strong> İçeriğindeki doğal yağlar ve karbonhidratlar çocuklara enerji verir ve günlük aktivitelerini destekler.</li><br>
+  <li><strong>Sindirimi Kolay:</strong> İnek sütü bazlı devam sütü, sindirimi kolaydır ve hassas mideye sahip çocuklar için uygundur.</li><br>
+</ul>
+
+<h2>İnek sütü bazlı devam sütünü evde nasıl yapabilirsiniz?</h2><br>
+<p><strong>Malzemeler:</strong></p><br>
+<ul>
+  <li>1 su bardağı inek sütü (tercihen pastörize veya UHT)</li><br>
+  <li>1 olgun muz</li><br>
+  <li>1 yemek kaşığı bal veya agave şurubu (isteğe bağlı, tatlandırmak için kullanılır)</li><br>
+  <li>Blender veya mikser</li><br>
+</ul>
+<p><strong>Yapılışı:</strong></p><br>
+<ol>
+  <li>Olgun muzu soyun ve dilimleyin.</li><br>
+  <li>Blender veya mikser kabına dilimlenmiş muzu ekleyin.</li><br>
+  <li>Üzerine inek sütünü ve tatlandırıcı olarak bal veya agave şurubunu ekleyin.</li><br>
+  <li>Tüm malzemeleri iyice karıştırın ve pürüzsüz bir kıvam elde edene kadar karıştırmaya devam edin.</li><br>
+  <li>Hazırladığınız inek sütü bazlı devam sütünü bir süzgeç veya ince bir tülbent yardımıyla süzün.</li><br>
+  <li>Süzdüğünüz sütü bir şişeye veya kapaklı bir kavanoza aktarın ve buzdolabında saklayın.</li><br>
+  <li>Soğuk olarak servis edebilir veya üzerine biraz tarçın veya meyve dilimleri ekleyerek tatlandırabilirsiniz.</li><br>
+</ol>
+
+<h2>Çocuklar İçin Faydaları</h2><br>
+<ul>
+  <li><strong>Büyüme ve Gelişimi Destekler:</strong> İçeriğindeki besin öğeleri, çocukların sağlıklı büyümesine ve gelişmesine katkı sağlar.</li><br>
+  <li><strong>Bağışıklık Sistemini Güçlendirir:</strong> Vitamin ve mineral içeriği, çocukların bağışıklık sistemini güçlendirerek hastalıklara karşı dirençli olmalarını sağlar.</li><br>
+  <li><strong>Zihinsel ve Fiziksel Performansı Artırır:</strong> Enerji verici özellikleriyle çocukların zihinsel ve fiziksel performansını artırır ve günlük aktivitelerini destekler.</li><br>
+</ul>
+
+<h2>Dikkat Edilmesi Gerekenler</h2><br>
+<ul>
+  <li><strong>Alerji Durumu:</strong> İnek sütüne karşı alerjisi olan çocukların tüketmeden önce doktora danışmaları önemlidir.</li><br>
+  <li><strong>Porsiyon Kontrolü:</strong> Tüketim miktarı çocuğun yaşına ve beslenme ihtiyacına göre ayarlanmalıdır.</li><br>
+</ul>
+
+<h1>Sonuç</h1><br>
+<p>İnek sütü bazlı devam sütü, besleyici içeriği ve çocukların sağlığına katkı sağlayan faydalarıyla önemli bir içecektir. Evde yapılabileceği gibi marketlerde de bulunabilir ve çocukların günlük beslenme programına eklenerek sağlıklı bir alternatif oluşturabilir.</p><br>
+
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_inekdevam()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div>
+</div>
+<div class="product" id="devam">
+  <img src="Resources/süt/devam/devam_kakaoceviz.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala" style=" position: relative;">Kakao ve Hindistan Cevizli Süt</p><br>    <p style="text-align: center; "><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Devam Sütü</span></p><br>
+  <button onclick="ekranAc_kakaohindistandevam()">Satın Al</button>
+</div>
+<div id="ekran_kakaohindistandevam" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <h1>Kakao ve Hindistan Cevizli Devam Sütü Nedir?</h1><br>
+      <p><strong>Kakao ve Hindistan cevizli devam sütü</strong>, çocukların büyüme sürecinde ihtiyaç duydukları besinleri sağlamak amacıyla özel olarak formüle edilmiş bir içecektir.</p><br>
+      
+      <h2>İçeriği ve Faydaları</h2><br>
+      <ul>
+        <li><strong>Kalsiyum ve Protein Zengini:</strong> İçeriğindeki kalsiyum ve protein, çocukların kemik ve kas gelişimini destekler.</li><br>
+        <li><strong>Vitamin ve Mineral İçeriği:</strong> Vitamin A, C, D gibi önemli besin öğelerini içerir, bu da bağışıklık sistemini güçlendirir ve genel sağlık açısından faydalıdır.</li><br>
+        <li><strong>Enerji Verici:</strong> İçeriğindeki doğal yağlar, karbonhidratlar ve kakao çocuklara enerji verir ve günlük aktivitelerini destekler.</li><br>
+        <li><strong>Sindirimi Kolay:</strong> Kakao ve Hindistan cevizi içeriği sayesinde sindirimi kolaydır ve hassas mideye sahip çocuklar için uygundur.</li><br>
+      </ul>
+      
+      <h2>Kakao ve Hindistan cevizli devam sütünü evde nasıl yapabilirsiniz?</h2><br>
+      <p><strong>Malzemeler:</strong></p><br>
+      <ul>
+        <li>1 su bardağı Hindistan cevizi sütü (marketlerden temin edilebilir veya evde hazırlanabilir)</li><br>
+        <li>2 yemek kaşığı kakao tozu</li><br>
+        <li>1 yemek kaşığı bal veya agave şurubu (isteğe bağlı, tatlandırmak için kullanılır)</li><br>
+        <li>Blender veya mikser</li><br>
+      </ul>
+      <p><strong>Yapılışı:</strong></p><br>
+      <ol>
+        <li>Kakao tozunu ve Hindistan cevizi sütünü blender veya mikser kabına ekleyin.</li><br>
+        <li>Üzerine tatlandırıcı olarak bal veya agave şurubunu ekleyin.</li><br>
+        <li>Tüm malzemeleri iyice karıştırın ve pürüzsüz bir kıvam elde edene kadar karıştırmaya devam edin.</li><br>
+        <li>Hazırladığınız kakao ve Hindistan cevizli devam sütünü bir süzgeç veya ince bir tülbent yardımıyla süzün.</li><br>
+        <li>Süzdüğünüz sütü bir şişeye veya kapaklı bir kavanoza aktarın ve buzdolabında saklayın.</li><br>
+        <li>Soğuk olarak servis edebilir veya üzerine biraz kakao tozu serperek tatlandırabilirsiniz.</li><br>
+      </ol>
+      
+      <h2>Çocuklar İçin Faydaları</h2><br>
+      <ul>
+        <li><strong>Büyüme ve Gelişimi Destekler:</strong> İçeriğindeki besin öğeleri, çocukların sağlıklı büyümesine ve gelişmesine katkı sağlar.</li><br>
+        <li><strong>Bağışıklık Sistemini Güçlendirir:</strong> Vitamin ve mineral içeriği, çocukların bağışıklık sistemini güçlendirerek hastalıklara karşı dirençli olmalarını sağlar.</li><br>
+        <li><strong>Zihinsel ve Fiziksel Performansı Artırır:</strong> Enerji verici özellikleriyle çocukların zihinsel ve fiziksel performansını artırır ve günlük aktivitelerini destekler.</li><br>
+      </ul>
+      
+      <h2>Dikkat Edilmesi Gerekenler</h2><br>
+      <ul>
+        <li><strong>Alerji Durumu:</strong> Hindistan cevizi veya kakao gibi içeriklere karşı alerjisi olan çocukların tüketmeden önce doktora danışmaları önemlidir.</li><br>
+        <li><strong>Porsiyon Kontrolü:</strong> Tüketim miktarı çocuğun yaşına ve beslenme ihtiyacına göre ayarlanmalıdır.</li><br>
+      </ul>
+      
+      <h1>Sonuç</h1><br>
+      <p>Kakao ve Hindistan cevizli devam sütü, besleyici içeriği ve çocukların sağlığına katkı sağlayan faydalarıyla önemli bir içecektir. Evde yapılabileceği gibi marketlerde de bulunabilir ve çocukların günlük beslenme programına eklenerek sağlıklı bir alternatif oluşturabilir.</p><br>
+      
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_kakaohindistandevam()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div>
+</div>
+<div class="product" id="devam">
+  <img src="Resources/süt/devam/devam_keci.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Keçi Sütü</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Devam Sütü</span></p><br>
+  <button onclick="ekranAc_kecidevam()">Satın Al</button>
+</div>
+<div id="ekran_kecidevam" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <h1>Keçi Sütü Bazlı Devam Sütü Nedir?</h1><br>
+      <p><strong>Keçi sütü bazlı devam sütü</strong>, çocukların büyüme ve gelişme döneminde ihtiyaç duydukları besinleri sağlamak amacıyla özel olarak formüle edilmiş bir içecektir. İnek sütüne karşı hassasiyeti veya alerjisi olan çocuklar için alternatif bir seçenek olabilir.</p><br>
+      
+      <h2>İçeriği ve Faydaları</h2><br>
+      <ul>
+        <li><strong>Yüksek Kalsiyum İçeriği:</strong> Keçi sütü, kalsiyum bakımından zengindir ve çocukların kemik ve diş gelişimini destekler.</li><br>
+        <li><strong>Doğal Protein Kaynağı:</strong> İçeriğindeki protein, çocukların kas gelişimini destekler ve enerji sağlar.</li><br>
+        <li><strong>B Vitamini:</strong> B vitamini kompleksi içeriği, sinir sistemi sağlığını destekler ve enerji metabolizmasını düzenler.</li><br>
+        <li><strong>Fosfor İçeriği:</strong> Fosfor, kemik ve diş sağlığı için önemlidir ve keçi sütünde bol miktarda bulunur.</li><br>
+        <li><strong>Probiyotikler:</strong> Keçi sütü, sindirim sağlığını destekleyen doğal probiyotikler içerir.</li><br>
+      </ul>
+      
+      <h2>Keçi Sütü Bazlı Devam Sütünü Evde Nasıl Yapabilirsiniz?</h2><br>
+      <p><strong>Malzemeler:</strong></p><br>
+      <ul>
+        <li>1 su bardağı keçi sütü (organik ve doğal tercih edilmelidir)</li><br>
+        <li>1 yemek kaşığı bal veya akçaağaç şurubu (isteğe bağlı, tatlandırmak için kullanılır)</li><br>
+        <li>1 çay kaşığı vanilya özütü</li><br>
+        <li>1 tatlı kaşığı hindistancevizi yağı (isteğe bağlı, ekstra besleyici özellik sağlar)</li><br>
+        <li>Blender veya mikser</li><br>
+      </ul>
+      <p><strong>Yapılışı:</strong></p><br>
+      <ol>
+        <li>Keçi sütünü bir mikser kabına alın.</li><br>
+        <li>Üzerine bal veya akçaağaç şurubunu ekleyin.</li><br>
+        <li>Vanilya özütünü ve isteğe bağlı olarak hindistancevizi yağını ekleyin.</li><br>
+        <li>Tüm malzemeleri iyice karıştırın, homojen bir kıvam elde edene kadar karıştırmaya devam edin.</li><br>
+        <li>Hazırladığınız keçi sütü bazlı devam sütünü bir şişeye veya kapaklı bir kavanoza aktarın ve buzdolabında saklayın.</li><br>
+        <li>Soğuk olarak servis edebilir veya üzerine biraz tarçın veya meyve dilimleri ekleyerek tatlandırabilirsiniz.</li><br>
+      </ol>
+      
+      <h2>Çocuklar İçin Faydaları</h2><br>
+      <ul>
+        <li><strong>Büyüme ve Gelişimi Destekler:</strong> Keçi sütünün besleyici içeriği, çocukların sağlıklı büyüme ve gelişmesine katkı sağlar.</li><br>
+        <li><strong> Sindirim Sağlığını Destekler:</strong> Doğal probiyotikler içeren keçi sütü, çocukların sindirim sistemini destekler ve sindirim sağlığını korur.</li><br>
+        <li><strong>İnek Sütü Alerjisi İçin Alternatif:</strong> İnek sütüne karşı hassasiyeti veya alerjisi olan çocuklar için keçi sütü, güvenli bir alternatif olabilir.</li><br>
+      </ul>
+      
+      <h2>Dikkat Edilmesi Gerekenler</h2><br>
+      <ul>
+        <li><strong>Alerji Durumu:</strong> Keçi sütüne karşı alerjisi olan çocukların tüketmeden önce doktora danışmaları önemlidir.</li><br>
+        <li><strong>Porsiyon Kontrolü:</strong> Tüketim miktarı çocuğun yaşına ve beslenme ihtiyacına göre ayarlanmalıdır.</li><br>
+        <li><strong>Organik ve Doğal Ürün Tercihi:</strong> Keçi sütü, organik ve doğal kaynaklardan temin edilmelidir.</li><br>
+      </ul>
+      
+      <h1>Sonuç</h1><br>
+      <p>Keçi sütü bazlı devam sütü, çocukların sağlıklı büyümesi ve gelişimi için önemli bir besin kaynağıdır. Evde kolayca hazırlanabilir ve çocukların günlük beslenme programına eklenerek dengeli bir beslenme sağlanabilir.</p><br>
+      
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_kecidevam()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div>
+</div>
+<div class="product" id="devam">
+  <img src="Resources/süt/devam/devam_pirinc.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Pirinçli Süt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Devam Sütü</span></p><br>
+  <button onclick="ekranAc_pirincdevam()">Satın Al</button>
+</div>
+<div id="ekran_pirincdevam" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <h1>Pirinç Sütü Bazlı Devam Sütü Nedir?</h1><br>
+      <p><strong>Pirinç sütü bazlı devam sütü</strong>, çocukların büyüme ve gelişme döneminde ihtiyaç duydukları besinleri sağlamak amacıyla özel olarak formüle edilmiş bir içecektir. İnek sütüne karşı hassasiyeti veya alerjisi olan çocuklar için alternatif bir seçenek olabilir. Ayrıca, laktoz intoleransı olan çocuklar için de uygundur.</p><br>
+      
+      <h2>İçeriği ve Faydaları</h2><br>
+      <ul>
+        <li><strong>Pirinç İçeriği:</strong> Pirinç sütü, pirinçin besleyici öğelerini içerir ve karbonhidrat kaynağı olarak enerji sağlar.</li><br>
+        <li><strong>Kalsiyum ve B Vitamini Zengini:</strong> Eklenen kalsiyum ve B vitamini, çocukların kemik ve sinir sistemi sağlığını destekler.</li><br>
+        <li><strong>Protein İçeriği:</strong> Protein, çocukların kas gelişimini destekler ve büyümelerine katkı sağlar.</li><br>
+        <li><strong>Vitamin ve Mineral İçeriği:</strong> Pirinç sütü, çeşitli vitamin ve mineraller içerir ve genel sağlık açısından faydalıdır.</li><br>
+        <li><strong>Demir Kaynağı:</strong> Demir, kan hücrelerinin oluşumunda önemli bir role sahiptir ve pirinç sütü içinde bulunur.</li><br>
+      </ul>
+      
+      <h2>Pirinç Sütü Bazlı Devam Sütünü Evde Nasıl Yapabilirsiniz?</h2><br>
+      <p><strong>Malzemeler:</strong></p><br>
+      <ul>
+        <li>1 su bardağı pirinç (organik tercih edilmelidir)</li><br>
+        <li>4 su bardağı su</li><br>
+        <li>2 yemek kaşığı bal veya akçaağaç şurubu (isteğe bağlı, tatlandırmak için kullanılır)</li><br>
+        <li>1 tatlı kaşığı vanilya özütü</li><br>
+        <li>1/4 su bardağı hindistancevizi sütü (isteğe bağlı, ekstra besleyici özellik sağlar)</li><br>
+        <li>Tencere</li><br>
+        <li>Blender veya mikser</li><br>
+      </ul>
+      <p><strong>Yapılışı:</strong></p><br>
+      <ol>
+        <li>Pirinci iyice yıkayın ve süzün.</li><br>
+        <li>Bir tencereye yıkanmış pirinci ve suyu ekleyin.</li><br>
+        <li>Kısık ateşte pirinçler yumuşayana kadar yaklaşık 30-40 dakika pişirin. Arada karıştırarak kontrol edin.</li><br>
+        <li>Pişen pirinci blender veya mikser kabına alın.</li><br>
+        <li>Üzerine bal veya akçaağaç şurubu, vanilya özütü ve isteğe bağlı olarak hindistancevizi sütünü ekleyin.</li><br>
+        <li>Tüm malzemeleri iyice karıştırın ve pürüzsüz bir kıvam elde edene kadar blender veya mikserde çırpın.</li><br>
+        <li>Hazırladığınız pirinç sütünü bir süzgeç veya ince bir tülbent yardımıyla süzün.</li><br>
+        <li>Süzülen sütü bir şişeye veya kapaklı bir kavanoza aktarın ve buzdolabında saklayın.</li><br>
+        <li>Soğuk olarak servis edebilir veya üzerine biraz tarçın veya meyve dilimleri ekleyerek tatlandırabilirsiniz.</li><br>
+      </ol>
+      
+      <h2>Çocuklar İçin Faydaları</h2><br>
+      <ul>
+        <li><strong>Büyüme ve Gelişimi Destekler:</strong> Pirinç sütü, çocukların sağlıklı büyümesine ve gelişmesine katkı sağlar.</li><br>
+        <li><strong>Kan Hücrelerini Güçlendirir:</strong> İçerdiği demir, çocukların kan hücrelerinin oluşumunu destekler ve enerji seviyelerini yükseltir.</li><br>
+        <li><strong> Sindirim Dostudur:</strong> Pirinç sütü, sindirimi kolaydır ve hassas mideye sahip çocuklar için uygundur.</li><br>
+      </ul>
+      
+      <h2>Dikkat Edilmesi Gerekenler</h2><br>
+      <ul>
+        <li><strong>Alerji Durumu:</strong> Pirinçe karşı alerjisi olan çocukların tüketmeden önce doktora danışmaları önemlidir.</li><br>
+        <li><strong>Porsiyon Kontrolü:</strong> Tüketim miktarı çocuğun yaşına ve beslenme ihtiyacına göre ayarlanmalıdır.</li><br>
+        <li><strong>Organik ve Doğal Ürün Tercihi:</strong> Pirinç ve diğer malzemeler organik ve doğal kaynaklardan temin edilmelidir.</li><br>
+      </ul>
+      
+      <h1>Sonuç</h1><br>
+      <p>Pirinç sütü bazlı devam sütü, çocukların sağlıklı büyümesi ve gelişimi için önemli bir besin kaynağıdır. Evde kolayca hazırlanabilir ve çocukların günlük beslenme programına eklenerek dengeli bir beslenme sağlanabilir.</p><br>
+      
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_pirincdevam()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div>
+</div>
+<div class="product" id="devam">
+  <img src="Resources/süt/devam/devam_soya.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Soyalı Süt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Devam Sütü</span></p><br>
+  <button onclick="ekranAc_soyadevam()">Satın Al</button>
+</div>
+<div id="ekran_soyadevam" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <h1>Soya Sütü Bazlı Devam Sütü Nedir?</h1><br>
+<p><strong>Soya sütü bazlı devam sütü</strong>, çocukların büyüme ve gelişme döneminde ihtiyaç duydukları besinleri sağlamak amacıyla özel olarak formüle edilmiş bir içecektir. İnek sütüne karşı hassasiyeti veya alerjisi olan çocuklar için alternatif bir seçenek olabilir. Ayrıca, laktoz intoleransı olan çocuklar için de uygundur.</p><br>
+
+<h2>İçeriği ve Faydaları</h2><br>
+<ul>
+  <li><strong>Protein Zengini:</strong> Soya sütü, yüksek miktarda protein içerir ve çocukların kas gelişimini destekler.</li><br>
+  <li><strong>Kalsiyum ve D Vitamini:</strong> Eklenen kalsiyum ve D vitamini, çocukların kemik sağlığını destekler ve güçlendirir.</li><br>
+  <li><strong>Fosfor İçeriği:</strong> Fosfor, kemik ve diş sağlığı için önemlidir ve soya sütünde bulunur.</li><br>
+  <li><strong>B Vitaminleri:</strong> B vitamin kompleksi içeriği, enerji metabolizmasını destekler ve sinir sistemi sağlığını korur.</li><br>
+  <li><strong>Doğal Antioksidanlar:</strong> Soya sütü, doğal antioksidanlar içerir ve çocukların bağışıklık sistemini güçlendirir.</li><br>
+</ul>
+
+<h2>Soya Sütü Bazlı Devam Sütünü Evde Nasıl Yapabilirsiniz?</h2><br>
+<p><strong>Malzemeler:</strong></p><br>
+<ul>
+  <li>1 su bardağı soya fasulyesi</li><br>
+  <li>4 su bardağı su</li><br>
+  <li>2 yemek kaşığı bal veya akçaağaç şurubu (isteğe bağlı, tatlandırmak için kullanılır)</li><br>
+  <li>1 çay kaşığı vanilya özütü</li><br>
+  <li>1/4 su bardağı hindistancevizi yağı (isteğe bağlı, ekstra besleyici özellik sağlar)</li><br>
+  <li>Tencere</li><br>
+  <li>Blender veya mikser</li><br>
+</ul>
+<p><strong>Yapılışı:</strong></p><br>
+<ol>
+  <li>Soya fasulyelerini iyice yıkayın ve süzün.</li><br>
+  <li>Bir tencereye yıkanmış soya fasulyelerini ve suyu ekleyin.</li><br>
+  <li>Kısık ateşte soya fasulyeleri yumuşayana kadar yaklaşık 1 saat pişirin. Arada karıştırarak kontrol edin.</li><br>
+  <li>Pişen soya fasulyelerini blender veya mikser kabına alın.</li><br>
+  <li>Üzerine bal veya akçaağaç şurubu, vanilya özütü ve isteğe bağlı olarak hindistancevizi yağını ekleyin.</li><br>
+  <li>Tüm malzemeleri iyice karıştırın ve pürüzsüz bir kıvam elde edene kadar blender veya mikserde çırpın.</li><br>
+  <li>Hazırladığınız soya sütünü bir süzgeç veya ince bir tülbent yardımıyla süzün.</li><br>
+  <li>Süzülen sütü bir şişeye veya kapaklı bir kavanoza aktarın ve buzdolabında saklayın.</li><br>
+  <li>Soğuk olarak servis edebilir veya üzerine biraz tarçın veya meyve dilimleri ekleyerek tatlandırabilirsiniz.</li><br>
+</ol>
+
+<h2>Çocuklar İçin Faydaları</h2><br>
+<ul>
+  <li><strong>Büyüme ve Gelişimi Destekler:</strong> Soya sütü, çocukların sağlıklı büyümesine ve gelişmesine katkı sağlar.</li><br>
+  <li><strong>Kalp Sağlığını Destekler:</strong> İçeriğindeki doymamış yağ asitleri, çocukların kalp sağlığını destekler ve kolesterol seviyelerini dengeleyebilir.</li><br>
+  <li><strong> Sindirim Dostudur:</strong> Soya sütü, sindirimi kolaydır ve hassas mideye sahip çocuklar için uygundur.</li><br>
+</ul>
+
+<h2>Dikkat Edilmesi Gerekenler</h2><br>
+<ul>
+  <li><strong>Alerji Durumu:</strong> Soya fasulyesine karşı alerjisi olan çocukların tüketmeden önce doktora danışmaları önemlidir.</li><br>
+  <li><strong>Porsiyon Kontrolü:</strong> Tüketim miktarı çocuğun yaşına ve beslenme ihtiyacına göre ayarlanmalıdır.</li><br>
+  <li><strong>Organik ve Doğal Ürün Tercihi:</strong> Soya fasulyesi ve diğer malzemeler organik ve doğal kaynaklardan temin edilmelidir.</li><br>
+</ul>
+
+<h1>Sonuç</h1><br>
+<p>Soya sütü bazlı devam sütü, çocukların sağlıklı büyümesi ve gelişimi için önemli bir besin kaynağıdır. Evde kolayca hazırlanabilir ve çocukların günlük beslenme programına eklenerek dengeli bir beslenme sağlanabilir.</p><br>
+
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_soyadevam()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div>
+</div>
+<div class="product" id="devam">
+  <img src="Resources/süt/devam/devam_tarcınlı.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Tarçınlı Süt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Devam Sütü</span></p><br>
+  <button onclick="ekranAc_tarcindevam()">Satın Al</button>
+</div>
+<div id="ekran_tarcindevam" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <h1>Tarçınlı Devam Sütü Nedir?</h1><br>
+      <p><strong>Tarçınlı devam sütü</strong>, çocukların büyüme ve gelişim döneminde ihtiyaç duydukları besinleri sağlamak için özel olarak formüle edilmiş bir içecektir. Tarçın, lezzet ve sağlık açısından zengin bir katkı sağlar.</p><br>
+      
+      <h2>İçeriği ve Faydaları</h2><br>
+      <ul>
+        <li><strong>Kalsiyum ve Protein Zengini:</strong> Kalsiyum ve protein içeriği, çocukların kemik ve kas gelişimini destekler.</li><br>
+        <li><strong>Vitamin ve Mineral İçeriği:</strong> Vitamin A, C, D ve çinko gibi besin öğeleri içerir, bağışıklık sistemini güçlendirir ve genel sağlık açısından faydalıdır.</li><br>
+        <li><strong>Enerji Verici:</strong> Doğal yağlar ve karbonhidratlar, çocuklara enerji verir ve günlük aktivitelerini destekler.</li><br>
+        <li><strong>Tatlandırıcı ve Sağlık Faydaları:</strong> Tarçın, sadece lezzet katmaz, aynı zamanda antioksidan özelliklere sahiptir ve kan şekerini dengelemeye yardımcı olabilir.</li><br>
+      </ul>
+      
+      <h2>Tarçınlı Devam Sütünü Evde Nasıl Yapabilirsiniz?</h2><br>
+      <p><strong>Malzemeler:</strong></p><br>
+      <ul>
+        <li>2 su bardağı süt (inek sütü veya bitkisel süt seçeneği tercih edilebilir)</li><br>
+        <li>1 yemek kaşığı bal veya akçaağaç şurubu</li><br>
+        <li>1 çay kaşığı tarçın</li><br>
+        <li>1/2 çay kaşığı vanilya özütü</li><br>
+        <li>Tencere</li><br>
+      </ul>
+      <p><strong>Yapılışı:</strong></p><br>
+      <ol>
+        <li>Bir tencereye sütü alın.</li><br>
+        <li>Orta ateşte sütü ısıtın, kaynatmayın.</li><br>
+        <li>Isınan sütün içine bal veya akçaağaç şurubu ekleyin ve karıştırın.</li><br>
+        <li>Tarçın ve vanilya özütünü ekleyin, iyice karıştırın.</li><br>
+        <li>Karışımı hafifçe kaynatmadan önce ocaktan alın.</li><br>
+        <li>Hazırladığınız tarçınlı devam sütünü bir süzgeç yardımıyla süzün.</li><br>
+        <li>Süzülen sütü bir sürahiye veya kapaklı bir kavanoza aktarın.</li><br>
+        <li>Soğuduktan sonra buzdolabında saklayın.</li><br>
+        <li>Soğuk olarak servis edebilirsiniz. İsteğe bağlı olarak üzerine biraz tarçın serpebilirsiniz.</li><br>
+      </ol>
+      
+      <h2>Çocuklar İçin Faydaları</h2><br>
+      <ul>
+        <li><strong>Büyüme ve Gelişimi Destekler:</strong> İçeriğindeki besin öğeleri, çocukların sağlıklı büyüme ve gelişmesine katkı sağlar.</li><br>
+        <li><strong>Bağışıklık Sistemini Güçlendirir:</strong> Vitamin ve mineral içeriği, çocukların bağışıklık sistemini güçlendirerek hastalıklara karşı dirençli olmalarını sağlar.</li><br>
+        <li><strong>Zihinsel ve Fiziksel Performansı Artırır:</strong> Enerji verici özellikleriyle çocukların zihinsel ve fiziksel performansını artırır ve günlük aktivitelerini destekler.</li><br>
+      </ul>
+      
+      <h2>Dikkat Edilmesi Gerekenler</h2><br>
+      <ul>
+        <li><strong>Alerji Durumu:</strong> Süt veya tarçına karşı alerjisi olan çocukların tüketmeden önce doktora danışmaları önemlidir.</li><br>
+        <li><strong>Porsiyon Kontrolü:</strong> Tüketim miktarı çocuğun yaşına ve beslenme ihtiyacına göre ayarlanmalıdır.</li><br>
+        <li><strong>Tarçın Miktarı:</strong> Çocukların hassasiyetine göre tarçın miktarı azaltılabilir.</li><br>
+      </ul>
+      
+      <h1>Sonuç</h1><br>
+      <p>Tarçınlı devam sütü, çocukların beslenme ihtiyaçlarını karşılamak için lezzetli ve besleyici bir seçenektir. Evde kolayca hazırlanabilir ve çocukların günlük beslenme programına eklenerek sağlıklı bir alternatif oluşturabilir.</p><br>
+      
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_tarcindevam()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div>
+</div>
+<div class="product" id="devam">
+  <img src="Resources/süt/devam/devam_yogurt.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Yoğurtlu Süt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Devam Sütü</span></p><br>
+  <button onclick="ekranAc_yogurtdevam()">Satın Al</button>
+</div>
+<div id="ekran_yogurtdevam" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <h1>Yoğurtlu Devam Sütü Nedir?</h1><br>
+      <p><strong>Yoğurtlu devam sütü</strong>, çocukların büyüme ve gelişme döneminde ihtiyaç duydukları besinleri sağlamak amacıyla özel olarak formüle edilmiş bir içecektir. Yoğurt, sindirimi kolay ve besleyici bir kaynaktır ve çocukların bağışıklık sistemini güçlendirebilir.</p><br>
+      
+      <h2>İçeriği ve Faydaları</h2><br>
+      <ul>
+        <li><strong>Protein ve Kalsiyum Kaynağı:</strong> Yoğurt, protein ve kalsiyum bakımından zengindir, bu da çocukların kemik ve kas gelişimini destekler.</li><br>
+        <li><strong>Probiyotikler:</strong> Yoğurt, sindirim sağlığı için faydalı olan probiyotik bakteriler içerir ve bağışıklık sistemini destekler.</li><br>
+        <li><strong>Vitamin ve Mineral İçeriği:</strong> Yoğurt, çocukların ihtiyaç duyduğu birçok vitamin ve minerali içerir, özellikle B vitaminleri, potasyum ve magnezyum açısından zengindir.</li><br>
+        <li><strong>Enerji Verici:</strong> Yoğurt, doğal yağlar ve karbonhidratlar içerir ve çocuklara enerji sağlar.</li><br>
+      </ul>
+      
+      <h2>Yoğurtlu Devam Sütünü Evde Nasıl Yapabilirsiniz?</h2><br>
+      <p><strong>Malzemeler:</strong></p><br>
+      <ul>
+        <li>1 su bardağı yoğurt (tercihen probiyotik yoğurt)</li><br>
+        <li>2 su bardağı süt (tercihen tam yağlı veya yarım yağlı)</li><br>
+        <li>1 yemek kaşığı bal veya akçaağaç şurubu (isteğe bağlı, tatlandırmak için kullanılır)</li><br>
+        <li>1 çay kaşığı vanilya özütü</li><br>
+        <li>Blender veya mikser</li><br>
+      </ul>
+      <p><strong>Yapılışı:</strong></p><br>
+      <ol>
+        <li>Yoğurdu ve sütü bir blender veya mikser kabına alın.</li><br>
+        <li>Üzerine bal veya akçaağaç şurubunu ve vanilya özütünü ekleyin.</li><br>
+        <li>Tüm malzemeleri iyice karıştırın ve homojen bir kıvam elde edene kadar karıştırmaya devam edin.</li><br>
+        <li>Hazırladığınız yoğurtlu devam sütünü bir süzgeç veya ince bir tülbent yardımıyla süzün (isteğe bağlı, daha pürüzsüz bir kıvam için).</li><br>
+        <li>Süzülen sütü bir şişeye veya kapaklı bir kavanoza aktarın ve buzdolabında saklayın.</li><br>
+        <li>Soğuk olarak servis edebilir veya üzerine biraz tarçın serperek tatlandırabilirsiniz.</li><br>
+      </ol>
+      
+      <h2>Çocuklar İçin Faydaları</h2><br>
+      <ul>
+        <li><strong>Büyüme ve Gelişimi Destekler:</strong> Yoğurtlu devam sütü, çocukların sağlıklı büyüme ve gelişmesine katkı sağlar.</li><br>
+        <li><strong>Sindirim Sağlığını Destekler:</strong> Probiyotikler içeren yoğurt, çocukların sindirim sistemini destekler ve sindirim sağlığını korur.</li><br>
+        <li><strong>Bağışıklık Sistemini Güçlendirir:</strong> Yoğurt, bağışıklık sistemini güçlendiren probiyotikler içerir ve çocukları hastalıklara karşı dirençli hale getirebilir.</li><br>
+      </ul>
+      
+      <h2>Dikkat Edilmesi Gerekenler</h2><br>
+      <ul>
+        <li><strong>Alerji Durumu:</strong> Yoğurda veya süt ürünlerine karşı alerjisi olan çocukların tüketmeden önce doktora danışmaları önemlidir.</li><br>
+        <li><strong>Porsiyon Kontrolü:</strong> Tüketim miktarı çocuğun yaşına ve beslenme ihtiyacına göre ayarlanmalıdır.</li><br>
+        <li><strong>Probiyotik Yoğurt Tercihi:</strong> Probiyotik yoğurt, sindirim sağlığını destekleyen faydalı bakteriler içerir ve tercih edilebilir.</li><br>
+      </ul>
+      
+      <h1>Sonuç</h1><br>
+      <p>Yoğurtlu devam sütü, çocukların sağlıklı büyümesi ve gelişimi için önemli bir besin kaynağıdır. Evde kolayca hazırlanabilir ve çocukların günlük beslenme programına eklenerek dengeli bir beslenme sağlanabilir.</p><br>
+      
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_yogurtdevam()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div>
+</div>
+<div class="product" id="devam">
+  <img src="Resources/süt/devam/devam_yulaf.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Yulaflı Süt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Devam Sütü</span></p><br>
+  <button onclick="ekranAc_yulafdevam()">Satın Al</button>
+</div>
+<div id="ekran_yulafdevam" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <h1>Yulaf Bazlı Devam Sütü Nedir?</h1><br>
+      <p><strong>Yulaf bazlı devam sütü</strong>, çocukların büyüme ve gelişme döneminde ihtiyaç duydukları besinleri sağlamak amacıyla özel olarak hazırlanmış bir içecektir. İnek sütüne karşı hassasiyeti veya alerjisi olan çocuklar için alternatif bir seçenek olabilir. Ayrıca, lif açısından zengin olması ve sindirimi kolay olması nedeniyle sindirim sistemi hassasiyeti olan çocuklar için de uygundur.</p><br>
+      
+      <h2>İçeriği ve Faydaları</h2><br>
+      <ul>
+        <li><strong>Yulaf İçeriği:</strong> Yulaf, lif açısından zengin bir tahıldır ve sindirim sistemini destekler.</li><br>
+        <li><strong>Kalsiyum ve Vitaminler:</strong> Eklenen kalsiyum ve çeşitli vitaminler, çocukların kemik ve diş sağlığını destekler.</li><br>
+        <li><strong>Protein İçeriği:</strong> Yulaf, önemli miktarda protein içerir ve çocukların kas gelişimini destekler.</li><br>
+        <li><strong>B Vitaminleri:</strong> B vitamin kompleksi, enerji metabolizmasını düzenler ve sinir sistemi sağlığını destekler.</li><br>
+        <li><strong>Demir ve Çinko:</strong> Demir ve çinko, çocukların sağlıklı büyümesi için gereklidir ve yulaf sütünde bulunur.</li><br>
+      </ul>
+      
+      <h2>Yulaf Bazlı Devam Sütünü Evde Nasıl Yapabilirsiniz?</h2><br>
+      <p><strong>Malzemeler:</strong></p><br>
+      <ul>
+        <li>1 su bardağı yulaf (çiğ veya yulaf ezmesi)</li><br>
+        <li>4 su bardağı su</li><br>
+        <li>2 yemek kaşığı bal veya akçaağaç şurubu (isteğe bağlı, tatlandırmak için kullanılır)</li><br>
+        <li>1 çay kaşığı vanilya özütü</li><br>
+        <li>Blender veya mikser</li><br>
+      </ul>
+      <p><strong>Yapılışı:</strong></p><br>
+      <ol>
+        <li>Yulafı iyice yıkayın ve süzün. (Eğer yulaf ezmesi kullanıyorsanız, bu adımı atlayabilirsiniz.)</li><br>
+        <li>Bir tencereye yıkanmış yulafları ve suyu ekleyin.</li><br>
+        <li>Kısık ateşte yulaf yumuşayana kadar yaklaşık 15-20 dakika pişirin. Arada karıştırarak kontrol edin.</li><br>
+        <li>Pişen yulafları blender veya mikser kabına alın.</li><br>
+        <li>Üzerine bal veya akçaağaç şurubu ve vanilya özütünü ekleyin.</li><br>
+        <li>Tüm malzemeleri iyice karıştırın ve pürüzsüz bir kıvam elde edene kadar blender veya mikserde çırpın.</li><br>
+        <li>Hazırladığınız yulaf bazlı devam sütünü bir süzgeç veya ince bir tülbent yardımıyla süzün.</li><br>
+        <li>Süzülen sütü bir şişeye veya kapaklı bir kavanoza aktarın ve buzdolabında saklayın.</li><br>
+        <li>Soğuk olarak servis edebilir veya üzerine biraz tarçın veya meyve dilimleri ekleyerek tatlandırabilirsiniz.</li><br>
+      </ol>
+      
+      <h2>Çocuklar İçin Faydaları</h2><br>
+      <ul>
+        <li><strong>Büyüme ve Gelişimi Destekler:</strong> Yulaf bazlı devam sütü, çocukların sağlıklı büyümesine ve gelişmesine katkı sağlar.</li><br>
+        <li><strong>Sindirim Sağlığını Destekler:</strong> Yulafın lif içeriği, sindirim sistemini düzenler ve kabızlık gibi sorunları önler.</li><br>
+        <li><strong>Kan Hücrelerini Güçlendirir:</strong> İçerdiği demir, çocukların kan hücrelerinin oluşumunu destekler ve enerji seviyelerini yükseltir.</li><br>
+      </ul>
+      
+      <h2>Dikkat Edilmesi Gerekenler</h2><br>
+      <ul>
+        <li><strong>Alerji Durumu:</strong> Yulafa karşı alerjisi olan çocukların tüketmeden önce doktora danışmaları önemlidir.</li><br>
+        <li><strong>Porsiyon Kontrolü:</strong> Tüketim miktarı çocuğun yaşına ve beslenme ihtiyacına göre ayarlanmalıdır.</li><br>
+        <li><strong>Organik ve Doğal Ürün Tercihi:</strong> Yulaf ve diğer malzemeler organik ve doğal kaynaklardan temin edilmelidir.</li><br>
+      </ul>
+      
+      <h1>Sonuç</h1><br>
+      <p>Yulaf bazlı devam sütü, çocukların sağlıklı büyümesi ve gelişimi için önemli bir besin kaynağıdır. Evde kolayca hazırlanabilir ve çocukların günlük beslenme programına eklenerek dengeli bir beslenme sağlanabilir.</p><br>
+          </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_yulafdevam()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div>
+</div>
+
+
+<div class="product" id="soyali">
+  <img src="Resources/süt/soya/soya_badem.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Bademli Süt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Soya Sütü</span></p><br>
+  <button onclick="ekranAc_bademsoya()">Satın Al</button>
+</div>
+<div id="ekran_bademsoya" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <h1>Bademli Soya Sütü Nedir?</h1><br>
+      <p><strong>Bademli soya sütü</strong>, vegan ve laktoz intoleransı olan bireyler için özel olarak formüle edilmiş bir içecektir. İçeriğinde badem ve soya bulunur ve sağlıklı bir alternatif olarak tercih edilir.</p><br>
+      
+      <h2>İçeriği ve Faydaları</h2><br>
+      <ul><br>
+        <li><strong>Badem ve Soyanın Besleyici Özellikleri:</strong> İçeriğindeki badem ve soya, protein, kalsiyum, ve vitamin E gibi besin öğeleri bakımından zengindir.</li><br>
+        <li><strong>Laktoz İçermez:</strong> Laktoz intoleransı olan bireyler için ideal bir alternatiftir.</li><br>
+        <li><strong>Vitamin ve Mineral İçeriği:</strong> Bademli soya sütü, genellikle B12 vitaminiyle zenginleştirilir ve bu da enerji metabolizmasını destekler.</li><br>
+        <li><strong>Kolesterol İçermez:</strong> Hayvansal sütlerde bulunan kolesterol içermez, bu da kalp sağlığı açısından olumlu bir özelliktir.</li><br>
+      </ul><br>
+      
+      <h2>Bademli Soya Sütünü Evde Nasıl Yapabilirsiniz?</h2><br>
+      <p><strong>Malzemeler:</strong></p><br>
+      <ul><br>
+        <li>1 su bardağı badem</li><br>
+        <li>1 su bardağı soyakrem veya soya fasulyesi</li><br>
+        <li>3 su bardağı su</li><br>
+        <li>1 yemek kaşığı tatlandırıcı (isteğe bağlı, bal veya agave şurubu kullanılabilir)</li><br>
+        <li>Blender veya mikser</li><br>
+      </ul><br>
+      <p><strong>Yapılışı:</strong></p><br>
+      <ol><br>
+        <li>Bademleri bir gece boyunca suda bekletin.</li><br>
+        <li>Sabahleyin bademleri suyla birlikte blenderda iyice çekin.</li><br>
+        <li>Süzgeç veya tülbent yardımıyla badem ezmesini süzün ve sıvı bademi elde edin.</li><br>
+        <li>Elde ettiğiniz badem sütünü bir tencereye alın, soyakrem veya soya fasulyesi ekleyin ve iyice karıştırın.</li><br>
+        <li>Tatlandırıcı ekleyerek isteğe göre tatlandırın.</li><br>
+        <li>Kaynamaya başlayana kadar karıştırarak ısıtın.</li><br>
+        <li>İstenilen kıvama gelince ocaktan alın ve soğumaya bırakın.</li><br>
+        <li>Soğuduktan sonra bir şişeye veya kavanoza aktarın ve buzdolabında saklayın.</li><br>
+      </ol><br>
+      
+      <h2>Faydaları</h2><br>
+      <ul><br>
+        <li><strong>Besleyici ve Sağlıklı Bir İçecek:</strong> İçeriğindeki besin öğeleriyle besleyici bir içecektir ve sağlıklı bir alternatif sunar.</li><br>
+        <li><strong>Vegan ve Laktoz İntoleransı İçin Uygun:</strong> Vegan bireyler ve laktoz intoleransı olanlar için ideal bir içecektir.</li><br>
+        <li><strong>Kalp Sağlığını Destekler:</strong> Kolesterol içermez ve bu da kalp sağlığını olumlu yönde etkiler.</li><br>
+      </ul><br>
+      
+      <h2>Dikkat Edilmesi Gerekenler</h2><br>
+      <ul><br>
+        <li><strong>Alerji Durumu:</strong> Badem veya soya alerjisi olan bireylerin tüketmeden önce doktora danışmaları önemlidir.</li><br>
+        <li><strong>Porsiyon Kontrolü:</strong> Tüketim miktarı bireyin beslenme ihtiyacına göre ayarlanmalıdır.</li><br>
+      </ul><br>
+      
+      <h1>Sonuç</h1><br>
+      <p>Bademli soya sütü, veganlar ve laktoz intoleransı olanlar için sağlıklı ve besleyici bir alternatif sunar. Evde kolayca hazırlanabilir veya marketlerden temin edilebilir. Dikkatli bir şekilde tüketildiğinde sağlıklı bir içecek olarak günlük beslenme programına eklenebilir.</p><br>
+      
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_bademsoya()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div>
+</div>
+<div class="product" id="soyali">
+  <img src="Resources/süt/soya/soya_cikolata.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Çikolatalı Süt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Soya Sütü</span></p><br>
+  <button onclick="ekranAc_cikolatasoya()">Satın Al</button>
+</div>
+<div id="ekran_cikolatasoya" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <h1>Çikolatalı Soya Sütü Nedir?</h1><br>
+<p><strong>Çikolatalı soya sütü</strong>, soya fasulyesi ve kakao karışımı ile hazırlanan sağlıklı ve lezzetli bir içecektir. Hem çocuklar hem de yetişkinler tarafından tercih edilen bir alternatiftir.</p><br>
+
+<h2>İçeriği ve Faydaları</h2><br>
+<ul><br>
+  <li><strong>Protein ve Kalsiyum Kaynağı:</strong> İçeriğindeki soya protein ve kalsiyum, kemik sağlığını destekler ve kas gelişimini destekler.</li><br>
+  <li><strong>Antioksidanlar İçerir:</strong> Kakao içeriği sayesinde antioksidanlar bakımından zengindir, vücudu serbest radikallerden korur.</li><br>
+  <li><strong>B Vitaminleri:</strong> B vitaminleri, enerji metabolizmasını destekler ve sinir sistemi sağlığını korur.</li><br>
+  <li><strong>Kolesterol İçermez:</strong> Hayvansal sütlerde bulunan kolesterol içermez, kalp sağlığı açısından olumlu bir tercihtir.</li><br>
+</ul><br>
+
+<h2>Çikolatalı Soya Sütünü Evde Nasıl Yapabilirsiniz?</h2><br>
+<p><strong>Malzemeler:</strong></p><br>
+<ul><br>
+  <li>1 su bardağı soya fasulyesi</li><br>
+  <li>3 su bardağı su</li><br>
+  <li>2 yemek kaşığı kakao tozu</li><br>
+  <li>2 yemek kaşığı bal veya agave şurubu (isteğe bağlı)</li><br>
+  <li>Blender veya mikser</li><br>
+</ul><br>
+<p><strong>Yapılışı:</strong></p><br>
+<ol><br>
+  <li>Soya fasulyesini bir gece boyunca suda bekletin.</li><br>
+  <li>Sabahleyin soya fasulyesini süzün ve blenderda iyice çekin.</li><br>
+  <li>Blenderda çekilen soya sütüne kakao tozunu ve tatlandırıcıyı ekleyin.</li><br>
+  <li>Tüm malzemeleri iyice karıştırın ve homojen bir karışım elde edene kadar blenderda karıştırmaya devam edin.</li><br>
+  <li>Elde ettiğiniz çikolatalı soya sütünü bir süzgeç veya tülbent yardımıyla süzün.</li><br>
+  <li>Süzülen sütü bir şişeye veya kavanoza aktarın ve buzdolabında soğumaya bırakın.</li><br>
+</ol><br>
+
+<h2>Faydaları</h2><br>
+<ul><br>
+  <li><strong>Besleyici ve Lezzetli:</strong> Hem besleyici öğeler içerir hem de çikolata lezzetiyle enfes bir içecektir.</li><br>
+  <li><strong>Vejetaryen ve Veganlar İçin Uygun:</strong> Hayvansal ürün içermez, bu nedenle vejetaryen ve vegan bireyler için ideal bir seçenektir.</li><br>
+  <li><strong>Kalp Sağlığını Destekler:</strong> Kolesterol içermez ve antioksidanlar bakımından zengindir, kalp sağlığını olumlu yönde etkiler.</li><br>
+</ul><br>
+
+<h2>Dikkat Edilmesi Gerekenler</h2><br>
+<ul><br>
+  <li><strong>Alerji Durumu:</strong> Soya alerjisi olan bireylerin tüketmeden önce doktora danışmaları önemlidir.</li><br>
+  <li><strong>Porsiyon Kontrolü:</strong> Tüketim miktarı bireyin beslenme ihtiyacına göre ayarlanmalıdır.</li><br>
+</ul><br>
+
+<h1>Sonuç</h1><br>
+<p>Çikolatalı soya sütü, sağlıklı ve lezzetli bir içecektir. Evde kolayca hazırlanabilir veya marketlerden temin edilebilir. Dikkatli bir şekilde tüketildiğinde günlük beslenme programına eklenebilir ve sağlıklı bir alternatif olabilir.</p><br>
+
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_cikolatasoya()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div>
+</div>
+<div class="product" id="soyali">
+  <img src="Resources/süt/soya/soya_kakao.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Kakaolu Süt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Soya Sütü</span></p><br>
+  <button onclick="ekranAc_kakaosoya()">Satın Al</button>
+</div>
+<div id="ekran_kakaosoya" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <h1>Kakaolu Soya Sütü Nedir?</h1><br>
+      <p><strong>Kakaolu soya sütü</strong>, vegan ve laktoz intoleransı olan bireyler için özel olarak formüle edilmiş bir içecektir. İçeriğinde soya ve kakao bulunur ve sağlıklı bir alternatif olarak tercih edilir.</p><br>
+      
+      <h2>İçeriği ve Faydaları</h2><br>
+      <ul><br>
+        <li><strong>Soya ve Kakao İçeriği:</strong> İçeriğindeki soya ve kakao, protein, kalsiyum, ve antioksidanlar bakımından zengindir.</li><br>
+        <li><strong>Laktoz İçermez:</strong> Laktoz intoleransı olan bireyler için ideal bir alternatiftir.</li><br>
+        <li><strong>Vitamin ve Mineral İçeriği:</strong> Kakaolu soya sütü, genellikle B12 vitaminiyle zenginleştirilir ve bu da enerji metabolizmasını destekler.</li><br>
+        <li><strong>Kolesterol İçermez:</strong> Hayvansal sütlerde bulunan kolesterol içermez, bu da kalp sağlığı açısından olumlu bir özelliktir.</li><br>
+      </ul><br>
+      
+      <h2>Kakaolu Soya Sütünü Evde Nasıl Yapabilirsiniz?</h2><br>
+      <p><strong>Malzemeler:</strong></p><br>
+      <ul><br>
+        <li>1 su bardağı soya fasulyesi</li><br>
+        <li>3 su bardağı su</li><br>
+        <li>2 yemek kaşığı kakao tozu</li><br>
+        <li>1 yemek kaşığı tatlandırıcı (isteğe bağlı, bal veya agave şurubu kullanılabilir)</li><br>
+        <li>Blender veya mikser</li><br>
+      </ul><br>
+      <p><strong>Yapılışı:</strong></p><br>
+      <ol><br>
+        <li>Soya fasulyesini bir gece boyunca suda bekletin.</li><br>
+        <li>Sabahleyin soya fasulyesini süzün ve temiz suyla durulayın.</li><br>
+        <li>Blender veya mikserde soya fasulyesini suyla birlikte iyice çekin.</li><br>
+        <li>Süzgeç veya tülbent yardımıyla soya ezmesini süzün ve sıvı soya sütü elde edin.</li><br>
+        <li>Elde ettiğiniz soya sütünü bir tencereye alın, kakao tozu ekleyin ve iyice karıştırın.</li><br>
+        <li>Tatlandırıcı ekleyerek isteğe göre tatlandırın.</li><br>
+        <li>Kaynamaya başlayana kadar karıştırarak ısıtın.</li><br>
+        <li>İstenilen kıvama gelince ocaktan alın ve soğumaya bırakın.</li><br>
+        <li>Soğuduktan sonra bir şişeye veya kavanoza aktarın ve buzdolabında saklayın.</li><br>
+      </ol><br>
+      
+      <h2>Faydaları</h2><br>
+      <ul><br>
+        <li><strong>Besleyici ve Lezzetli Bir İçecek:</strong> İçeriğindeki besin öğeleriyle besleyici bir içecek olup, aynı zamanda lezzetli bir kakaolu içecek alternatifidir.</li><br>
+        <li><strong>Vegan ve Laktoz İntoleransı İçin Uygun:</strong> Vegan bireyler ve laktoz intoleransı olanlar için ideal bir içecektir.</li><br>
+        <li><strong>Kalp Sağlığını Destekler:</strong> Kolesterol içermez ve bu da kalp sağlığını olumlu yönde etkiler.</li><br>
+      </ul><br>
+      
+      <h2>Dikkat Edilmesi Gerekenler</h2><br>
+      <ul><br>
+        <li><strong>Alerji Durumu:</strong> Soya alerjisi olan bireylerin tüketmeden önce doktora danışmaları önemlidir.</li><br>
+        <li><strong>Porsiyon Kontrolü:</strong> Tüketim miktarı bireyin beslenme ihtiyacına göre ayarlanmalıdır.</li><br>
+      </ul><br>
+      
+      <h1>Sonuç</h1><br>
+      <p>Kakaolu soya sütü, sağlıklı ve besleyici bir içecek alternatifidir. Evde kolayca hazırlanabilir veya marketlerden temin edilebilir. Sağlıklı bir şekilde tüketildiğinde günlük beslenme programına eklenebilir.</p><br>
+      
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_kakaosoya()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div>
+</div>
+<div class="product" id="soyali">
+  <img src="Resources/süt/soya/soya_orginal.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Doğal Süt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Soya Sütü</span></p><br>
+  <button onclick="ekranAc_dogalsoya()">Satın Al</button>
+</div>
+<div id="ekran_dogalsoya" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <h1>Doğal Sütlü Soya Sütü Nedir?</h1><br>
+      <p><strong>Doğal sütlü soya sütü</strong>, soya fasulyesinden elde edilen ve süt kıvamına getirilen bir içecektir. İçeriğinde sadece soya fasulyesi ve su bulunur, ekstra tatlandırıcılar veya katkı maddeleri içermez.</p><br>
+      
+      <h2>İçeriği ve Faydaları</h2><br>
+      <ul><br>
+        <li><strong>Protein ve Kalsiyum Kaynağı:</strong> Soya fasulyesi, protein ve kalsiyum açısından zengindir ve sağlıklı bir alternatif sunar.</li><br>
+        <li><strong>B12 Vitamini İçerebilir:</strong> Bazı markalar, B12 vitamini ile zenginleştirilmiş doğal sütlü soya sütü sunar, bu da enerji metabolizmasını destekler.</li><br>
+        <li><strong>Laktoz İçermez:</strong> Laktoz intoleransı olan bireyler için ideal bir alternatiftir.</li><br>
+      </ul><br>
+      
+      <h2>Doğal Sütlü Soya Sütünü Evde Nasıl Yapabilirsiniz?</h2><br>
+      <p><strong>Malzemeler:</strong></p><br>
+      <ul><br>
+        <li>1 su bardağı kuru soya fasulyesi</li><br>
+        <li>4 su bardağı su</li><br>
+        <li>Tülbent veya süzgeç</li><br>
+        <li>Büyük bir kap</li><br>
+      </ul><br>
+      <p><strong>Yapılışı:</strong></p><br>
+      <ol><br>
+        <li>Soya fasulyesini iyice durulayın ve bir gece boyunca suda bekletin.</li><br>
+        <li>Sabahleyin, soya fasulyelerini süzgeç veya tülbent yardımıyla süzün.</li><br>
+        <li>Bir blender veya mutfak robotu kullanarak süzülmüş soya fasulyelerini suyla birlikte iyice çekin.</li><br>
+        <li>Elde ettiğiniz karışımı büyük bir kaba alın ve bir süzgeç yardımıyla süzün. Süzme işlemi tamamlanana kadar karışımı sıkın.</li><br>
+        <li>Elde ettiğiniz sütlü kıvamı bir kaba aktarın ve buzdolabında saklayın. Tüketmeden önce iyice çalkalayın.</li><br>
+      </ol><br>
+      
+      <h2>Faydaları</h2><br>
+      <ul><br>
+        <li><strong>Doğal ve Katkısız:</strong> İçeriğinde sadece soya fasulyesi ve su bulunur, ekstra katkı maddeleri içermez.</li><br>
+        <li><strong>Laktoz İntoleransı İçin Uygun:</strong> Laktoz intoleransı olan bireyler için mükemmel bir alternatiftir.</li><br>
+        <li><strong>Besleyici ve Sağlıklı:</strong> Protein ve kalsiyum açısından zengin olup sağlıklı bir içecek seçeneğidir.</li><br>
+      </ul><br>
+      
+      <h2>Dikkat Edilmesi Gerekenler</h2><br>
+      <ul><br>
+        <li><strong>Alerji Durumu:</strong> Soya alerjisi olan bireylerin tüketmeden önce doktora danışmaları önemlidir.</li><br>
+        <li><strong>Taze Tüketim:</strong> Ev yapımı doğal sütlü soya sütünü birkaç gün içinde tüketmeye özen gösterin.</li><br>
+      </ul><br>
+      
+      <h1>Sonuç</h1><br>
+      <p>Doğal sütlü soya sütü, katkı maddeleri içermeyen sağlıklı bir içecek seçeneğidir. Evde kolayca hazırlanabilir ve günlük beslenme programınızda süt alternatifi olarak kullanılabilir.</p><br>
+      
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_dogalsoya()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div>
+</div>
+
+<div class="product" id="soyali">
+  <img src="Resources/süt/soya/soya_sekersiz.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Şekersiz Süt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Soya Sütü</span></p><br>
+  <button onclick="ekranAc_sekersizsoya()">Satın Al</button>
+</div>
+<div id="ekran_sekersizsoya" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <h1>Şekersiz Soya Sütü Nedir?</h1><br>
+      <p><strong>Şekersiz soya sütü</strong>, şeker ilavesi olmadan hazırlanan sağlıklı bir içecektir. Özellikle şeker tüketimini sınırlamak isteyenler veya diyabet hastaları için uygun bir alternatiftir.</p><br>
+      
+      <h2>İçeriği ve Faydaları</h2><br>
+      <ul><br>
+        <li><strong>Protein ve Vitamin İçeriği:</strong> Soya, yüksek kaliteli protein ve birçok vitamin ve mineral kaynağıdır.</li><br>
+        <li><strong>Laktoz İçermez:</strong> Laktoz intoleransı olanlar için ideal bir alternatiftir.</li><br>
+        <li><strong>Düşük Şeker İçeriği:</strong> Şekersiz olarak hazırlandığı için düşük şeker içeriğine sahiptir.</li><br>
+        <li><strong>Diyabet Kontrolü:</strong> Şeker ilavesi olmadığından kan şekerini kontrol altında tutmaya yardımcı olabilir.</li><br>
+      </ul><br>
+      
+      <h2>Şekersiz Soya Sütünü Evde Nasıl Yapabilirsiniz?</h2><br>
+      <p><strong>Malzemeler:</strong></p><br>
+      <ul><br>
+        <li>1 su bardağı soya fasulyesi</li><br>
+        <li>3 su bardağı su</li><br>
+        <li>Tatlandırıcı (isteğe bağlı, bal veya agave şurubu kullanılmayacak)</li><br>
+        <li>Blender veya mikser</li><br>
+      </ul><br>
+      <p><strong>Yapılışı:</strong></p><br>
+      <ol><br>
+        <li>Soya fasulyesini bir gece boyunca suda bekletin.</li><br>
+        <li>Sabahleyin soya fasulyesini suyla birlikte blenderda iyice çekin.</li><br>
+        <li>Süzgeç veya tülbent yardımıyla soya ezmesini süzün ve sıvı soya sütünü elde edin.</li><br>
+        <li>Soya sütünü bir tencereye alın ve kaynatın.</li><br>
+        <li>Kaynamaya başladıktan sonra ocağı kapatın ve soya sütünü oda sıcaklığına gelene kadar bekletin.</li><br>
+        <li>İsteğe göre tatlandırıcı ekleyin, ancak şekersiz olarak tercih ediyorsanız tatlandırıcı kullanmayın.</li><br>
+        <li>Soğuyan soya sütünü bir şişeye veya kavanoza aktarın ve buzdolabında saklayın.</li><br>
+      </ol><br>
+      
+      <h2>Faydaları</h2><br>
+      <ul><br>
+        <li><strong>Diyet ve Diyabet Kontrolü:</strong> Şekersiz olduğu için düşük kalorilidir ve kan şekerini kontrol altında tutmaya yardımcı olabilir.</li><br>
+        <li><strong>Laktoz İntoleransı İçin Uygun:</strong> Laktoz intoleransı olanlar için ideal bir alternatiftir.</li><br>
+        <li><strong>Besleyici ve Sağlıklı:</strong> Yüksek protein ve vitamin içeriğiyle besleyici bir içecektir.</li><br>
+      </ul><br>
+      
+      <h2>Dikkat Edilmesi Gerekenler</h2><br>
+      <ul><br>
+        <li><strong>Alerji Durumu:</strong> Soya alerjisi olan bireylerin tüketmeden önce doktora danışmaları önemlidir.</li><br>
+        <li><strong>Porsiyon Kontrolü:</strong> Tüketim miktarı bireyin beslenme ihtiyacına göre ayarlanmalıdır.</li><br>
+      </ul><br>
+      
+      <h1>Sonuç</h1><br>
+      <p>Şekersiz soya sütü, düşük şeker içeriği ve yüksek besleyici değeri ile sağlıklı bir içecektir. Evde kolayca hazırlanabilir ve günlük beslenme programına sağlıklı bir alternatif olarak eklenir.</p><br>
+      
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_sekersizsoya()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div>
+</div>
+<div class="product" id="soyali">
+  <img src="Resources/süt/soya/soya_vitamin.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Vitaminli Süt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Soya Sütü</span></p><br>
+  <button onclick="ekranAc_vitaminsoya()">Satın Al</button>
+</div>
+<div id="ekran_vitaminsoya" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <h1>Vitaminli Soya Sütü Nedir?</h1><br>
+<p><strong>Vitaminli soya sütü</strong>, özellikle vitamin ve mineral takviyesi yapılarak zenginleştirilmiş bir içecektir. İçeriğindeki ekstra vitaminler ve mineraller sayesinde besleyici bir alternatif sunar.</p><br>
+      
+<h2>İçeriği ve Faydaları</h2><br>
+<ul>
+  <li><strong>Vitamin ve Mineral Takviyesi:</strong> İçeriğinde ekstra olarak A, D, B12 gibi vitaminler ve kalsiyum gibi mineraller bulunur, bu da besin değerini artırır.</li><br>
+  <li><strong>Protein İçeriği:</strong> Soya sütü, protein bakımından zengindir ve vücut için gerekli olan amino asitlerin sağlanmasına yardımcı olur.</li><br>
+  <li><strong>Kalp Sağlığı İçin Olumlu Etkiler:</strong> Kolesterol içermez ve doymamış yağ asitleri bakımından zengindir, bu da kalp sağlığını destekler.</li><br>
+  <li><strong>Vegan ve Laktoz İntoleransı İçin Uygun:</strong> Hayvansal süt ürünlerine alternatif olarak kullanılabilir ve laktoz intoleransı olanlar için ideal bir içecektir.</li><br>
+</ul><br>
+      
+<h2>Vitaminli Soya Sütünü Evde Nasıl Yapabilirsiniz?</h2><br>
+<p><strong>Malzemeler:</strong></p><br>
+<ul>
+  <li>1 su bardağı soyakrem veya soya fasulyesi</li><br>
+  <li>3 su bardağı su</li><br>
+  <li>Vitamin takviyesi (A, D, B12 gibi vitaminler)</li><br>
+  <li>Kalsiyum takviyesi</li><br>
+  <li>Blender veya mikser</li><br>
+</ul><br>
+<p><strong>Yapılışı:</strong></p><br>
+<ol>
+  <li>Soyakrem veya soya fasulyesini su ile birlikte blenderda iyice çekin.</li><br>
+  <li>Eğer kullanıyorsanız, vitamin ve kalsiyum takviyelerini ekleyin ve tekrar karıştırın.</li><br>
+  <li>Karışımı bir tencereye alın ve kaynamaya başlayana kadar karıştırarak ısıtın.</li><br>
+  <li>Kaynamaya başladıktan sonra ocağı kapatın ve soğumaya bırakın.</li><br>
+  <li>Soğuduktan sonra bir şişeye veya kavanoza aktarın ve buzdolabında saklayın.</li><br>
+</ol><br>
+      
+<h2>Faydaları</h2><br>
+<ul>
+  <li><strong>Besleyici ve Sağlıklı Bir İçecek:</strong> Ekstra vitamin ve mineral takviyeleri ile besleyici bir içecektir.</li><br>
+  <li><strong>Vitamin ve Mineral İhtiyacını Karşılar:</strong> Özellikle A, D, B12 gibi vitaminlerin yanı sıra kalsiyum gibi mineralleri içerir, bu da vücut için önemlidir.</li><br>
+  <li><strong>Yüksek Protein İçeriği:</strong> Vücut için gerekli olan protein ihtiyacını karşılar.</li><br>
+</ul><br>
+      
+<h2>Dikkat Edilmesi Gerekenler</h2><br>
+<ul>
+  <li><strong>Aşırı Tüketimden Kaçının:</strong> Herhangi bir ek takviye içecekte olduğu gibi, aşırı tüketimden kaçınılmalıdır.</li><br>
+  <li><strong>Alerji Durumu:</strong> Soya alerjisi olan bireylerin tüketmeden önce doktora danışmaları önemlidir.</li><br>
+</ul><br>
+      
+<h1>Sonuç</h1><br>
+<p>Vitaminli soya sütü, ekstra vitamin ve mineral takviyeleri ile besleyici bir içecek seçeneğidir. Evde kolayca hazırlanabilir veya marketlerden temin edilebilir. Dikkatli bir şekilde tüketildiğinde sağlıklı bir içecek olarak günlük beslenme programına eklenebilir.</p><br>
+
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_vitaminsoya()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div>
+</div>
+
+<div class="product" id="soyali">
+  <img src="Resources/süt/soya/soya_vanilyalı.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Vanilyalı Süt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Soya Sütü</span></p><br>
+  <button onclick="ekranAc_vanilyasoya()">Satın Al</button>
+</div>
+<div id="ekran_vanilyasoya" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <h1>Vanilyalı Soya Sütü Nedir?</h1><br>
+      <p><strong>Vanilyalı soya sütü</strong>, vanilya özütü ile tatlandırılmış ve aroma verilmiş bir içecektir. Soya sütüne vanilya eklenerek lezzetlendirilir ve farklı bir tat profili sunar.</p><br>
+            
+      <h2>İçeriği ve Faydaları</h2><br>
+      <ul>
+        <li><strong>Vanilya Aroması:</strong> Vanilya özütü ile tatlandırılmıştır, bu da içeceğe hoş bir aroma ve tat katar.</li><br>
+        <li><strong>Besleyici İçerik:</strong> Soya sütü, protein, kalsiyum ve diğer besin öğeleri bakımından zengindir ve vücudun ihtiyaç duyduğu besinleri sağlar.</li><br>
+        <li><strong>Vegan ve Laktoz İntoleransı İçin Uygun:</strong> Veganlar ve laktoz intoleransı olanlar için ideal bir içecektir.</li><br>
+      </ul><br>
+            
+      <h2>Vanilyalı Soya Sütünü Evde Nasıl Yapabilirsiniz?</h2><br>
+      <p><strong>Malzemeler:</strong></p><br>
+      <ul>
+        <li>1 su bardağı soyakrem veya soya fasulyesi</li><br>
+        <li>3 su bardağı su</li><br>
+        <li>1 tatlı kaşığı vanilya özütü</li><br>
+        <li>Tatlandırıcı (isteğe bağlı)</li><br>
+        <li>Blender veya mikser</li><br>
+      </ul><br>
+      <p><strong>Yapılışı:</strong></p><br>
+      <ol>
+        <li>Soyakrem veya soya fasulyesini su ile birlikte blenderda iyice çekin.</li><br>
+        <li>Vanilya özütünü ekleyin ve tekrar karıştırın.</li><br>
+        <li>Tatlandırıcı ekleyerek isteğe göre tatlandırın.</li><br>
+        <li>Karışımı bir tencereye alın ve kaynamaya başlayana kadar karıştırarak ısıtın.</li><br>
+        <li>Kaynamaya başladıktan sonra ocağı kapatın ve soğumaya bırakın.</li><br>
+        <li>Soğuduktan sonra bir şişeye veya kavanoza aktarın ve buzdolabında saklayın.</li><br>
+      </ol><br>
+            
+      <h2>Faydaları</h2><br>
+      <ul>
+        <li><strong>Lezzetli ve Hoş Aroma:</strong> Vanilya özütü ile tatlandırılmış ve aromalandırılmıştır, bu da içeceğin lezzetini artırır.</li><br>
+        <li><strong>Besleyici ve Sağlıklı Bir İçecek:</strong> Protein ve diğer besin öğeleri bakımından zengindir.</li><br>
+        <li><strong>Vitamin ve Mineral İçeriği:</strong> Kalsiyum ve diğer vitamin ve mineralleri içerir, bu da vücut için önemlidir.</li><br>
+      </ul><br>
+            
+      <h2>Dikkat Edilmesi Gerekenler</h2><br>
+      <ul>
+        <li><strong>Alerji Durumu:</strong> Soya alerjisi olan bireylerin tüketmeden önce doktora danışmaları önemlidir.</li><br>
+        <li><strong>Porsiyon Kontrolü:</strong> Tüketim miktarı bireyin beslenme ihtiyacına göre ayarlanmalıdır.</li><br>
+      </ul><br>
+            
+      <h1>Sonuç</h1><br>
+      <p>Vanilyalı soya sütü, vanilya özütü ile tatlandırılmış ve aromalandırılmış sağlıklı bir içecektir. Evde kolayca hazırlanabilir veya marketlerden temin edilebilir. Dikkatli bir şekilde tüketildiğinde sağlıklı bir içecek olarak günlük beslenme programına eklenebilir.</p><br>
+        </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_vanilyasoya()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div>
+</div>
+
+<div class="product" id="laktoz">
+  <img src="Resources/süt/laktoz/laktosuz_badem.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Badem Sütü</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Laktosuz Süt</span></p><br>
+  <button onclick="ekranAc_laktozbadem()">Satın Al</button>
+</div>
+<div id="ekran_laktozbadem" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <h1>Laktosuz Badem Sütü Nedir?</h1><br>
+      <p><strong>Laktosuz badem sütü</strong>, badem ve suyun karışımından elde edilen ve laktoz içermeyen bir içecektir. Laktoz intoleransı olanlar için ideal bir alternatif sunar.</p><br>
+            
+      <h2>İçeriği ve Faydaları</h2><br>
+      <ul>
+        <li><strong>Laktosuz:</strong> Laktos içermez, bu nedenle laktoz intoleransı olanlar için uygun bir içecektir.</li><br>
+        <li><strong>Besleyici:</strong> Badem sütü, bademlerin doğal yağları, proteinleri ve diğer besin öğeleriyle besleyicidir.</li><br>
+        <li><strong>Kalp Sağlığı İçin Olumlu Etkiler:</strong> Kolesterol içermez ve doymamış yağ asitleri bakımından zengindir, bu da kalp sağlığını destekler.</li><br>
+      </ul><br>
+            
+      <h2>Laktosuz Badem Sütünü Evde Nasıl Yapabilirsiniz?</h2><br>
+      <p><strong>Malzemeler:</strong></p><br>
+      <ul>
+        <li>1 su bardağı badem</li><br>
+        <li>3 su bardağı su</li><br>
+        <li>Tatlandırıcı (isteğe bağlı)</li><br>
+        <li>Blender veya mikser</li><br>
+      </ul><br>
+      <p><strong>Yapılışı:</strong></p><br>
+      <ol>
+        <li>Bademleri bir gece boyunca suda bekletin.</li><br>
+        <li>Sabahleyin bademleri süzün.</li><br>
+        <li>Süzülmüş bademleri blendera alın ve su ile birlikte iyice çekin.</li><br>
+        <li>Tatlandırıcı ekleyerek isteğe göre tatlandırın.</li><br>
+        <li>Karışımı bir tencereye alın ve kaynamaya başlayana kadar karıştırarak ısıtın.</li><br>
+        <li>Kaynamaya başladıktan sonra ocağı kapatın ve soğumaya bırakın.</li><br>
+        <li>Soğuduktan sonra bir süzgeç veya tülbent yardımıyla süzün.</li><br>
+        <li>Süzülen sütü bir şişeye veya kavanoza aktarın ve buzdolabında saklayın.</li><br>
+      </ol><br>
+            
+      <h2>Faydaları</h2><br>
+      <ul>
+        <li><strong>Laktoz İntoleransı İçin Uygun:</strong> Laktosuz olduğu için laktoz intoleransı olanlar için ideal bir içecektir.</li><br>
+        <li><strong>Besleyici ve Sağlıklı:</strong> Badem sütü, bademlerin besleyici özelliklerini taşır ve vücudun ihtiyaç duyduğu besinleri sağlar.</li><br>
+        <li><strong>Kolesterol İçermez:</strong> Kolesterol içermez ve kalp sağlığı için olumlu etkiler sunar.</li><br>
+      </ul><br>
+            
+      <h2>Dikkat Edilmesi Gerekenler</h2><br>
+      <ul>
+        <li><strong>Alerji Durumu:</strong> Badem alerjisi olan bireylerin tüketmeden önce doktora danışmaları önemlidir.</li><br>
+        <li><strong>Porsiyon Kontrolü:</strong> Tüketim miktarı bireyin beslenme ihtiyacına göre ayarlanmalıdır.</li><br>
+      </ul><br>
+            
+      <h1>Sonuç</h1><br>
+      <p>Laktosuz badem sütü, bademlerden elde edilen ve laktoz içermeyen sağlıklı bir içecektir. Evde kolayca hazırlanabilir veya marketlerden temin edilebilir. Dikkatli bir şekilde tüketildiğinde günlük beslenme programına eklenerek sağlıklı bir içecek alternatifi olabilir.</p><br>
+        </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_laktozbadem()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div></div>
+<div class="product" id="laktoz">
+  <img src="Resources/süt/laktoz/laktosuz_bezelye.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Bezelye Sütü</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Laktosuz Süt</span></p><br>
+  <button onclick="ekranAc_laktozbezelye()">Satın Al</button>
+</div>
+<div id="ekran_laktozbezelye" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <h1>Bezelyeli Laktosuz Süt Nedir?</h1><br>
+      <p><strong>Bezelyeli laktosuz süt</strong>, bezelye ve suyun karışımından elde edilen, laktoz içermeyen bir içecektir. Laktoz intoleransı olanlar için ideal bir alternatif sunar ve aynı zamanda bezelyenin besleyici özelliklerini taşır.</p><br>
+      
+      <h2>İçeriği ve Faydaları</h2><br>
+      <ul>
+        <li><strong>Laktosuz:</strong> Laktoz içermez, bu nedenle laktoz intoleransı olanlar için uygundur.</li><br>
+        <li><strong>Besleyici:</strong> Bezelye, protein, lif ve çeşitli vitamin ve mineraller açısından zengindir, bu da içeceğin besleyici özelliklerini artırır.</li><br>
+        <li><strong>Kalp Sağlığı İçin Olumlu Etkiler:</strong> Kolesterol içermez ve doymamış yağ asitleri bakımından zengindir, bu da kalp sağlığını destekler.</li><br>
+      </ul><br>
+      
+      <h2>Bezelyeli Laktosuz Sütü Evde Nasıl Yapabilirsiniz?</h2><br>
+      <p><strong>Malzemeler:</strong></p><br>
+      <ul>
+        <li>1 su bardağı bezelye</li><br>
+        <li>3 su bardağı su</li><br>
+        <li>Tatlandırıcı (isteğe bağlı)</li><br>
+        <li>Blender veya mikser</li><br>
+      </ul><br>
+      <p><strong>Yapılışı:</strong></p><br>
+      <ol>
+        <li>Bezelyeleri su ile birlikte bir tencereye alın ve yumuşayana kadar pişirin.</li><br>
+        <li>Pişmiş bezelyeleri süzgeçten geçirerek püre haline getirin.</li><br>
+        <li>Püre haline getirilmiş bezelyeleri blendera alın ve su ile birlikte iyice çekin.</li><br>
+        <li>Tatlandırıcı ekleyerek isteğe göre tatlandırın.</li><br>
+        <li>Karışımı bir tencereye alın ve kaynamaya başlayana kadar karıştırarak ısıtın.</li><br>
+        <li>Kaynamaya başladıktan sonra ocağı kapatın ve soğumaya bırakın.</li><br>
+        <li>Soğuduktan sonra bir süzgeç veya tülbent yardımıyla süzün.</li><br>
+        <li>Süzülen sütü bir şişeye veya kavanoza aktarın ve buzdolabında saklayın.</li><br>
+      </ol><br>
+      
+      <h2>Faydaları</h2><br>
+      <ul>
+        <li><strong>Laktoz İntoleransı İçin Uygun:</strong> Laktoz içermez, bu nedenle laktoz intoleransı olanlar için uygun bir içecektir.</li><br>
+        <li><strong>Besleyici ve Sağlıklı:</strong> Bezelye, içeriğindeki protein, lif ve vitamin ve minerallerle besleyicidir.</li><br>
+        <li><strong>Kolesterol İçermez:</strong> Kolesterol içermez ve kalp sağlığı için olumlu etkiler sunar.</li><br>
+      </ul><br>
+      
+      <h2>Dikkat Edilmesi Gerekenler</h2><br>
+      <ul>
+        <li><strong>Alerji Durumu:</strong> Bezelye alerjisi olan bireylerin tüketmeden önce doktora danışmaları önemlidir.</li><br>
+        <li><strong>Porsiyon Kontrolü:</strong> Tüketim miktarı bireyin beslenme ihtiyacına göre ayarlanmalıdır.</li><br>
+      </ul><br>
+      
+      <h1>Sonuç</h1><br>
+      <p>Bezelyeli laktosuz süt, bezelyeden elde edilen ve laktoz içermeyen bir içecektir. Evde kolayca hazırlanabilir veya marketlerden temin edilebilir. Dikkatli bir şekilde tüketildiğinde sağlıklı bir içecek olarak günlük beslenme programına eklenebilir.</p><br>
+</div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_laktozbezelye()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div></div>
+<div class="product" id="laktoz">
+  <img src="Resources/süt/laktoz/laktosuz_fındık.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Fındıklı Süt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Laktosuz Süt</span></p><br>
+  <button onclick="ekranAc_laktozfindik()">Satın Al</button>
+</div>
+<div id="ekran_laktozfindik" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <h1>Fındıklı Laktosuz Süt Nedir?</h1><br>
+      <p><strong>Fındıklı laktosuz süt</strong>, fındık ve suyun karışımından elde edilen, laktoz içermeyen bir içecektir. Laktoz intoleransı olanlar için ideal bir alternatif sunar ve fındık aromasıyla lezzetlendirilmiştir.</p><br>
+      
+      <h2>İçeriği ve Faydaları</h2><br>
+      <ul>
+        <li><strong>Laktosuz:</strong> Laktoz içermez, bu nedenle laktoz intoleransı olanlar için uygun bir içecektir.</li><br>
+        <li><strong>Besleyici:</strong> Fındıkların doğal yağları ve proteinleriyle besleyicidir, vücudun ihtiyaç duyduğu besinleri sağlar.</li><br>
+        <li><strong>Kalp Sağlığı İçin Olumlu Etkiler:</strong> Kolesterol içermez ve doymamış yağ asitleri bakımından zengindir, bu da kalp sağlığını destekler.</li><br>
+      </ul><br>
+      
+      <h2>Fındıklı Laktosuz Sütü Evde Nasıl Yapabilirsiniz?</h2><br>
+      <p><strong>Malzemeler:</strong></p><br>
+      <ul>
+        <li>1 su bardağı fındık</li><br>
+        <li>3 su bardağı su</li><br>
+        <li>Tatlandırıcı (isteğe bağlı)</li><br>
+        <li>Blender veya mikser</li><br>
+      </ul><br>
+      <p><strong>Yapılışı:</strong></p><br>
+      <ol>
+        <li>Fındıkları bir gece boyunca suda bekletin.</li><br>
+        <li>Sabahleyin fındıkları süzün.</li><br>
+        <li>Süzülmüş fındıkları blendera alın ve su ile birlikte iyice çekin.</li><br>
+        <li>Tatlandırıcı ekleyerek isteğe göre tatlandırın.</li><br>
+        <li>Karışımı bir tencereye alın ve kaynamaya başlayana kadar karıştırarak ısıtın.</li><br>
+        <li>Kaynamaya başladıktan sonra ocağı kapatın ve soğumaya bırakın.</li><br>
+        <li>Soğuduktan sonra bir süzgeç veya tülbent yardımıyla süzün.</li><br>
+        <li>Süzülen sütü bir şişeye veya kavanoza aktarın ve buzdolabında saklayın.</li><br>
+      </ol><br>
+      
+      <h2>Faydaları</h2><br>
+      <ul>
+        <li><strong>Laktoz İntoleransı İçin Uygun:</strong> Laktoz içermez, bu nedenle laktoz intoleransı olanlar için ideal bir içecektir.</li><br>
+        <li><strong>Besleyici ve Sağlıklı:</strong> Fındıkların besleyici özelliklerini taşır ve vücudun ihtiyaç duyduğu besinleri sağlar.</li><br>
+        <li><strong>Kolesterol İçermez:</strong> Kolesterol içermez ve kalp sağlığı için olumlu etkiler sunar.</li><br>
+      </ul><br>
+      
+      <h2>Dikkat Edilmesi Gerekenler</h2><br>
+      <ul>
+        <li><strong>Alerji Durumu:</strong> Fındık alerjisi olan bireylerin tüketmeden önce doktora danışmaları önemlidir.</li><br>
+        <li><strong>Porsiyon Kontrolü:</strong> Tüketim miktarı bireyin beslenme ihtiyacına göre ayarlanmalıdır.</li><br>
+      </ul><br>
+      
+      <h1>Sonuç</h1><br>
+      <p>Fındıklı laktosuz süt, fındıkların besleyici özelliklerini taşır ve laktoz içermediği için laktoz intoleransı olanlar için uygun bir içecektir. Evde kolayca hazırlanabilir veya marketlerden temin edilebilir. Dikkatli bir şekilde tüketildiğinde günlük beslenme programına eklenerek sağlıklı bir içecek alternatifi olabilir.</p><br>
+</div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_laktozfindik()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div></div>
+<div class="product" id="laktoz">
+  <img src="Resources/süt/laktoz/laktosuz_hindistan.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Hindistan Cevizli Süt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Laktosuz Süt</span></p><br>
+  <button onclick="ekranAc_laktozhindistancevizi()">Satın Al</button>
+</div>
+<div id="ekran_laktozhindistancevizi" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <h1>Hindistan Cevizli Laktosuz Süt Nedir?</h1><br>
+      <p><strong>Hindistan cevizli laktosuz süt</strong>, hindistancevizi ve suyun karışımından elde edilen ve laktoz içermeyen bir içecektir. Hem lezzetli hem de sağlıklı bir alternatif sunar.</p><br>
+      
+      <h2>İçeriği ve Faydaları</h2><br>
+      <ul>
+        <li><strong>Laktosuz:</strong> Laktoz içermez, bu nedenle laktoz intoleransı olanlar için uygun bir içecektir.</li><br>
+        <li><strong>Besleyici:</strong> Hindistan cevizi, doğal yağları ve besin öğeleri bakımından zengindir, bu da içeceğin besleyici değerini artırır.</li><br>
+        <li><strong>Lezzetli ve Aromalı:</strong> Hindistan cevizi özü ile tatlandırılmıştır, bu da içeceğe hoş bir aroma ve tat katar.</li><br>
+      </ul><br>
+      
+      <h2>Hindistan Cevizli Laktosuz Sütü Evde Nasıl Yapabilirsiniz?</h2><br>
+      <p><strong>Malzemeler:</strong></p><br>
+      <ul>
+        <li>1 su bardağı hindistancevizi</li><br>
+        <li>3 su bardağı su</li><br>
+        <li>Blender veya mikser</li><br>
+      </ul><br>
+      <p><strong>Yapılışı:</strong></p><br>
+      <ol>
+        <li>Hindistan cevizini su ile birlikte blenderda iyice çekin.</li><br>
+        <li>Karışımı bir tencereye alın ve kaynamaya başlayana kadar karıştırarak ısıtın.</li><br>
+        <li>Kaynamaya başladıktan sonra ocağı kapatın ve soğumaya bırakın.</li><br>
+        <li>Soğuduktan sonra bir süzgeç veya tülbent yardımıyla süzün.</li><br>
+        <li>Süzülen sütü bir şişeye veya kavanoza aktarın ve buzdolabında saklayın.</li><br>
+      </ol><br>
+      
+      <h2>Faydaları</h2><br>
+      <ul>
+        <li><strong>Laktoz İntoleransı İçin Uygun:</strong> Laktoz içermediği için laktoz intoleransı olanlar için ideal bir içecektir.</li><br>
+        <li><strong>Besleyici ve Sağlıklı:</strong> Hindistan cevizi, besleyici özellikleriyle vücuda fayda sağlar.</li><br>
+        <li><strong>Lezzetli ve Aromalı:</strong> Hindistan cevizi özü ile tatlandırılmış ve aromalandırılmıştır, bu da içeceğin lezzetini artırır.</li><br>
+      </ul><br>
+      
+      <h2>Dikkat Edilmesi Gerekenler</h2><br>
+      <ul>
+        <li><strong>Alerji Durumu:</strong> Hindistan cevizi alerjisi olan bireylerin tüketmeden önce doktora danışmaları önemlidir.</li><br>
+        <li><strong>Porsiyon Kontrolü:</strong> Tüketim miktarı bireyin beslenme ihtiyacına göre ayarlanmalıdır.</li><br>
+      </ul><br>
+      
+      <h1>Sonuç</h1><br>
+      <p>Hindistan cevizli laktosuz süt, lezzetli ve besleyici bir içecektir. Evde kolayca hazırlanabilir veya marketlerden temin edilebilir. Dikkatli bir şekilde tüketildiğinde sağlıklı bir içecek alternatifi olarak günlük beslenme programına eklenebilir.</p><br>
+</div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_laktozhindistancevizi()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div></div>
+<div class="product" id="laktoz">
+  <img src="Resources/süt/laktoz/laktosuz_pirinc.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Pirinçli Süt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Laktosuz Süt</span></p><br>
+  <button onclick="ekranAc_laktozpirinc()">Satın Al</button>
+</div>
+<div id="ekran_laktozpirinc" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <h1>Vanilyalı Laktosuz Süt Nedir?</h1><br>
+      <p><strong>Vanilyalı laktosuz süt</strong>, vanilya özü ve suyun karışımından elde edilen, laktoz içermeyen bir içecektir. Hem lezzetli hem de besleyici bir alternatif sunar.</p><br>
+      
+      <h2>İçeriği ve Faydaları</h2><br>
+      <ul>
+        <li><strong>Laktosuz:</strong> Laktoz içermez, bu nedenle laktoz intoleransı olanlar için uygun bir içecektir.</li><br>
+        <li><strong>Besleyici:</strong> Vanilya özü, besleyici değerler sunar ve içeceğin lezzetini artırır.</li><br>
+        <li><strong>Lezzetli ve Aromalı:</strong> Vanilya özü ile tatlandırılmıştır, bu da içeceğe hoş bir aroma ve tat katar.</li><br>
+      </ul><br>
+      
+      <h2>Vanilyalı Laktosuz Sütü Evde Nasıl Yapabilirsiniz?</h2><br>
+      <p><strong>Malzemeler:</strong></p><br>
+      <ul>
+        <li>1 su bardağı vanilya özü</li><br>
+        <li>3 su bardağı su</li><br>
+        <li>Blender veya mikser</li><br>
+      </ul><br>
+      <p><strong>Yapılışı:</strong></p><br>
+      <ol>
+        <li>Vanilya özünü su ile birlikte blenderda iyice çekin.</li><br>
+        <li>Karışımı bir tencereye alın ve kaynamaya başlayana kadar karıştırarak ısıtın.</li><br>
+        <li>Kaynamaya başladıktan sonra ocağı kapatın ve soğumaya bırakın.</li><br>
+        <li>Soğuduktan sonra bir süzgeç veya tülbent yardımıyla süzün.</li><br>
+        <li>Süzülen sütü bir şişeye veya kavanoza aktarın ve buzdolabında saklayın.</li><br>
+      </ol><br>
+      
+      <h2>Faydaları</h2><br>
+      <ul>
+        <li><strong>Laktoz İntoleransı İçin Uygun:</strong> Laktoz içermediği için laktoz intoleransı olanlar için ideal bir içecektir.</li><br>
+        <li><strong>Besleyici ve Lezzetli:</strong> Vanilya özü, besleyici değerler sunar ve içeceğin lezzetini artırır.</li><br>
+        <li><strong>Aromalı ve Hoş Tat:</strong> Vanilya özü ile tatlandırılmıştır ve içeceğe hoş bir aroma ve tat katar.</li><br>
+      </ul><br>
+      
+      <h2>Dikkat Edilmesi Gerekenler</h2><br>
+      <ul>
+        <li><strong>Alerji Durumu:</strong> Vanilya alerjisi olan bireylerin tüketmeden önce doktora danışmaları önemlidir.</li><br>
+        <li><strong>Porsiyon Kontrolü:</strong> Tüketim miktarı bireyin beslenme ihtiyacına göre ayarlanmalıdır.</li><br>
+      </ul><br>
+      
+      <h1>Sonuç</h1><br>
+      <p>Vanilyalı laktosuz süt, lezzetli ve besleyici bir içecektir. Evde kolayca hazırlanabilir veya marketlerden temin edilebilir. Dikkatli bir şekilde tüketildiğinde sağlıklı bir içecek alternatifi olarak günlük beslenme programına eklenebilir.</p><br>
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_laktozpirinc()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div></div>
+  <div class="product" id="laktoz">
+    <img src="Resources/süt/laktoz/laktosuz_quinoa.jpg" alt="Ürün Resmi"><br>
+    <p class="yazi_ortala">Quinoa Süt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Laktosuz Süt</span></p><br>
+    <button onclick="ekranAc_laktozquiona()">Satın Al</button>
+  </div>
+  <div id="ekran_laktozquiona" class="modal">
+    <div class="modal-icerik">
+      
+      <div class="icerik-sol">
+        <h1>Quionalı Laktosuz Süt Nedir?</h1><br>
+        <p><strong>Quionalı laktosuz süt</strong>, quinoa ve suyun karışımından elde edilen, laktoz içermeyen bir içecektir. Besleyici ve sağlıklı bir alternatif sunar.</p><br>
+        
+        <h2>İçeriği ve Faydaları</h2><br>
+        <ul>
+          <li><strong>Laktosuz:</strong> Laktoz içermez, bu nedenle laktoz intoleransı olanlar için uygun bir içecektir.</li><br>
+          <li><strong>Besleyici:</strong> Quinoa, protein, lif ve çeşitli vitamin ve mineraller açısından zengindir, bu da içeceğin besleyici özelliklerini artırır.</li><br>
+          <li><strong>Gluten İçermez:</strong> Glutensiz bir tahıl olan quinoa, glutene hassasiyeti olanlar için uygun bir seçenektir.</li><br>
+        </ul><br>
+        
+        <h2>Quionalı Laktosuz Sütü Evde Nasıl Yapabilirsiniz?</h2><br>
+        <p><strong>Malzemeler:</strong></p><br>
+        <ul>
+          <li>1 su bardağı quinoa</li><br>
+          <li>3 su bardağı su</li><br>
+          <li>Blender veya mikser</li><br>
+        </ul><br>
+        <p><strong>Yapılışı:</strong></p><br>
+        <ol>
+          <li>Quinoa ve suyu bir tencereye alın.</li><br>
+          <li>Kaynamaya başlayana kadar pişirin ve ardından ocaktan alın.</li><br>
+          <li>Pişmiş quinoa ve suyu blenderda iyice çekin.</li><br>
+          <li>Elde edilen karışımı bir süzgeç veya tülbent yardımıyla süzün.</li><br>
+          <li>Süzülen sütü bir şişeye veya kavanoza aktarın ve buzdolabında saklayın.</li><br>
+        </ol><br>
+        
+        <h2>Faydaları</h2><br>
+        <ul>
+          <li><strong>Laktoz İntoleransı İçin Uygun:</strong> Laktoz içermediği için laktoz intoleransı olanlar için ideal bir içecektir.</li><br>
+          <li><strong>Besleyici ve Sağlıklı:</strong> Quinoa, besleyici özellikleriyle vücuda fayda sağlar.</li><br>
+          <li><strong>Gluten İçermez:</strong> Glutensiz bir tahıl olan quinoa, glutene hassasiyeti olanlar için uygun bir seçenektir.</li><br>
+        </ul><br>
+        
+        <h2>Dikkat Edilmesi Gerekenler</h2><br>
+        <ul>
+          <li><strong>Alerji Durumu:</strong> Quinoa alerjisi olan bireylerin tüketmeden önce doktora danışmaları önemlidir.</li><br>
+          <li><strong>Porsiyon Kontrolü:</strong> Tüketim miktarı bireyin beslenme ihtiyacına göre ayarlanmalıdır.</li><br>
+        </ul><br>
+        
+        <h1>Sonuç</h1><br>
+        <p>Quionalı laktosuz süt, besleyici ve sağlıklı bir içecektir. Evde kolayca hazırlanabilir veya marketlerden temin edilebilir. Dikkatli bir şekilde tüketildiğinde günlük beslenme programına eklenerek sağlıklı bir içecek alternatifi olabilir.</p><br>
+        </div>
+      <div class="icerik-sag">
+        <span class="kapat" onclick="ekranKapat_laktozquiona()">&times;</span>
+        <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+      </div>
+    </div></div>
+
+<div class="product" id="laktoz">
+  <img src="Resources/süt/laktoz/laktosuz_soya.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Soya Sütü</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Laktosuz Süt</span></p><br>
+  <button onclick="ekranAc_laktozsoya()">Satın Al</button>
+</div>
+<div id="ekran_laktozsoya" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <h1>Laktosuz Soya Sütü Nedir?</h1><br>
+      <p><strong>Laktosuz soya sütü</strong>, soya fasulyesi ve suyun karışımından elde edilen, laktoz içermeyen bir içecektir. Laktoz intoleransı olanlar için ideal bir alternatif sunar ve sağlıklı bir seçenektir.</p><br>
+      
+      <h2>İçeriği ve Faydaları</h2><br>
+      <ul>
+        <li><strong>Laktosuz:</strong> Laktoz içermez, bu nedenle laktoz intoleransı olanlar için uygundur.</li><br>
+        <li><strong>Besleyici:</strong> Soya fasulyesi, protein, lif ve çeşitli vitamin ve mineraller açısından zengindir, bu da içeceğin besleyici özelliklerini artırır.</li><br>
+        <li><strong>Vegan ve Bitkisel:</strong> Hayvansal ürün içermez, vegan beslenmeyi tercih edenler için uygun bir alternatiftir.</li><br>
+      </ul><br>
+      
+      <h2>Laktosuz Soya Sütünü Evde Nasıl Yapabilirsiniz?</h2><br>
+      <p><strong>Malzemeler:</strong></p><br>
+      <ul>
+        <li>1 su bardağı soyadan elde edilmiş soya fasulyesi</li><br>
+        <li>3 su bardağı su</li><br>
+        <li>Tatlandırıcı (isteğe bağlı)</li><br>
+        <li>Blender veya mikser</li><br>
+      </ul><br>
+      <p><strong>Yapılışı:</strong></p><br>
+      <ol>
+        <li>Soya fasulyesini bir gece boyunca suda bekletin.</li><br>
+        <li>Sabahleyin soya fasulyesini süzün.</li><br>
+        <li>Süzülmüş soya fasulyesini blendera alın ve su ile birlikte iyice çekin.</li><br>
+        <li>Tatlandırıcı ekleyerek isteğe göre tatlandırın.</li><br>
+        <li>Karışımı bir tencereye alın ve kaynamaya başlayana kadar karıştırarak ısıtın.</li><br>
+        <li>Kaynamaya başladıktan sonra ocağı kapatın ve soğumaya bırakın.</li><br>
+        <li>Soğuduktan sonra bir süzgeç veya tülbent yardımıyla süzün.</li><br>
+        <li>Süzülen sütü bir şişeye veya kavanoza aktarın ve buzdolabında saklayın.</li><br>
+      </ol><br>
+      
+      <h2>Faydaları</h2><br>
+      <ul>
+        <li><strong>Laktoz İntoleransı İçin Uygun:</strong> Laktoz içermediği için laktoz intoleransı olanlar için ideal bir içecektir.</li><br>
+        <li><strong>Besleyici ve Sağlıklı:</strong> Soya fasulyesi, içeriğindeki protein, lif ve vitamin ve minerallerle besleyicidir.</li><br>
+        <li><strong>Vegan ve Bitkisel:</strong> Hayvansal ürün içermez, vegan beslenmeyi tercih edenler için uygun bir alternatiftir.</li><br>
+      </ul><br>
+      
+      <h2>Dikkat Edilmesi Gerekenler</h2><br>
+      <ul>
+        <li><strong>Alerji Durumu:</strong> Soya alerjisi olan bireylerin tüketmeden önce doktora danışmaları önemlidir.</li><br>
+        <li><strong>Porsiyon Kontrolü:</strong> Tüketim miktarı bireyin beslenme ihtiyacına göre ayarlanmalıdır.</li><br>
+      </ul><br>
+      
+      <h1>Sonuç</h1><br>
+      <p>Laktosuz soya sütü, sağlıklı ve besleyici bir içecektir. Evde kolayca hazırlanabilir veya marketlerden temin edilebilir. Dikkatli bir şekilde tüketildiğinde günlük beslenme programına eklenerek sağlıklı bir içecek alternatifi olabilir.</p><br>
+          </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_laktozsoya()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div></div>
+
+<div class="product" id="laktoz">
+  <img src="Resources/süt/laktoz/laktosuz_yulaf.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Yulaf Sütü</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Laktosuz Süt</span></p><br>
+  <button onclick="ekranAc_laktozyulaf()">Satın Al</button>
+</div>
+<div id="ekran_laktozyulaf" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <h1>Laktosuz Yulaf Sütü Nedir?</h1><br>
+      <p><strong>Laktosuz yulaf sütü</strong>, yulaf ve suyun karışımından elde edilen, laktoz içermeyen bir içecektir. Laktoz intoleransı olanlar için ideal bir alternatif sunar ve sağlıklı bir seçenektir.</p><br>
+      
+      <h2>İçeriği ve Faydaları</h2><br>
+      <ul>
+        <li><strong>Laktosuz:</strong> Laktoz içermez, bu nedenle laktoz intoleransı olanlar için uygundur.</li><br>
+        <li><strong>Besleyici:</strong> Yulaf, lif ve çeşitli vitamin ve mineraller açısından zengindir, bu da içeceğin besleyici özelliklerini artırır.</li><br>
+        <li><strong>Vegan ve Bitkisel:</strong> Hayvansal ürün içermez, vegan beslenmeyi tercih edenler için uygun bir alternatiftir.</li><br>
+      </ul><br>
+      
+      <h2>Laktosuz Yulaf Sütünü Evde Nasıl Yapabilirsiniz?</h2><br>
+      <p><strong>Malzemeler:</strong></p><br>
+      <ul>
+        <li>1 su bardağı yulaf</li><br>
+        <li>3 su bardağı su</li><br>
+        <li>Tatlandırıcı (isteğe bağlı)</li><br>
+        <li>Blender veya mikser</li><br>
+      </ul><br>
+      <p><strong>Yapılışı:</strong></p><br>
+      <ol>
+        <li>Yulafları bir gece boyunca suda bekletin.</li><br>
+        <li>Sabahleyin yulafı süzün.</li><br>
+        <li>Süzülmüş yulafı blendera alın ve su ile birlikte iyice çekin.</li><br>
+        <li>Tatlandırıcı ekleyerek isteğe göre tatlandırın.</li><br>
+        <li>Karışımı bir tencereye alın ve kaynamaya başlayana kadar karıştırarak ısıtın.</li><br>
+        <li>Kaynamaya başladıktan sonra ocağı kapatın ve soğumaya bırakın.</li><br>
+        <li>Soğuduktan sonra bir süzgeç veya tülbent yardımıyla süzün.</li><br>
+        <li>Süzülen sütü bir şişeye veya kavanoza aktarın ve buzdolabında saklayın.</li><br>
+      </ol><br>
+      
+      <h2>Faydaları</h2><br>
+      <ul>
+        <li><strong>Laktoz İntoleransı İçin Uygun:</strong> Laktoz içermediği için laktoz intoleransı olanlar için ideal bir içecektir.</li><br>
+        <li><strong>Besleyici ve Sağlıklı:</strong> Yulaf, içeriğindeki lif ve çeşitli vitamin ve minerallerle besleyicidir.</li><br>
+        <li><strong>Vegan ve Bitkisel:</strong> Hayvansal ürün içermez, vegan beslenmeyi tercih edenler için uygun bir alternatiftir.</li><br>
+      </ul><br>
+      
+      <h2>Dikkat Edilmesi Gerekenler</h2><br>
+      <ul>
+        <li><strong>Alerji Durumu:</strong> Yulaf alerjisi olan bireylerin tüketmeden önce doktora danışmaları önemlidir.</li><br>
+        <li><strong>Porsiyon Kontrolü:</strong> Tüketim miktarı bireyin beslenme ihtiyacına göre ayarlanmalıdır.</li><br>
+      </ul><br>
+      
+      <h1>Sonuç</h1><br>
+      <p>Laktosuz yulaf sütü, sağlıklı ve besleyici bir içecektir. Evde kolayca hazırlanabilir veya marketlerden temin edilebilir. Dikkatli bir şekilde tüketildiğinde günlük beslenme programına eklenerek sağlıklı bir içecek alternatifi olabilir.</p><br>
+          </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_laktozyulaf()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div></div>
+<div class="product" id="light">
+  <img src="Resources/süt/light/light_badem.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Badem Sütü</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Light Süt</span></p><br>
+  <button onclick="ekranAc_lightbadem()">Satın Al</button>
+</div>
+<div id="ekran_lightbadem" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <h1>Bademli Light Süt Nedir?</h1><br>
+      <p><strong>Bademli light süt</strong>, badem ve suyun karışımından elde edilen, daha düşük yağ içeriğine sahip bir içecektir. Daha hafif bir alternatif sunar.</p><br>
+      <h2>İçeriği ve Faydaları</h2><br>
+      <ul><br>
+        <li><strong>Düşük Yağ İçeriği:</strong> Daha az yağ içerir, bu nedenle kalori alımını azaltmaya yardımcı olabilir.</li><br>
+        <li><strong>Besleyici:</strong> Bademlerin doğal yağları ve besin öğeleriyle besleyicidir.</li><br>
+        <li><strong>Laktoz İntoleransı İçin Uygun:</strong> Laktoz içermez, bu nedenle laktoz intoleransı olanlar için uygun bir alternatiftir.</li><br>
+      </ul><br>
+      <h2>Bademli Light Sütü Evde Nasıl Yapabilirsiniz?</h2><br>
+      <p><strong>Malzemeler:</strong></p><br>
+      <ul><br>
+        <li>1 su bardağı badem</li><br>
+        <li>3 su bardağı su</li><br>
+        <li>Tatlandırıcı (isteğe bağlı)</li><br>
+        <li>Blender veya mikser</li><br>
+      </ul><br>
+      <p><strong>Yapılışı:</strong></p><br>
+      <ol><br>
+        <li>Bademleri bir gece boyunca suda bekletin.</li><br>
+        <li>Sabahleyin bademleri süzün.</li><br>
+        <li>Süzülmüş bademleri blendera alın ve su ile birlikte iyice çekin.</li><br>
+        <li>Tatlandırıcı ekleyerek isteğe göre tatlandırın.</li><br>
+        <li>Karışımı bir tencereye alın ve kaynamaya başlayana kadar karıştırarak ısıtın.</li><br>
+        <li>Kaynamaya başladıktan sonra ocağı kapatın ve soğumaya bırakın.</li><br>
+        <li>Soğuduktan sonra bir süzgeç veya tülbent yardımıyla süzün.</li><br>
+        <li>Süzülen sütü bir şişeye veya kavanoza aktarın ve buzdolabında saklayın.</li><br>
+      </ol><br>
+      <h2>Faydaları</h2><br>
+      <ul><br>
+        <li><strong>Düşük Yağ İçeriği:</strong> Daha az yağ içerir, bu da daha hafif bir alternatif sunar.</li><br>
+        <li><strong>Besleyici:</strong> Bademlerin besleyici özelliklerini taşır.</li><br>
+        <li><strong>Laktoz İntoleransı İçin Uygun:</strong> Laktoz içermez, bu nedenle laktoz intoleransı olanlar için uygundur.</li><br>
+      </ul><br>
+      <h2>Dikkat Edilmesi Gerekenler</h2><br>
+      <ul><br>
+        <li><strong>Alerji Durumu:</strong> Badem alerjisi olan bireylerin tüketmeden önce doktora danışmaları önemlidir.</li><br>
+        <li><strong>Porsiyon Kontrolü:</strong> Tüketim miktarı bireyin beslenme ihtiyacına göre ayarlanmalıdır.</li><br>
+      </ul><br>
+      <h1>Sonuç</h1><br>
+      <p>Bademli light süt, daha düşük yağ içeriğine sahip, besleyici bir içecektir. Evde kolayca hazırlanabilir veya marketlerden temin edilebilir. Dikkatli bir şekilde tüketildiğinde günlük beslenme programına hafif ve sağlıklı bir alternatif olabilir.</p><br>
+          </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_lightbadem()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div></div>
+<div class="product" id="light">
+  <img src="Resources/süt/light/light_fındık.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Fındıklı Süt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Light Süt</span></p><br>
+  <button onclick="ekranAc_lightfindik()">Satın Al</button>
+</div>
+<div id="ekran_lightfindik" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <h1>Fındıklı Light Süt Nedir?</h1><br>
+      <p><strong>Fındıklı light süt</strong>, fındık ve suyun karışımından elde edilen, daha düşük yağ içeriğine sahip bir içecektir. Hem fındık lezzetini taşır hem de daha hafif bir alternatif sunar.</p><br>
+      <h2>İçeriği ve Faydaları</h2><br>
+      <ul><br>
+        <li><strong>Düşük Yağ İçeriği:</strong> Daha az yağ içerir, bu nedenle kalori alımını azaltmaya yardımcı olabilir.</li><br>
+        <li><strong>Besleyici:</strong> Fındıkların doğal yağları ve besin öğeleriyle besleyicidir.</li><br>
+        <li><strong>Laktoz İntoleransı İçin Uygun:</strong> Laktoz içermez, bu nedenle laktoz intoleransı olanlar için uygun bir alternatiftir.</li><br>
+      </ul><br>
+      <h2>Fındıklı Light Sütü Evde Nasıl Yapabilirsiniz?</h2><br>
+      <p><strong>Malzemeler:</strong></p><br>
+      <ul><br>
+        <li>1 su bardağı fındık</li><br>
+        <li>3 su bardağı su</li><br>
+        <li>Tatlandırıcı (isteğe bağlı)</li><br>
+        <li>Blender veya mikser</li><br>
+      </ul><br>
+      <p><strong>Yapılışı:</strong></p><br>
+      <ol><br>
+        <li>Fındıkları bir gece boyunca suda bekletin.</li><br>
+        <li>Sabahleyin fındıkları süzün.</li><br>
+        <li>Süzülmüş fındıkları blendera alın ve su ile birlikte iyice çekin.</li><br>
+        <li>Tatlandırıcı ekleyerek isteğe göre tatlandırın.</li><br>
+        <li>Karışımı bir tencereye alın ve kaynamaya başlayana kadar karıştırarak ısıtın.</li><br>
+        <li>Kaynamaya başladıktan sonra ocağı kapatın ve soğumaya bırakın.</li><br>
+        <li>Soğuduktan sonra bir süzgeç veya tülbent yardımıyla süzün.</li><br>
+        <li>Süzülen sütü bir şişeye veya kavanoza aktarın ve buzdolabında saklayın.</li><br>
+      </ol><br>
+      <h2>Faydaları</h2><br>
+      <ul><br>
+        <li><strong>Düşük Yağ İçeriği:</strong> Daha az yağ içerir, bu da daha hafif bir alternatif sunar.</li><br>
+        <li><strong>Besleyici:</strong> Fındıkların besleyici özelliklerini taşır.</li><br>
+        <li><strong>Laktoz İntoleransı İçin Uygun:</strong> Laktoz içermez, bu nedenle laktoz intoleransı olanlar için uygundur.</li><br>
+      </ul><br>
+      <h2>Dikkat Edilmesi Gerekenler</h2><br>
+      <ul><br>
+        <li><strong>Alerji Durumu:</strong> Fındık alerjisi olan bireylerin tüketmeden önce doktora danışmaları önemlidir.</li><br>
+        <li><strong>Porsiyon Kontrolü:</strong> Tüketim miktarı bireyin beslenme ihtiyacına göre ayarlanmalıdır.</li><br>
+      </ul><br>
+      <h1>Sonuç</h1><br>
+      <p>Fındıklı light süt, fındık lezzetini taşıyan ve daha düşük yağ içeriğine sahip bir içecektir. Evde kolayca hazırlanabilir veya marketlerden temin edilebilir. Dikkatli bir şekilde tüketildiğinde günlük beslenme programına hafif ve besleyici bir alternatif olabilir.</p><br>
+          </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_lightfindik()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div></div>
+<div class="product" id="light">
+  <img src="Resources/süt/light/light_hindistan.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Hindistan Cevizli Süt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Light Süt</span></p><br>
+  <button onclick="ekranAc_lighthindistan()">Satın Al</button>
+</div>
+<div id="ekran_lighthindistan" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <h1>Hindistan Cevizli Light Süt Nedir?</h1><br>
+      <p><strong>Hindistan cevizli light süt</strong>, hindistancevizi ve suyun karışımından elde edilen, daha düşük yağ içeriğine sahip bir içecektir. Hem hindistancevizi aromasını taşır hem de daha hafif bir alternatif sunar.</p><br>
+      <h2>İçeriği ve Faydaları</h2><br>
+      <ul><br>
+        <li><strong>Düşük Yağ İçeriği:</strong> Daha az yağ içerir, bu nedenle kalori alımını azaltmaya yardımcı olabilir.</li><br>
+        <li><strong>Besleyici:</strong> Hindistan cevizi, doğal yağları ve besin öğeleri bakımından zengindir.</li><br>
+        <li><strong>Laktoz İntoleransı İçin Uygun:</strong> Laktoz içermez, bu nedenle laktoz intoleransı olanlar için uygun bir alternatiftir.</li><br>
+      </ul><br>
+      <h2>Hindistan Cevizli Light Sütü Evde Nasıl Yapabilirsiniz?</h2><br>
+      <p><strong>Malzemeler:</strong></p><br>
+      <ul><br>
+        <li>1 su bardağı hindistancevizi</li><br>
+        <li>3 su bardağı su</li><br>
+        <li>Tatlandırıcı (isteğe bağlı)</li><br>
+        <li>Blender veya mikser</li><br>
+      </ul><br>
+      <p><strong>Yapılışı:</strong></p><br>
+      <ol><br>
+        <li>Hindistan cevizini su ile birlikte blenderda iyice çekin.</li><br>
+        <li>Karışımı bir tencereye alın ve kaynamaya başlayana kadar karıştırarak ısıtın.</li><br>
+        <li>Kaynamaya başladıktan sonra ocağı kapatın ve soğumaya bırakın.</li><br>
+        <li>Soğuduktan sonra bir süzgeç veya tülbent yardımıyla süzün.</li><br>
+        <li>Süzülen sütü bir şişeye veya kavanoza aktarın ve buzdolabında saklayın.</li><br>
+      </ol><br>
+      <h2>Faydaları</h2><br>
+      <ul><br>
+        <li><strong>Düşük Yağ İçeriği:</strong> Daha az yağ içerir, bu da daha hafif bir alternatif sunar.</li><br>
+        <li><strong>Besleyici:</strong> Hindistan cevizinin besleyici özelliklerini taşır.</li><br>
+        <li><strong>Laktoz İntoleransı İçin Uygun:</strong> Laktoz içermez, bu nedenle laktoz intoleransı olanlar için uygundur.</li><br>
+      </ul><br>
+      <h2>Dikkat Edilmesi Gerekenler</h2><br>
+      <ul><br>
+        <li><strong>Alerji Durumu:</strong> Hindistan cevizi alerjisi olan bireylerin tüketmeden önce doktora danışmaları önemlidir.</li><br>
+        <li><strong>Porsiyon Kontrolü:</strong> Tüketim miktarı bireyin beslenme ihtiyacına göre ayarlanmalıdır.</li><br>
+      </ul><br>
+      <h1>Sonuç</h1><br>
+      <p>Hindistan cevizli light süt, hindistancevizi aromasını taşıyan ve daha düşük yağ içeriğine sahip bir içecektir. Evde kolayca hazırlanabilir veya marketlerden temin edilebilir. Dikkatli bir şekilde tüketildiğinde günlük beslenme programına hafif ve besleyici bir alternatif olabilir.</p><br>    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_lighthindistan()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div></div>
+<div class="product" id="light">
+  <img src="Resources/süt/light/light_inek.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">İnek Sütü</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Light Süt</span></p><br>
+  <button onclick="ekranAc_lightinek()">Satın Al</button>
+</div>
+<div id="ekran_lightinek" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <h1>İnek Sütü Bazlı Light Süt Nedir?</h1><br>
+      <p><strong>İnek sütü bazlı light süt</strong>, inek sütü ve suyun karışımından elde edilen, daha düşük yağ içeriğine sahip bir içecektir. Hem sütün besleyici özelliklerini taşır hem de daha hafif bir alternatif sunar.</p><br>
+      <h2>İçeriği ve Faydaları</h2><br>
+      <ul><br>
+        <li><strong>Düşük Yağ İçeriği:</strong> Daha az yağ içerir, bu nedenle kalori alımını azaltmaya yardımcı olabilir.</li><br>
+        <li><strong>Besleyici:</strong> İnek sütünün doğal besin öğeleriyle besleyicidir.</li><br>
+        <li><strong>Laktoz İntoleransı İçin Uygun:</strong> Laktoz içermez, bu nedenle laktoz intoleransı olanlar için uygun bir alternatiftir.</li><br>
+      </ul><br>
+      <h2>İnek Sütü Bazlı Light Sütü Evde Nasıl Yapabilirsiniz?</h2><br>
+      <p><strong>Malzemeler:</strong></p><br>
+      <ul><br>
+        <li>1 su bardağı inek sütü</li><br>
+        <li>3 su bardağı su</li><br>
+        <li>Tatlandırıcı (isteğe bağlı)</li><br>
+      </ul><br>
+      <p><strong>Yapılışı:</strong></p><br>
+      <ol><br>
+        <li>İnek sütünü su ile birlikte karıştırın.</li><br>
+        <li>Tatlandırıcı ekleyerek isteğe göre tatlandırın.</li><br>
+        <li>Karışımı bir tencereye alın ve kaynamaya başlayana kadar karıştırarak ısıtın.</li><br>
+        <li>Kaynamaya başladıktan sonra ocağı kapatın ve soğumaya bırakın.</li><br>
+        <li>Soğuduktan sonra bir süzgeç veya tülbent yardımıyla süzün.</li><br>
+        <li>Süzülen sütü bir şişeye veya kavanoza aktarın ve buzdolabında saklayın.</li><br>
+      </ol><br>
+      <h2>Faydaları</h2><br>
+      <ul><br>
+        <li><strong>Düşük Yağ İçeriği:</strong> Daha az yağ içerir, bu da daha hafif bir alternatif sunar.</li><br>
+        <li><strong>Besleyici:</strong> İnek sütünün besleyici özelliklerini taşır.</li><br>
+        <li><strong>Laktoz İntoleransı İçin Uygun:</strong> Laktoz içermez, bu nedenle laktoz intoleransı olanlar için uygun bir alternatiftir.</li><br>
+      </ul><br>
+      <h2>Dikkat Edilmesi Gerekenler</h2><br>
+      <ul><br>
+        <li><strong>Alerji Durumu:</strong> İnek sütü alerjisi olan bireylerin tüketmeden önce doktora danışmaları önemlidir.</li><br>
+        <li><strong>Porsiyon Kontrolü:</strong> Tüketim miktarı bireyin beslenme ihtiyacına göre ayarlanmalıdır.</li><br>
+      </ul><br>
+      <h1>Sonuç</h1><br>
+      <p>İnek sütü bazlı light süt, inek sütünün besleyici özelliklerini taşıyan ve daha düşük yağ içeriğine sahip bir içecektir. Evde kolayca hazırlanabilir veya marketlerden temin edilebilir. Dikkatli bir şekilde tüketildiğinde günlük beslenme programına hafif ve besleyici bir alternatif olabilir.</p><br>    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_lightinek()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div></div>
+
+<div class="product" id="light">
+  <img src="Resources/süt/light/light_keci.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Keci Sütü</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Light Süt</span></p><br>
+  <button onclick="ekranAc_lightkeci()">Satın Al</button>
+</div>
+<div id="ekran_lightkeci" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <h1>Keçi Sütü Light Süt Nedir?</h1><br>
+      <p><strong>Keçi sütü light süt</strong>, keçi sütü ve suyun karışımından elde edilen, daha düşük yağ içeriğine sahip bir içecektir. Hem keçi sütünün özgün tadını taşır hem de daha hafif bir alternatif sunar.</p><br>
+      <h2>İçeriği ve Faydaları</h2><br>
+      <ul><br>
+        <li><strong>Düşük Yağ İçeriği:</strong> Daha az yağ içerir, bu nedenle kalori alımını azaltmaya yardımcı olabilir.</li><br>
+        <li><strong>Besleyici:</strong> Keçi sütü, doğal yağları ve besin öğeleri bakımından zengindir.</li><br>
+        <li><strong>Laktoz İntoleransı İçin Uygun:</strong> Laktoz içermez, bu nedenle laktoz intoleransı olanlar için uygun bir alternatiftir.</li><br>
+      </ul><br>
+      <h2>Keçi Sütü Light Sütü Evde Nasıl Yapabilirsiniz?</h2><br>
+      <p><strong>Malzemeler:</strong></p><br>
+      <ul><br>
+        <li>1 su bardağı keçi sütü</li><br>
+        <li>3 su bardağı su</li><br>
+        <li>Tatlandırıcı (isteğe bağlı)</li><br>
+        <li>Blender veya mikser</li><br>
+      </ul><br>
+      <p><strong>Yapılışı:</strong></p><br>
+      <ol><br>
+        <li>Keçi sütünü su ile birlikte blenderda iyice çekin.</li><br>
+        <li>Karışımı bir tencereye alın ve kaynamaya başlayana kadar karıştırarak ısıtın.</li><br>
+        <li>Kaynamaya başladıktan sonra ocağı kapatın ve soğumaya bırakın.</li><br>
+        <li>Soğuduktan sonra bir süzgeç veya tülbent yardımıyla süzün.</li><br>
+        <li>Süzülen sütü bir şişeye veya kavanoza aktarın ve buzdolabında saklayın.</li><br>
+      </ol><br>
+      <h2>Faydaları</h2><br>
+      <ul><br>
+        <li><strong>Düşük Yağ İçeriği:</strong> Daha az yağ içerir, bu da daha hafif bir alternatif sunar.</li><br>
+        <li><strong>Besleyici:</strong> Keçi sütünün besleyici özelliklerini taşır.</li><br>
+        <li><strong>Laktoz İntoleransı İçin Uygun:</strong> Laktoz içermez, bu nedenle laktoz intoleransı olanlar için uygundur.</li><br>
+      </ul><br>
+      <h2>Dikkat Edilmesi Gerekenler</h2><br>
+      <ul><br>
+        <li><strong>Alerji Durumu:</strong> Keçi sütü alerjisi olan bireylerin tüketmeden önce doktora danışmaları önemlidir.</li><br>
+        <li><strong>Porsiyon Kontrolü:</strong> Tüketim miktarı bireyin beslenme ihtiyacına göre ayarlanmalıdır.</li><br>
+      </ul><br>
+      <h1>Sonuç</h1><br>
+      <p>Keçi sütü light süt, keçi sütünün özgün tadını taşıyan ve daha düşük yağ içeriğine sahip bir içecektir. Evde kolayca hazırlanabilir veya marketlerden temin edilebilir. Dikkatli bir şekilde tüketildiğinde günlük beslenme programına hafif ve besleyici bir alternatif olabilir.</p><br>
+      
+      
+      
+      
+          </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_lightkeci()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div></div>
+<div class="product" id="light">
+  <img src="Resources/süt/light/light_pirinc.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Pirinçli Süt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Light Süt</span></p><br>
+  <button onclick="ekranAc_lightpirinc()">Satın Al</button>
+</div>
+<div id="ekran_lightpirinc" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <h1>Pirinç Sütü Light Süt Nedir?</h1><br>
+      <p><strong>Pirinç sütü light süt</strong>, pirinç ve suyun karışımından elde edilen, daha düşük yağ içeriğine sahip bir içecektir. Daha hafif bir alternatif oluşturmak isteyenler için ideal bir seçenektir. Pirinç sütü, pirinç tanelerinin özünden elde edilir ve süt alternatifi olarak kullanılır.</p><br>
+      <h2>İçeriği ve Faydaları</h2><br>
+      <ul><br>
+        <li><strong>Düşük Yağ İçeriği:</strong> Pirinç sütü light süt, düşük yağ içeriğine sahiptir, bu nedenle daha az kalori içerir ve kilo kontrolüne yardımcı olabilir.</li><br>
+        <li><strong>Besleyici:</strong> Pirinç sütü, kalsiyum, B vitaminleri ve demir gibi besleyici bileşenler içerir, bu da vücut için faydalıdır ve kemik sağlığını destekler.</li><br>
+        <li><strong>Laktoz İntoleransı İçin Uygun:</strong> Laktoz içermez, bu nedenle laktoz intoleransı olanlar için uygun bir alternatiftir.</li><br>
+      </ul><br>
+      <h2>Pirinç Sütü Light Sütü Evde Nasıl Yapabilirsiniz?</h2><br>
+      <p><strong>Malzemeler:</strong></p><br>
+      <ul><br>
+        <li>1 su bardağı pirinç</li><br>
+        <li>3 su bardağı su</li><br>
+        <li>Tatlandırıcı (isteğe bağlı)</li><br>
+        <li>Vanilya özü veya tarçın (isteğe bağlı)</li><br>
+        <li>Blender veya mikser</li><br>
+      </ul><br>
+      <p><strong>Yapılışı:</strong></p><br>
+      <ol><br>
+        <li>Pirinci iyice yıkayın ve bir gece boyunca suda bekletin.</li><br>
+        <li>Süzün ve temiz su ekleyerek blenderda pürüzsüz bir kıvam elde edene kadar karıştırın.</li><br>
+        <li>Tatlandırıcı ve isteğe bağlı olarak vanilya özü veya tarçın ekleyin.</li><br>
+        <li>Karışımı bir tencereye alın ve kaynamaya başlayana kadar karıştırarak ısıtın.</li><br>
+        <li>Kaynamaya başladıktan sonra ocağı kapatın ve soğumaya bırakın.</li><br>
+        <li>Soğuduktan sonra bir süzgeç veya tülbent yardımıyla süzün.</li><br>
+        <li>Süzülen sütü bir şişeye veya kavanoza aktarın ve buzdolabında saklayın.</li><br>
+      </ol><br>
+      <h2>Faydaları</h2><br>
+      <ul><br>
+        <li><strong>Düşük Yağ İçeriği:</strong> Daha az yağ içerir, bu nedenle kilo kontrolüne yardımcı olabilir.</li><br>
+        <li><strong>Besleyici:</strong> Kalsiyum, B vitaminleri ve demir gibi besleyici bileşenler içerir, bu da kemik sağlığını destekler.</li><br>
+        <li><strong>Laktoz İntoleransı İçin Uygun:</strong> Laktoz içermez, bu nedenle laktoz intoleransı olanlar için uygun bir alternatiftir.</li><br>
+      </ul><br>
+      <h2>Dikkat Edilmesi Gerekenler</h2><br>
+      <ul><br>
+        <li><strong>Alerji Durumu:</strong> Pirinç alerjisi olan bireylerin tüketmeden önce doktora danışmaları önemlidir.</li><br>
+        <li><strong>Porsiyon Kontrolü:</strong> Tüketim miktarı bireyin beslenme ihtiyacına göre ayarlanmalıdır.</li><br>
+      </ul><br>
+      <h1>Sonuç</h1><br>
+      <p>Pirinç sütü light süt, daha düşük yağ içeriğine sahip olmasına rağmen besleyici özelliklere sahip bir içecektir. Evde kolayca hazırlanabilir veya marketlerden temin edilebilir. Dikkatli bir şekilde tüketildiğinde günlük beslenme programına hafif ve besleyici bir alternatif olabilir.</p><br>    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_lightpirinc()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div></div>
+
+<div class="product" id="light">
+  <img src="Resources/süt/light/light_soya.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Soya Sütü</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Light Süt</span></p><br>
+  <button onclick="ekranAc_lightsoya()">Satın Al</button>
+</div>
+<div id="ekran_lightsoya" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <p>soya</p>
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_lightsoya()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div></div>
+
+<div class="product" id="light">
+  <img src="Resources/süt/light/light_yulaf.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Yulaflı Süt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Light Süt</span></p><br>
+  <button onclick="ekranAc_lightyulaf()">Satın Al</button>
+</div>
+<div id="ekran_lightyulaf" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <p>yulaf</p>
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_lightyulaf()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div></div>
+<div class="product" id="yarim">
+  <img src="Resources/süt/yarim/yarim_badem.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Badem Sütü</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Yarım Süt</span></p><br>
+  <button onclick="ekranAc_yarimbadem()">Satın Al</button>
+</div>
+<div id="ekran_yarimbadem" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <p>badem</p>
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_yarimbadem()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div></div>
+<div class="product" id="yarim">
+  <img src="Resources/süt/yarim/yarim_bufalo.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Bufalo Sütü</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Yarım Süt</span></p><br>
+  <button onclick="ekranAc_yarimbufalo()">Satın Al</button>
+</div>
+<div id="ekran_yarimbufalo" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <p>bufalo</p>
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_yarimbufalo()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div></div>
+<div class="product" id="yarim">
+  <img src="Resources/süt/yarim/yarim_fındık.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Fındıklı Süt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Yarım Süt</span></p><br>
+  <button onclick="ekranAc_yarimfindik()">Satın Al</button>
+</div>
+<div id="ekran_yarimfindik" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <p>findik</p>
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_yarimfindik()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div></div>
+<div class="product" id="yarim">
+  <img src="Resources/süt/yarim/yarim_hindistan.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Hindistan Cevizli Süt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Yarım Süt</span></p><br>
+  <button onclick="ekranAc_yarimhindistan()">Satın Al</button>
+</div>
+<div id="ekran_yarimhindistan" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <p>hindistan</p>
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_yarimhindistan()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div></div>
+<div class="product" id="yarim">
+  <img src="Resources/süt/yarim/yarim_inek.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">İnek Sütü</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Yarım Süt</span></p><br>
+  <button onclick="ekranAc_yariminek()">Satın Al</button>
+</div>
+<div id="ekran_yariminek" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <p>inek</p>
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_yariminek()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div></div>
+<div class="product" id="yarim">
+  <img src="Resources/süt/yarim/yarim_keci.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Keçi Sütü</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Yarım Süt</span></p><br>
+  <button onclick="ekranAc_yarimkeci()">Satın Al</button>
+</div>
+<div id="ekran_yarimkeci" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <p>keci</p>
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_yarimkeci()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div></div>
+<div class="product" id="yarim">
+  <img src="Resources/süt/yarim/yarim_manda.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Manda Sütü</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Yarım Süt</span></p><br>
+  <button onclick="ekranAc_yarimmanda()">Satın Al</button>
+</div>
+<div id="ekran_yarimmanda" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <p>manda</p>
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_yarimmanda()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div></div>
+<div class="product" id="yarim">
+  <img src="Resources/süt/yarim/yarim_soya.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Soya Sütü</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Yarım Süt</span></p><br>
+  <button onclick="ekranAc_yarimsoya()">Satın Al</button>
+</div>
+<div id="ekran_yarimsoya" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <p>soya</p>
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_yarimsoya()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div></div>
+<div class="product" id="yarim">
+  <img src="Resources/süt/yarim/yarim_yulaf.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Yulaf Ezmeli Süt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Yarım Süt</span></p><br>
+  <button onclick="ekranAc_yarimyulaf()">Satın Al</button>
+</div>
+<div id="ekran_yarimyulaf" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <p>yulaf</p>
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_yarimyulaf()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div></div>
+<div class="product" id="organik">
+  <img src="Resources/süt/organik/organik_badem.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Badem Sütü</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Organik Süt</span></p><br>
+  <button onclick="ekranAc_organikbadem()">Satın Al</button>
+</div>
+<div id="ekran_organikbadem" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <p>bademm</p>
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_organikbadem()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div></div>
+<div class="product" id="organik">
+  <img src="Resources/süt/organik/organik_hindistan.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Hindistan Cevizli Süt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Organik Süt</span></p><br>
+  <button onclick="ekranAc_organikhindistan()">Satın Al</button>
+</div>
+<div id="ekran_organikhindistan" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <p>hindistan</p>
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_organikhindistan()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div></div>
+<div class="product" id="organik">
+  <img src="Resources/süt/organik/organik_inek.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">İnek Sütü</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Organik Süt</span></p><br>
+  <button onclick="ekranAc_organikinek()">Satın Al</button>
+</div>
+<div id="ekran_organikinek" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <p>inek</p>
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_organikinek()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div></div>
+<div class="product" id="organik">
+  <img src="Resources/süt/organik/organik_keci.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Keçi Sütü</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Organik Süt</span></p><br>
+  <button onclick="ekranAc_organikkeci()">Satın Al</button>
+</div>
+<div id="ekran_organikkeci" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <p>keci</p>
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_organikkeci()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div></div>
+<div class="product" id="organik">
+  <img src="Resources/süt/organik/organik_koyun.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Koyun Sütü</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Organik Süt</span></p><br>
+  <button onclick="ekranAc_organikkoyun()">Satın Al</button>
+</div>
+<div id="ekran_organikkoyun" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <p>koyun</p>
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_organikkoyun()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div></div>
+<div class="product" id="organik">
+  <img src="Resources/süt/organik/organik_pirinc.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Pirinçli Süt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Organik Süt</span></p><br>
+  <button onclick="ekranAc_organikpirinc()">Satın Al</button>
+</div>
+<div id="ekran_organikpirinc" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <p>pirinc</p>
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_organikpirinc()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div></div>
+<div class="product" id="organik">
+  <img src="Resources/süt/organik/organik_soya.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Soya Sütü</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Organik Süt</span></p><br>
+  <button onclick="ekranAc_organiksoya()">Satın Al</button>
+</div>
+<div id="ekran_organiksoya" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <p>soya</p>
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_organiksoya()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div></div>
+<div class="product" id="organik">
+  <img src="Resources/süt/organik/organik_yulaf.jpg" alt="Ürün Resmi"><br>
+  <p class="yazi_ortala">Yulaf Ezmeli Süt</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Organik Süt</span></p><br>
+  <button onclick="ekranAc_organikyulaf()">Satın Al</button>
+</div>
+<div id="ekran_organikyulaf" class="modal">
+  <div class="modal-icerik">
+    
+    <div class="icerik-sol">
+      <p>yulaf</p>
+    </div>
+    <div class="icerik-sag">
+      <span class="kapat" onclick="ekranKapat_organikyulaf()">&times;</span>
+      <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+    </div>
+  </div></div>
+
+</div>
+
+
+
+
+
+
+
+<div class="footers">
+  <footer>
+<br><br>
+Ramazan 522 11/A || Hızır Reis MTAL<br><br>
+<ul class="footer-links">
+  <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+  <li><a href="https://www.instagram.com/hizirreism.t.a.l/" target="_blank">Instagram</a></li>
+  <li><a href="https://twitter.com/hizirreism" target="_blank">X (Twitter)</a></li>
+  <li><a href="https://hizirreistml.meb.k12.tr/" target="_blank">Offical Web Site</a></li>
+</ul>
+
+
+  </footer>
+</div>
+<script>
+window.addEventListener("wheel", function(e) {
+    // prevent default vertical scrolling
+    e.preventDefault();
+    
+    // scroll horizontally instead
+    window.scrollBy(e.deltaY, 0);
+  }, { passive: false });  // use passive option false to make preventDefault() work
+
+
+
+  function showContent(categoryId) {
+    var contents = document.getElementsByClassName('product');
+    if (categoryId === 'tumu') {
+      // Tüm içerikleri göster
+      for (var i = 0; i < contents.length; i++) {
+        contents[i].style.display = 'block';
+      }
+      
+    } else {
+      // Belirli kategoriye göre içerikleri göster
+      for (var i = 0; i < contents.length; i++) {
+        if (contents[i].id === categoryId) {
+          contents[i].style.display = 'block';
+        } else {
+          contents[i].style.display = 'none';
+        }
+      }
+    }
+
+
+    
+    var contents = document.getElementsByClassName('kategori_adi');
+    
+    // Belirli kategoriye göre içerikleri göster
+    for (var i = 0; i < contents.length; i++) {
+      if (contents[i].id === categoryId) {
+        contents[i].style.display = 'block';
+      } else {
+        contents[i].style.display = 'none';
+      }
+    }
+  }
+  
+ // Tüm p elemanlarını seç
+ var tumu = document.getElementById("tumu");
+  var pList = document.querySelectorAll(".kategori_adi");
+
+  // Her bir p elemanını döngüyle kontrol et
+  pList.forEach(function(p) {
+    // Eğer p elemanının id'si tumu ise göster, değilse gizle
+    if (p.id === "tumu") {
+      p.style.display = "block";
+    } else {
+      p.style.display = "none";
+    }
+  });
+
+// Tüm butonları seç
+var buttons = document.querySelectorAll(".icerik-links li a");
+
+// Her bir buton için click olayı ekle
+buttons.forEach(function(button) {
+  button.addEventListener("click", function() {
+    // Tüm butonların arka plan rengini ve metin rengini varsayılan yap
+    buttons.forEach(function(btn) {
+      btn.style.backgroundColor = "#b4b4b4";
+      btn.style.color = "#000000";
+    });
+
+    // Tıklanan butonun arka plan rengini ve metin rengini değiştir
+    this.style.backgroundColor = "#000000";
+    this.style.color = "#f2f2f2";
+  });
+});
+
+// Sayfa yüklendiğinde "tumu" ID'sine sahip butonun arka plan rengini kırmızı yap
+window.onload = function() {
+  var tumuButton = document.getElementById("kirmizi");
+  tumuButton.style.backgroundColor = "#000000";
+  tumuButton.style.color = "#f2f2f2";
+};
+
+
+
+
+
+
+
+// Tüm .icerik-sol sınıfına sahip div'leri seç
+const icerikSolDivler = document.querySelectorAll('.icerik-sol');
+
+// Her bir .icerik-sol div'i için kaydırma olayını dinle
+icerikSolDivler.forEach(function(icerikSol) {
+  icerikSol.addEventListener('wheel', function(event) {
+    // Yalnızca y dikey kaydırma için
+    if (event.deltaY !== 0) {
+      // Eğer içerik yukarıda değilse ve aşağı kaydırılmak isteniyorsa veya içerik aşağıda değilse ve yukarı kaydırılmak isteniyorsa kaydırma işlemi yap
+      if ((this.scrollTop !== 0 && event.deltaY < 0) || (this.scrollTop !== (this.scrollHeight - this.clientHeight) && event.deltaY > 0)) {
+        this.scrollTop += event.deltaY;
+        // Fare tekerleği varsayılan davranışını engelleme (sayfa kaydırma)
+        event.preventDefault();
+      }
+    }
+  });
+});
+
+
+
+function showDiv() {
+    var div = document.getElementById('belirtilenDiv');
+    div.style.display = "block";
+
+    // Belirli bir süre sonra div'i gizle
+    setTimeout(function() {
+      div.style.display = "none";
+    }, 5000); // 2 saniye (2000 milisaniye)
+  }
+ 
+
+
+ 
+
+
+  function ekranAc_laktozbadem() {
+    document.getElementById('ekran_laktozbadem').style.display = 'block';
+  }
+  
+  function ekranKapat_laktozbadem() {
+    document.getElementById('ekran_laktozbadem').style.display = 'none';
+  }
+  function ekranAc_laktozbezelye( ) {
+    document.getElementById('ekran_laktozbezelye').style.display = 'block';
+  }
+  
+  function ekranKapat_laktozbezelye() {
+    document.getElementById('ekran_laktozbezelye').style.display = 'none';
+  }
+  function ekranAc_laktozfindik() {
+    document.getElementById('ekran_laktozfindik').style.display = 'block';
+  }
+  
+  function ekranKapat_laktozfindik() {
+    document.getElementById('ekran_laktozfindik').style.display = 'none';
+  }
+  function ekranAc_laktozhindistancevizi() {
+    document.getElementById('ekran_laktozhindistancevizi').style.display = 'block';
+  }
+  
+  function ekranKapat_laktozhindistancevizi() {
+    document.getElementById('ekran_laktozhindistancevizi').style.display = 'none';
+  }
+  function ekranAc_laktozpirinc() {
+    document.getElementById('ekran_laktozpirinc').style.display = 'block';
+  }
+  
+  function ekranKapat_laktozpirinc() {
+    document.getElementById('ekran_laktozpirinc').style.display = 'none';
+  }
+  function ekranAc_laktozquiona() {
+    document.getElementById('ekran_laktozquiona').style.display = 'block';
+  }
+  
+  function ekranKapat_laktozquiona() {
+    document.getElementById('ekran_laktozquiona').style.display = 'none';
+  }
+  function ekranAc_laktozsoya() {
+    document.getElementById('ekran_laktozsoya').style.display = 'block';
+  }
+  
+  function ekranKapat_laktozsoya() {
+    document.getElementById('ekran_laktozsoya').style.display = 'none';
+  }
+  function ekranAc_laktozyulaf() {
+    document.getElementById('ekran_laktozyulaf').style.display = 'block';
+  }
+  function ekranKapat_laktozyulaf() {
+    document.getElementById('ekran_laktozyulaf').style.display = 'none';
+  }
+  
+  function ekranKapat_lightbadem() {
+    document.getElementById('ekran_lightbadem').style.display = 'none';
+  }
+  function ekranAc_lightbadem() {
+    document.getElementById('ekran_lightbadem').style.display = 'block';
+  }
+  
+  function ekranKapat_lightfindik() {
+    document.getElementById('ekran_lightfindik').style.display = 'none';
+  }
+  function ekranAc_lightfindik() {
+    document.getElementById('ekran_lightfindik').style.display = 'block';
+  }
+  
+  function ekranKapat_lighthindistan() {
+    document.getElementById('ekran_lighthindistan').style.display = 'none';
+  }
+  function ekranAc_lighthindistan() {
+    document.getElementById('ekran_lighthindistan').style.display = 'block';
+  }
+  
+  function ekranKapat_lightinek() {
+    document.getElementById('ekran_lightinek').style.display = 'none';
+  }
+  function ekranAc_lightinek() {
+    document.getElementById('ekran_lightinek').style.display = 'block';
+  }
+  
+  function ekranKapat_lightkeci() {
+    document.getElementById('ekran_lightkeci').style.display = 'none';
+  }
+  function ekranAc_lightkeci() {
+    document.getElementById('ekran_lightkeci').style.display = 'block';
+  }
+  
+  function ekranKapat_lightpirinc() {
+    document.getElementById('ekran_lightpirinc').style.display = 'none';
+  }
+  function ekranAc_lightpirinc() {
+    document.getElementById('ekran_lightpirinc').style.display = 'block';
+  }
+  
+  function ekranKapat_lightsoya() {
+    document.getElementById('ekran_lightsoya').style.display = 'none';
+  }
+  function ekranAc_lightsoya() {
+    document.getElementById('ekran_lightsoya').style.display = 'block';
+  }
+  
+  function ekranKapat_lightyulaf() {
+    document.getElementById('ekran_lightyulaf').style.display = 'none';
+  }
+  function ekranAc_lightyulaf() {
+    document.getElementById('ekran_lightyulaf').style.display = 'block';
+  }
+  
+  function ekranKapat_yarimbadem() {
+    document.getElementById('ekran_yarimbadem').style.display = 'none';
+  }
+  function ekranAc_yarimbadem() {
+    document.getElementById('ekran_yarimbadem').style.display = 'block';
+  }
+  
+  function ekranKapat_yarimbufalo() {
+    document.getElementById('ekran_yarimbufalo').style.display = 'none';
+  }
+  function ekranAc_yarimbufalo() {
+    document.getElementById('ekran_yarimbufalo').style.display = 'block';
+  }
+
+  function ekranKapat_yarimfindik() {
+    document.getElementById('ekran_yarimfindik').style.display = 'none';
+  }
+  function ekranAc_yarimfindik() {
+    document.getElementById('ekran_yarimfindik').style.display = 'block';
+  }
+  
+  function ekranKapat_yarimhindistan() {
+    document.getElementById('ekran_yarimhindistan').style.display = 'none';
+  }
+  function ekranAc_yarimhindistan() {
+    document.getElementById('ekran_yarimhindistan').style.display = 'block';
+  }
+
+  function ekranKapat_yariminek() {
+    document.getElementById('ekran_yariminek').style.display = 'none';
+  }
+  function ekranAc_yariminek() {
+    document.getElementById('ekran_yariminek').style.display = 'block';
+  }
+  
+  function ekranKapat_yarimkeci() {
+    document.getElementById('ekran_yarimkeci').style.display = 'none';
+  }
+  function ekranAc_yarimkeci() {
+    document.getElementById('ekran_yarimkici').style.display = 'block';
+  }
+
+  function ekranKapat_yarimmanda() {
+    document.getElementById('ekran_yarimmanda').style.display = 'none';
+  }
+  function ekranAc_yarimmanda() {
+    document.getElementById('ekran_yarimmanda').style.display = 'block';
+  }
+  
+  function ekranKapat_yarimsoya() {
+    document.getElementById('ekran_yarimsoya').style.display = 'none';
+  }
+  function ekranAc_yarimsoya() {
+    document.getElementById('ekran_yarimsoya').style.display = 'block';
+  }
+
+  function ekranKapat_yarimyulaf() {
+    document.getElementById('ekran_yarimyulaf').style.display = 'none';
+  }
+  function ekranAc_yarimyulaf() {
+    document.getElementById('ekran_yarimyulaf').style.display = 'block';
+  }
+  
+  function ekranKapat_organikbadem() {
+    document.getElementById('ekran_organikbadem').style.display = 'none';
+  }
+  function ekranAc_organikbadem() {
+    document.getElementById('ekran_organikbadem').style.display = 'block';
+  }
+  function ekranKapat_organikhindistan() {
+    document.getElementById('ekran_organikhindistan').style.display = 'none';
+  }
+  function ekranAc_organikhindistan() {
+    document.getElementById('ekran_organikhindistan').style.display = 'block';
+  }
+  function ekranKapat_organikinek() {
+    document.getElementById('ekran_organikinek').style.display = 'none';
+  }
+  function ekranAc_organikinek() {
+    document.getElementById('ekran_organikinek').style.display = 'block';
+  }
+  function ekranKapat_organikkeci() {
+    document.getElementById('ekran_organikkeci').style.display = 'none';
+  }
+  function ekranAc_organikkeci() {
+    document.getElementById('ekran_organikkeci').style.display = 'block';
+  }
+  function ekranKapat_organikkoyun() {
+    document.getElementById('ekran_organikkoyun').style.display = 'none';
+  }
+  function ekranAc_organikkoyun() {
+    document.getElementById('ekran_organikkoyun').style.display = 'block';
+  }
+  function ekranKapat_organikpirinc() {
+    document.getElementById('ekran_organikpirinc').style.display = 'none';
+  }
+  function ekranAc_organikpirinc() {
+    document.getElementById('ekran_organikpirinc').style.display = 'block';
+  }
+  function ekranKapat_organiksoya() {
+    document.getElementById('ekran_organiksoya').style.display = 'none';
+  }
+  function ekranAc_organiksoya() {
+    document.getElementById('ekran_organiksoya').style.display = 'block';
+  }
+  function ekranKapat_organikyulaf() {
+    document.getElementById('ekran_organikyulaf').style.display = 'none';
+  }
+  function ekranAc_organikyulaf() {
+    document.getElementById('ekran_organikyulaf').style.display = 'block';
+  }
+  
+</script>
+<script src="script.js"></script>
+</body>
+
+
+</html>

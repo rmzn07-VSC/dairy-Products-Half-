@@ -1,0 +1,267 @@
+<html>
+<head>
+<title>Ana Sayfa</title>
+<style>
+ body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Arka plan rengi */
+    color: #333; /* Metin rengi */
+    overflow-x: hidden; /* Yatay taşma durumunda kaydırmayı engeller */
+    scroll-behavior: smooth; /* Kaydırma davranışını düzgün hale getirir */
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Arka plana hafif bir opaklık ekler */
+    z-index: -1;
+}
+  #dikkat-yazi {
+    font-size: 1px;
+    color: #ff0000;
+    text-align: center;
+    letter-spacing: 5px;
+    animation: neon-blink 2s infinite alternate, text-grow 4s forwards, move-up 5s ease forwards;
+  }
+  @keyframes neon-blink {
+    0% { text-shadow: 0 0 15px rgba(255,255,255,0.8), 0 0 30px rgba(255,255,255,0.6), 0 0 45px rgba(255,255,255,0.4), 0 0 60px rgba(255,255,255,0.2); }
+    100% { text-shadow: 0 0 30px rgba(255,255,255,0.6), 0 0 60px rgba(255,255,255,0.4), 0 0 90px rgba(255,255,255,0.2), 0 0 120px rgba(255,255,255,0.1); }
+  }
+  @keyframes text-grow {
+    0% { font-size: 1px; }
+    60% { font-size: 55px; }
+    100% { font-size: 50px; }
+  }
+  @keyframes move-up {
+    0% { transform: translateY(400px); }
+    100% { transform: translateY(0px); }
+  }
+  #dikkat-yazi span {
+    transition: all 0.3s ease-in-out;
+  }
+  #dikkat-yazi span:hover {
+    font-size: 70px;
+    font-weight: bold;
+    color: #ffd900;
+    cursor: pointer;
+  }
+
+
+  #overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Siyah kapkaranlık arka plan */
+    z-index: 999; /* Overlay'ı diğer öğelerin üzerine getir */
+    display: none; /* Başlangıçta görünmez yap */
+}
+
+.kodlayiruk-slider {
+    position: relative; /* Overlay üzerine yerleştirilecek */
+    z-index: 1000; /* Resimlerin overlay'ın üzerine çıkmasını sağlar */
+}
+
+#particle-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* Partiküllerin fare etkileşimini engelle */
+    z-index: -1; /* Diğer içeriğin arkasında olmasını sağlar */
+}
+
+.particle {
+    position: absolute;
+    pointer-events: none; /* Partiküllerin fare etkileşimini engelle */
+    border-radius: 50%; /* Yuvarlak partiküller oluşturur */
+    animation-fill-mode: forwards; /* Animasyon son durumunda kalmasını sağlar */
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+</style>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  
+  <div id="particle-container"></div>
+  <div class="belirtilen-div" id="belirtilenDiv"><img src="Resources/süt/ok.png"></div>
+
+<nav>
+  <div class="wrapper">
+    <div class="logo"><a href="#">Hoş Geldiniz!</a></div>
+    <input type="radio" name="slider" id="menu-btn">
+    <input type="radio" name="slider" id="close-btn">
+    <ul class="nav-links">
+      <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+      <li><a href="#">Ana Sayfa</a></li>
+      <li><a href="Hakkimda.html">Hakkımda</a></li>
+      <li>
+        <a href="#" class="desktop-item">Süt Ürünleri</a>
+        <input type="checkbox" id="showDrop">
+        <label for="showDrop" class="mobile-item">Süt Ürünleri</label>
+        <ul class="drop-menu">
+			<li><a href="Sut.html">Süt</a></li>
+		  <li><a href="Peynir.html">Peynir</a></li>
+		  <li><a href="Yogurt.html">Yoğurt</a></li>
+		  <li><a href="Kaymak.html">Kaymak</a></li>
+		  <li><a href="Tereyagi.html">Tereyağı</a></li>
+        </ul>
+      </li>
+      
+      
+    </ul>
+    <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+  </div>
+</nav>
+
+<br><br><br><br><br>
+
+<main>
+  <div id="overlay"></div>
+  <div class="slider">  
+    <!-- Slider'ımızın ana gövdesi olacak -->   
+   <div class="kodlayiruk-slider">
+       <!--Her bir fade' bir slideshow bölümünü oluşturur.-->
+       <div class="slide fade">
+           <div class="number">1 / 6</div>
+           <img src="Resources/anasayfa/resim8.png" class="slide-image " />
+           <div class="text">Süt Ürünlerimiz</div>
+       </div>
+   
+       <div class="slide fade">
+           <div class="number">2 / 6</div>
+           <img src="Resources/anasayfa/resim1.png" class="slide-image" />
+           <div class="text">Süt</div>
+       </div>
+   
+       <div class="slide fade">
+           <div class="number">3 / 6</div>
+           <img src="Resources/anasayfa/resim2.png" class="slide-image" />
+           <div class="text">Peynir</div>
+       </div>
+
+       <div class="slide fade">
+        <div class="number">4 / 6</div>
+        <img src="Resources/anasayfa/resim3.png" class="slide-image" />
+        <div class="text">Yoğurt</div>
+      </div>
+
+        <div class="slide fade">
+          <div class="number">5 / 6</div>
+          <img src="Resources/anasayfa/resim4.png" class="slide-image" />
+          <div class="text">Kaymak</div>
+      </div>
+
+
+
+      <div class="slide fade">
+        <div class="number">6 / 6</div>
+        <img src="Resources/anasayfa/resim6.png" class="slide-image" />
+        <div class="text">Tereyağı</div>
+      </div>
+
+
+   
+       <!-- İleri-Geri Butonları -->
+       <a class="prev" onclick="slideRoute(-1)">&#10094;</a>
+       <a class="next" onclick="slideRoute(1)">&#10095;</a>
+   </div>
+   <br/>
+   
+   <!--Slider'ımızın alt kısmında bulunacak pagination bölümü-->
+   <div style="text-align:center">
+       <span class="dot" onclick="currentSlide(1)"></span>
+       <span class="dot" onclick="currentSlide(2)"></span>
+       <span class="dot" onclick="currentSlide(3)"></span>
+   </div>
+   </div><br>
+   <h1 id="dikkat-yazi">Süt Ürünlerimize üst menüdeki<br> <span onmouseover="showDiv()" onmouseout="hideDiv()" style="color: #ff6600;">"Süt Ürünleri"</span> yazısının üzerine farenizi<br> götürerek, açılan  alt sekmeden <br> görebilirsiniz.</h1>
+
+   <div class="belirtilen-div" id="belirtilenDiv"><img src="Resources/süt/ok.png"></div>
+ 
+<div class="footers">
+    <footer>
+  <br><br>
+ Ramazan 522 11/A || Hızır Reis MTAL<br><br>
+  <ul class="footer-links">
+    <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+    <li><a href="https://www.instagram.com/hizirreism.t.a.l/" target="_blank">Instagram</a></li>
+<li><a href="https://twitter.com/hizirreism" target="_blank">X (Twitter)</a></li>
+<li><a href="https://hizirreistml.meb.k12.tr/" target="_blank">Offical Web Site</a></li>
+  </ul>
+  <br><br>
+
+    </footer>
+</div>
+
+
+<script src="script.js"></script>
+<script>
+  function showDiv() {
+    var div = document.getElementById("belirtilenDiv");
+    div.style.display = "block";
+  }
+
+  function hideDiv() {
+    var div = document.getElementById("belirtilenDiv");
+    div.style.display = "none";
+  }
+
+  
+  var overlay = document.getElementById('overlay');
+    var slides = document.querySelectorAll('.slide');
+
+    slides.forEach(function(slide) {
+        slide.addEventListener('mouseenter', function() {
+            overlay.style.display = 'block'; // Overlay'ı görünür yap
+        });
+
+        slide.addEventListener('mouseleave', function() {
+            overlay.style.display = 'none'; // Overlay'ı gizle
+        });
+    });
+
+    document.addEventListener('mousemove', function(event) {
+        createParticle(event.clientX, event.clientY);
+    });
+
+    document.addEventListener('click', function(event) {
+        createParticle(event.clientX, event.clientY);
+        playSound(); // Ses efekti
+    });
+
+   
+
+    // Rastgele renk oluşturur
+    function getRandomColor() {
+        var letters = '0123456789ABCDEF';
+        var color = '#';
+        for (var i = 0; i < 6; i++) {
+            color += letters[Math.floor(Math.random() * 16)];
+        }
+        return color;
+    }
+
+   
+</script>
+</body>
+
+
+</html>

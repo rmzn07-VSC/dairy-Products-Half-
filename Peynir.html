@@ -1,0 +1,1078 @@
+<html>
+<head>
+<title>Süt</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="belirtilen-div" id="belirtilenDiv"><img src="Resources/süt/ok.png"></div>
+
+
+
+  <button class="sagsol" id="solaGit" onclick="solaGit()">Sola Git</button>
+  <button class="sagsol" id="sagaGit" onclick="sagaGit()">Sağa Git</button>
+ 
+
+<nav>
+  <div class="wrapper">
+    <div class="logo"><a href="#">Peynir mi arıyorsun, aşağıya bak!</a></div>
+    <input type="radio" name="slider" id="menu-btn">
+    <input type="radio" name="slider" id="close-btn">
+    <ul class="nav-links">
+      <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+      <li><a href="index.html" >Ana Sayfa</a></li>
+      <li><a href="Hakkimda.html">Hakkımda</a></li>      <li>
+       <a href="#" class="desktop-item">Süt Ürünleri</a>
+        <input type="checkbox" id="showDrop">
+        <label for="showDrop" class="mobile-item">Süt Ürünleri</label>
+        <ul class="drop-menu">
+          <li><a href="Sut.html">Süt</a></li>
+          <li><a href="#">Peynir</a></li>
+          <li><a href="Yogurt.html">Yoğurt</a></li>
+		  <li><a href="Kaymak.html">Kaymak</a></li>
+          <li><a href="Tereyagi.html">Tereyağı</a></li>
+        </ul>
+      </li>
+      
+      
+    </ul>
+    <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+  </div>
+</nav><br><br><br><br><br>
+
+<div class="container">
+  <div class="categories">
+      <!-- Kategorileri buraya ekleyin -->
+      <ul class="icerik-links"><br><br><br><br><br>
+        <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label><H1 style="color:rgb(255, 255, 255); text-align: center;  background-color: rgb(255, 0, 0); height: 50; padding-top: 8px; margin-left: -10px; margin-right: -10px; margin-top: 5px;">PEYNİR ÇEŞİDİ:</H1>
+        <br><br><br>
+        <li><a href="#" id = "kirmizi" onclick="showContent('tumu')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tümü&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li><br>
+        <li><a href="#" onclick="showContent('aromali')" style="width:100%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Beyaz Peynir&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li><br>
+        <li><a href="#" onclick="showContent('soyali')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kaşar Peyniri&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li><br>
+        <li><a href="#" onclick="showContent('cocuk')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ezine Peyniri&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li><br>
+        <li><a href="#" onclick="showContent('devam')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tulum Peyniri&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li><br>
+        <li><a href="#" onclick="showContent('laktoz')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lor Peyniri&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li><br>
+        <li><a href="#" onclick="showContent('light')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cheddar Peyniri&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li><br>
+        <li><a href="#" onclick="showContent('yarim')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mozzarella Peyniri&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li><br>
+        <li><a href="#" onclick="showContent('organik')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Parmesan Peyniri&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li><br>
+        
+
+        <p class="diger">Diğer Süt ürünlerimize <br> de bakmak isterseniz <br> <b><a href="#" class="tikla"onclick="showDiv()"><span >buraya</span></a></b> tıklayın, size<br> yolu göstereceğim! </p>
+
+      
+    
+      </div>
+      <p class="kategori_adi" id="tumu"><b>Tüm Peynirler</b>, Peynirler hakkında herşeyi burada görebilirsiniz.</p>
+      <p class="kategori_adi" id="aromali"><b>Beyaz Peynir</b>, Türkiye'de yaygın olarak tüketilen, hafif tuzlu ve yumuşak bir peynir çeşidi.</p>
+      <p class="kategori_adi" id="soyali"><b>Kaşar Peyniri</b>,  İnek sütünden yapılan, hafif tuzlu ve elastik dokulu bir peynir.</p>
+      <p class="kategori_adi" id="cocuk"><b>Ezine Peyniri</b>,  Çanakkale'nin Ezine ilçesinde üretilen, özel bir aroma ve lezzete sahip beyaz peynir çeşidi.</p>
+      <p class="kategori_adi" id="devam"><b>Tulum Peyniri</b>, Özellikle Doğu Anadolu'da üretilen, keçi veya koyun sütünden yapılan, sert bir yapıya sahip peynir.</p>
+      <p class="kategori_adi" id="laktoz"><b>Lor Peyniri</b>, İnek veya keçi sütünden yapılan, taze ve yumuşak bir peynir çeşidi.</p>
+      <p class="kategori_adi" id="light"><b>Cheddar Peyniri</b>, İngiltere'nin Somerset bölgesinde üretilen, sert ve yoğun bir lezzete sahip peynir.</p>
+      <p class="kategori_adi" id="yarim"><b>Mozzarella Peyniri</b>, İtalyan kökenli, yumuşak ve elastik dokulu bir peynir çeşidi, özellikle pizzada kullanılır.</p>
+      <p class="kategori_adi" id="organik"><b>Parmesan Peyniri</b>,  İtalyan kökenli, sert ve keskin bir lezzete sahip peynir çeşidi.</p>
+      
+      <div class="product" id="aromali">
+          <img src="Resources/peynir/beyazpeynir/cecil.jpg" alt="Ürün Resmi"><br>
+          <p class="yazi_ortala">Beyaz Çeçil Peyniri</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Beyaz Peynir</span></p><br>
+          <button onclick="ekranAc_cilekaroma()">Satın Al</button>
+      </div>
+      <div id="ekran_cilekaroma" class="modal">
+        <div class="modal-icerik">
+          
+          <div class="icerik-sol">
+           
+          </div>
+          <div class="icerik-sag">
+            <span class="kapat" onclick="ekranKapat_cilekaroma()">&times;</span>
+            <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+          </div>
+        </div>
+      </div>
+      <div class="product" id="aromali">
+        <img src="Resources/peynir/beyazpeynir/hellim.jpg" alt="Ürün Resmi"><br>
+        <p class="yazi_ortala">Beyaz Hellim Peyniri</p><br>
+        <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Beyaz Peynir</span></p><br>
+        <button onclick="ekranAc()">Satın Al</button>
+    </div>
+    <div id="ekran" class="modal">
+      <div class="modal-icerik">
+        
+        <div class="icerik-sol">
+          <p>dfhdfdfgdgdgddgdg</p>
+        </div>
+        <div class="icerik-sag">
+          <span class="kapat" onclick="ekranKapat()">&times;</span>
+          <p>Burada sol taraftaki içeriğiniz olabilir.</p>
+        </div>
+      </div>
+    </div>
+    <div class="product" id="aromali">
+      <img src="Resources/peynir/beyazpeynir/lor.jpg" alt="Ürün Resmi"><br>
+      <p class="yazi_ortala">Beyaz Lor Peyniri</p><br>
+      <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Beyaz Peynir</span></p><br>
+      <button onclick="ekranAc_muzaroma()">Satın Al</button>
+    </div>
+    <div id="ekran_muzaroma" class="modal">
+      <div class="modal-icerik">
+        
+        <div class="icerik-sol">
+          <p>dfhdfdfgdgddsdddddmuzzzzzzzzddddddddddddddgddgdg</p>
+        </div>
+        <div class="icerik-sag">
+          <span class="kapat" onclick="ekranKapat_muzaroma()">&times;</span>
+          <p>Burada sol tarafdddddddddddddddasdasdsadasdadasdadastaki içeriğiniz olabilir.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="product" id="aromali">
+      <img src="Resources/peynir/beyazpeynir/taze.jpg" alt="Ürün Resmi"><br>
+      <p class="yazi_ortala">Taze Beyaz Peynir</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Beyaz Peynir</span></p><br>
+      <button onclick="ekranAc_vanilyaaroma()">Satın Al</button>
+    </div>
+    <div id="ekran_vanilyaaroma" class="modal">
+      <div class="modal-icerik">
+        
+        <div class="icerik-sol">
+          <p>vanilya</p>
+        </div>
+        <div class="icerik-sag">
+          <span class="kapat" onclick="ekranKapat_vanilyaaroma()">&times;</span>
+          <p>Burada sol vanilya içeriğiniz olabilir.</p>
+        </div>
+      </div>
+    </div>
+    <div class="product" id="aromali">
+      <img src="Resources/peynir/beyazpeynir/tulum.jpg" alt="Ürün Resmi"><br>
+      <p class="yazi_ortala">İzmir Tulum Peyniri</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Beyaz Peynir</span></p><br>
+      <button onclick="ekranAc_vanilyaaroma()">Satın Al</button>
+    </div>
+    <div id="ekran_vanilyaaroma" class="modal">
+      <div class="modal-icerik">
+        
+        <div class="icerik-sol">
+          <p>vanilya</p>
+        </div>
+        <div class="icerik-sag">
+          <span class="kapat" onclick="ekranKapat_vanilyaaroma()">&times;</span>
+          <p>Burada sol vanilya içeriğiniz olabilir.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="product" id="cocuk">
+      <img src="Resources/peynir/kasarpeyniri/dilim.jpg" alt="Ürün Resmi"><br>
+      <p class="yazi_ortala">Kaşar Dilimi</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Kaşar Peyniri</span></p><br>
+      <button onclick="ekranAc_cikolatacocuk()">Satın Al</button>
+    </div>
+    <div id="ekran_cikolatacocuk" class="modal">
+      <div class="modal-icerik">
+        
+        <div class="icerik-sol">
+          <p>cocuk</p>
+        </div>
+        <div class="icerik-sag">
+          <span class="kapat" onclick="ekranKapat_cikolatacocuk()">&times;</span>
+          <p>Burada sol cocuk içeriğiniz olabilir.</p>
+        </div>
+      </div>
+    </div>
+    <div class="product" id="cocuk">
+      <img src="Resources/peynir/kasarpeyniri/gravyer.jpg" alt="Ürün Resmi"><br>
+      <p class="yazi_ortala">Kaşar Gravyer</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Kaşar Peyniri</span></p><br>
+      <button onclick="ekranAc_cilekcocuk()">Satın Al</button>
+    </div>
+    <div id="ekran_cilekcocuk" class="modal">
+      <div class="modal-icerik">
+        
+        <div class="icerik-sol">
+          <p>cilek</p>
+        </div>
+        <div class="icerik-sag">
+          <span class="kapat" onclick="ekranKapat_cilekcocuk()">&times;</span>
+          <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+        </div>
+      </div>
+    </div>
+    <div class="product" id="cocuk" >
+      <img src="Resources/peynir/kasarpeyniri/kasar.jpg" alt="Ürün Resmi"><br>
+      <p class="yazi_ortala">Standart Kaşar Peyniri</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Kaşar Peyniri</span></p><br>
+      <button onclick="ekranAc_dvitamincocuk()">Satın Al</button>
+    </div>
+    <div id="ekran_dvitamincocuk" class="modal">
+      <div class="modal-icerik">
+        
+        <div class="icerik-sol">
+          <p>d vitamini</p>
+        </div>
+        <div class="icerik-sag">
+          <span class="kapat" onclick="ekranKapat_dvitamincocuk()">&times;</span>
+          <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+        </div>
+      </div>
+    </div>
+    <div class="product" id="cocuk">
+      <img src="Resources/peynir/kasarpeyniri/orgu.jpg" alt="Ürün Resmi"><br>
+      <p class="yazi_ortala">Örgü Kaşar Peyniri</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Kaşar Peyniri</span></p><br>
+      <button onclick="ekranAc_bebekcocuk()">Satın Al</button>
+    </div>
+    <div id="ekran_bebekcocuk" class="modal">
+      <div class="modal-icerik">
+        
+        <div class="icerik-sol">
+          <p>bebek</p>
+        </div>
+        <div class="icerik-sag">
+          <span class="kapat" onclick="ekranKapat_bebekcocuk()">&times;</span>
+          <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+        </div>
+      </div>
+    </div>
+    <div class="product" id="cocuk">
+      <img src="Resources/peynir/kasarpeyniri/tulum.jpg" alt="Ürün Resmi"><br>
+      <p class="yazi_ortala">Erzincan Tulum Kaşarı</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Kaşar Peyniri</span></p><br>
+      <button onclick="ekranAc_kalsiyumcocuk()">Satın Al</button>
+    </div>
+    <div id="ekran_kalsiyumcocuk" class="modal">
+      <div class="modal-icerik">
+        
+        <div class="icerik-sol">
+          <p>kalsiyum</p>
+        </div>
+        <div class="icerik-sag">
+          <span class="kapat" onclick="ekranKapat_kalsiyumcocuk()">&times;</span>
+          <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+        </div>
+      </div>
+    </div>
+ 
+    
+    <div class="product" id="devam">
+      <img src="Resources/peynir/ezinepeyniri/kasar.jpg" alt="Ürün Resmi"><br>
+      <p class="yazi_ortala">Ezine Kaşar Peyniri</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Ezine Peyniri</span></p><br>
+      <button onclick="ekranAc_bademdevam()">Satın Al</button>
+    </div>
+    <div id="ekran_bademdevam" class="modal">
+      <div class="modal-icerik">
+        
+        <div class="icerik-sol">
+          <p>badem</p>
+        </div>
+        <div class="icerik-sag">
+          <span class="kapat" onclick="ekranKapat_bademdevam()">&times;</span>
+          <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+        </div>
+      </div>
+    </div>
+    <div class="product" id="devam">
+      <img src="Resources/peynir/ezinepeyniri/olgun.jpg" alt="Ürün Resmi"><br>
+      <p class="yazi_ortala">Olgun Ezine Peyniri</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Ezine Peyniri</span></p><br>
+      <button onclick="ekranAc_hindistandevam()">Satın Al</button>
+    </div>
+    <div id="ekran_hindistandevam" class="modal">
+      <div class="modal-icerik">
+        
+        <div class="icerik-sol">
+          <p>hindistan</p>
+        </div>
+        <div class="icerik-sag">
+          <span class="kapat" onclick="ekranKapat_hindistandevam()">&times;</span>
+          <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+        </div>
+      </div>
+    </div>
+    <div class="product" id="devam" >
+      <img src="Resources/peynir/ezinepeyniri/orgu.jpg" alt="Ürün Resmi"><br>
+      <p class="yazi_ortala">Örgü Ezine Peyniri</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Ezine Peyniri</span></p><br>
+      <button onclick="ekranAc_inekdevam()">Satın Al</button>
+    </div>
+    <div id="ekran_inekdevam" class="modal">
+      <div class="modal-icerik">
+        
+        <div class="icerik-sol">
+          <p>inek</p>
+        </div>
+        <div class="icerik-sag">
+          <span class="kapat" onclick="ekranKapat_inekdevam()">&times;</span>
+          <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+        </div>
+      </div>
+    </div>
+    <div class="product" id="devam">
+      <img src="Resources/peynir/ezinepeyniri/taze.jpg" alt="Ürün Resmi"><br>
+      <p class="yazi_ortala" style=" position: relative;">Taze Ezine Peyniri</p><br>    <p style="text-align: center; "><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Ezine Peyniri</span></p><br>
+      <button onclick="ekranAc_kakaohindistandevam()">Satın Al</button>
+    </div>
+    <div id="ekran_kakaohindistandevam" class="modal">
+      <div class="modal-icerik">
+        
+        <div class="icerik-sol">
+          <p>kakao hindistan</p>
+        </div>
+        <div class="icerik-sag">
+          <span class="kapat" onclick="ekranKapat_kakaohindistandevam()">&times;</span>
+          <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+        </div>
+      </div>
+    </div>
+  
+    
+    
+    <div class="product" id="soyali">
+      <img src="Resources/peynir/tulumpeyniri/erzincan.jpg" alt="Ürün Resmi"><br>
+      <p class="yazi_ortala">Erzincan Tulum Peyniri</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Tulum Peyniri</span></p><br>
+      <button onclick="ekranAc_bademsoya()">Satın Al</button>
+    </div>
+    <div id="ekran_bademsoya" class="modal">
+      <div class="modal-icerik">
+        
+        <div class="icerik-sol">
+          <p>badem</p>
+        </div>
+        <div class="icerik-sag">
+          <span class="kapat" onclick="ekranKapat_bademsoya()">&times;</span>
+          <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+        </div>
+      </div>
+    </div>
+    <div class="product" id="soyali">
+      <img src="Resources/peynir/tulumpeyniri/izmir.jpg" alt="Ürün Resmi"><br>
+      <p class="yazi_ortala">İzmir Tulum Peyniri</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Tulum Peyniri</span></p><br>
+      <button onclick="ekranAc_cikolatasoya()">Satın Al</button>
+    </div>
+    <div id="ekran_cikolatasoya" class="modal">
+      <div class="modal-icerik">
+        
+        <div class="icerik-sol">
+          <p>çikolata</p>
+        </div>
+        <div class="icerik-sag">
+          <span class="kapat" onclick="ekranKapat_cikolatasoya()">&times;</span>
+          <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+        </div>
+      </div>
+    </div>
+    <div class="product" id="soyali">
+      <img src="Resources/peynir/tulumpeyniri/kasar.jpg" alt="Ürün Resmi"><br>
+      <p class="yazi_ortala">Kaşar Tulum Peyniri</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Tulum Peyniri</span></p><br>
+      <button onclick="ekranAc_kakaosoya()">Satın Al</button>
+    </div>
+    <div id="ekran_kakaosoya" class="modal">
+      <div class="modal-icerik">
+        
+        <div class="icerik-sol">
+          <p>kakao</p>
+        </div>
+        <div class="icerik-sag">
+          <span class="kapat" onclick="ekranKapat_kakaosoya()">&times;</span>
+          <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+        </div>
+      </div>
+    </div>
+    <div class="product" id="soyali">
+      <img src="Resources/peynir/tulumpeyniri/taze.jpg" alt="Ürün Resmi"><br>
+      <p class="yazi_ortala">İzmir Tulum Peyniri</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Tulum Peyniri</span></p><br>
+      <button onclick="ekranAc_dogalsoya()">Satın Al</button>
+    </div>
+    <div id="ekran_dogalsoya" class="modal">
+      <div class="modal-icerik">
+        
+        <div class="icerik-sol">
+          <p>doğal</p>
+        </div>
+        <div class="icerik-sag">
+          <span class="kapat" onclick="ekranKapat_dogalsoya()">&times;</span>
+          <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="product" id="laktoz">
+      <img src="Resources/peynir/lorpeyniri/baharat.jpg" alt="Ürün Resmi"><br>
+      <p class="yazi_ortala">Baharatlı Peynir</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Lor Peyniri</span></p><br>
+      <button onclick="ekranAc_laktozbezelye()">Satın Al</button>
+    </div>
+    <div id="ekran_laktozbezelye" class="modal">
+      <div class="modal-icerik">
+        
+        <div class="icerik-sol">
+          <p>doğal</p>
+        </div>
+        <div class="icerik-sag">
+          <span class="kapat" onclick="ekranKapat_dogalsoya()">&times;</span>
+          <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+        </div>
+      </div>
+    </div>
+    <div class="product" id="laktoz">
+      <img src="Resources/peynir/lorpeyniri/kasar.jpg" alt="Ürün Resmi"><br>
+      <p class="yazi_ortala">Lorlu Kaşar Peyniri</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Lor Peyniri</span></p><br>
+      <button onclick="ekranAc_laktozbezelye()">Satın Al</button>
+    </div>
+    <div id="ekran_laktozbezelye" class="modal">
+      <div class="modal-icerik">
+        
+        <div class="icerik-sol">
+          <p>bezelye</p>
+        </div>
+        <div class="icerik-sag">
+          <span class="kapat" onclick="ekranKapat_laktozbezelye()">&times;</span>
+          <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+        </div>
+      </div>
+    </div>
+    <div class="product" id="laktoz">
+      <img src="Resources/peynir/lorpeyniri/light.jpg" alt="Ürün Resmi"><br>
+      <p class="yazi_ortala">Light Lor Peyniri</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Lor Peyniri</span></p><br>
+      <button onclick="ekranAc_laktozfindik()">Satın Al</button>
+    </div>
+    <div id="ekran_laktozfindik" class="modal">
+      <div class="modal-icerik">
+        
+        <div class="icerik-sol">
+          <p>fındık</p>
+        </div>
+        <div class="icerik-sag">
+          <span class="kapat" onclick="ekranKapat_laktozfindik()">&times;</span>
+          <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+        </div>
+      </div></div>
+    <div class="product" id="laktoz">
+      <img src="Resources/peynir/lorpeyniri/standart.jpg" alt="Ürün Resmi"><br>
+      <p class="yazi_ortala">Standart Lor Peyniri</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Lor Peyniri</span></p><br>
+      <button onclick="ekranAc_laktozhindistancevizi()">Satın Al</button>
+    </div>
+    <div id="ekran_laktozhindistancevizi" class="modal">
+      <div class="modal-icerik">
+        
+        <div class="icerik-sol">
+          <p>hindistan</p>
+        </div>
+        <div class="icerik-sag">
+          <span class="kapat" onclick="ekranKapat_laktozhindistancevizi()">&times;</span>
+          <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+        </div>
+      </div></div>
+    <div class="product" id="laktoz">
+      <img src="Resources/peynir/lorpeyniri/tuzsuz.jpg" alt="Ürün Resmi"><br>
+      <p class="yazi_ortala">Tuzsuz Lor Peyniri</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Lor Peyniri</span></p><br>
+      <button onclick="ekranAc_laktozpirinc()">Satın Al</button>
+    </div>
+    <div id="ekran_laktozpirinc" class="modal">
+      <div class="modal-icerik">
+        
+        <div class="icerik-sol">
+          <p>vanilya</p>
+        </div>
+        <div class="icerik-sag">
+          <span class="kapat" onclick="ekranKapat_laktozpirinc()">&times;</span>
+          <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+        </div>
+      </div></div>
+     
+    <div class="product" id="light">
+      <img src="Resources/peynir/cheddarpeyniri/beyaz.jpg" alt="Ürün Resmi"><br>
+      <p class="yazi_ortala">Beyaz Cheddar Peyniri</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Cheddar Peyniri</span></p><br>
+      <button onclick="ekranAc_lightbadem()">Satın Al</button>
+    </div>
+    <div id="ekran_lightbadem" class="modal">
+      <div class="modal-icerik">
+        
+        <div class="icerik-sol">
+          <p>badem</p>
+        </div>
+        <div class="icerik-sag">
+          <span class="kapat" onclick="ekranKapat_lightbadem()">&times;</span>
+          <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+        </div>
+      </div></div>
+    <div class="product" id="light">
+      <img src="Resources/peynir/cheddarpeyniri/biber.jpg" alt="Ürün Resmi"><br>
+      <p class="yazi_ortala">Biberli Cheddar Peyniri</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Cheddar Peyniri</span></p><br>
+      <button onclick="ekranAc_lightfindik()">Satın Al</button>
+    </div>
+    <div id="ekran_lightfindik" class="modal">
+      <div class="modal-icerik">
+        
+        <div class="icerik-sol">
+          <p>findik</p>
+        </div>
+        <div class="icerik-sag">
+          <span class="kapat" onclick="ekranKapat_lightfindik()">&times;</span>
+          <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+        </div>
+      </div></div>
+    <div class="product" id="light">
+      <img src="Resources/peynir/cheddarpeyniri/isli.jpg" alt="Ürün Resmi"><br>
+      <p class="yazi_ortala">İsli Cheddar Peyniri</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Cheddar Peyniri</span></p><br>
+      <button onclick="ekranAc_lighthindistan()">Satın Al</button>
+    </div>
+    <div id="ekran_lighthindistan" class="modal">
+      <div class="modal-icerik">
+        
+        <div class="icerik-sol">
+          <p>hindistan</p>
+        </div>
+        <div class="icerik-sag">
+          <span class="kapat" onclick="ekranKapat_lighthindistan()">&times;</span>
+          <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+        </div>
+      </div></div>
+    <div class="product" id="light">
+      <img src="Resources/peynir/cheddarpeyniri/sarimsak.jpg" alt="Ürün Resmi"><br>
+      <p class="yazi_ortala">Sarımsaklı Cheddar Peyniri</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Cheddar Peyniri</span></p><br>
+      <button onclick="ekranAc_lightinek()">Satın Al</button>
+    </div>
+    <div id="ekran_lightinek" class="modal">
+      <div class="modal-icerik">
+        
+        <div class="icerik-sol">
+          <p>inek</p>
+        </div>
+        <div class="icerik-sag">
+          <span class="kapat" onclick="ekranKapat_lightinek()">&times;</span>
+          <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+        </div>
+      </div></div>
+    
+    <div class="product" id="light">
+      <img src="Resources/peynir/cheddarpeyniri/standart.jpg" alt="Ürün Resmi"><br>
+      <p class="yazi_ortala">Standart Cheddar Peyniri</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Cheddar Peyniri</span></p><br>
+      <button onclick="ekranAc_lightkeci()">Satın Al</button>
+    </div>
+    <div id="ekran_lightkeci" class="modal">
+      <div class="modal-icerik">
+        
+        <div class="icerik-sol">
+          <p>keci</p>
+        </div>
+        <div class="icerik-sag">
+          <span class="kapat" onclick="ekranKapat_lightkeci()">&times;</span>
+          <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+        </div>
+      </div></div>
+ 
+    <div class="product" id="yarim">
+      <img src="Resources/peynir/mozarellapeyniri/bufalo.jpg" alt="Ürün Resmi"><br>
+      <p class="yazi_ortala">Bufala Mozzarella Peyniri</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Mozarella Peyniri</span></p><br>
+      <button onclick="ekranAc_yarimbadem()">Satın Al</button>
+    </div>
+    <div id="ekran_yarimbadem" class="modal">
+      <div class="modal-icerik">
+        
+        <div class="icerik-sol">
+          <p>badem</p>
+        </div>
+        <div class="icerik-sag">
+          <span class="kapat" onclick="ekranKapat_yarimbadem()">&times;</span>
+          <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+        </div>
+      </div></div>
+    <div class="product" id="yarim">
+      <img src="Resources/peynir/mozarellapeyniri/minitop.jpg" alt="Ürün Resmi"><br>
+      <p class="yazi_ortala">Mini Mozzarella Topları</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Mozarella Peyniri</span></p><br>
+      <button onclick="ekranAc_yarimbufalo()">Satın Al</button>
+    </div>
+    <div id="ekran_yarimbufalo" class="modal">
+      <div class="modal-icerik">
+        
+        <div class="icerik-sol">
+          <p>bufalo</p>
+        </div>
+        <div class="icerik-sag">
+          <span class="kapat" onclick="ekranKapat_yarimbufalo()">&times;</span>
+          <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+        </div>
+      </div></div>
+    <div class="product" id="yarim">
+      <img src="Resources/peynir/mozarellapeyniri/standart.jpg" alt="Ürün Resmi"><br>
+      <p class="yazi_ortala">Standart Mozzarella Peyniri</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Mozarella Peyniri</span></p><br>
+      <button onclick="ekranAc_yarimfindik()">Satın Al</button>
+    </div>
+    <div id="ekran_yarimfindik" class="modal">
+      <div class="modal-icerik">
+        
+        <div class="icerik-sol">
+          <p>findik</p>
+        </div>
+        <div class="icerik-sag">
+          <span class="kapat" onclick="ekranKapat_yarimfindik()">&times;</span>
+          <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+        </div>
+      </div></div>
+    <div class="product" id="yarim">
+      <img src="Resources/peynir/mozarellapeyniri/sticks.jpg" alt="Ürün Resmi"><br>
+      <p class="yazi_ortala">Mozzarella Sticks</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Mozarella Peyniri</span></p><br>
+      <button onclick="ekranAc_yarimhindistan()">Satın Al</button>
+    </div>
+    <div id="ekran_yarimhindistan" class="modal">
+      <div class="modal-icerik">
+        
+        <div class="icerik-sol">
+          <p>hindistan</p>
+        </div>
+        <div class="icerik-sag">
+          <span class="kapat" onclick="ekranKapat_yarimhindistan()">&times;</span>
+          <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+        </div>
+      </div></div>
+    <div class="product" id="yarim">
+      <img src="Resources/peynir/mozarellapeyniri/toplar.jpg" alt="Ürün Resmi"><br>
+      <p class="yazi_ortala">Büyük Mozzarella Topları</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Mozarella Peyniri</span></p><br>
+      <button onclick="ekranAc_yariminek()">Satın Al</button>
+    </div>
+    <div id="ekran_yariminek" class="modal">
+      <div class="modal-icerik">
+        
+        <div class="icerik-sol">
+          <p>inek</p>
+        </div>
+        <div class="icerik-sag">
+          <span class="kapat" onclick="ekranKapat_yariminek()">&times;</span>
+          <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+        </div>
+      </div></div>
+    
+    <div class="product" id="organik">
+      <img src="Resources/peynir/parmesanpeyniri/grana_padano.jpg" alt="Ürün Resmi"><br>
+      <p class="yazi_ortala">Grana Padano</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Parmesan Peyniri</span></p><br>
+      <button onclick="ekranAc_organikbadem()">Satın Al</button>
+    </div>
+    <div id="ekran_organikbadem" class="modal">
+      <div class="modal-icerik">
+        
+        <div class="icerik-sol">
+          <p>bademm</p>
+        </div>
+        <div class="icerik-sag">
+          <span class="kapat" onclick="ekranKapat_organikbadem()">&times;</span>
+          <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+        </div>
+      </div></div>
+
+    <div class="product" id="organik">
+      <img src="Resources/peynir/parmesanpeyniri/Parmesan_Di_Bufala.jpg" alt="Ürün Resmi"><br>
+      <p class="yazi_ortala">Parmesan Di Bufala</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Parmesan Peyniri</span></p><br>
+      <button onclick="ekranAc_organikinek()">Satın Al</button>
+    </div>
+    <div id="ekran_organikinek" class="modal">
+      <div class="modal-icerik">
+        
+        <div class="icerik-sol">
+          <p>inek</p>
+        </div>
+        <div class="icerik-sag">
+          <span class="kapat" onclick="ekranKapat_organikinek()">&times;</span>
+          <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+        </div>
+      </div></div>
+    <div class="product" id="organik">
+      <img src="Resources/peynir/parmesanpeyniri/Parmesan_Pezzetti.jpg" alt="Ürün Resmi"><br>
+      <p class="yazi_ortala">Parmesan Pezzetti</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Parmesan Peyniri</span></p><br>
+      <button onclick="ekranAc_organikkeci()">Satın Al</button>
+    </div>
+    <div id="ekran_organikkeci" class="modal">
+      <div class="modal-icerik">
+        
+        <div class="icerik-sol">
+          <p>keci</p>
+        </div>
+        <div class="icerik-sag">
+          <span class="kapat" onclick="ekranKapat_organikkeci()">&times;</span>
+          <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+        </div>
+      </div></div>
+    <div class="product" id="organik">
+      <img src="Resources/peynir/parmesanpeyniri/parmesan_reggianito.jpg" alt="Ürün Resmi"><br>
+      <p class="yazi_ortala">Parmesan Reggianito</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Parmesan Peyniri</span></p><br>
+      <button onclick="ekranAc_organikkoyun()">Satın Al</button>
+    </div>
+    <div id="ekran_organikkoyun" class="modal">
+      <div class="modal-icerik">
+        
+        <div class="icerik-sol">
+          <p>koyun</p>
+        </div>
+        <div class="icerik-sag">
+          <span class="kapat" onclick="ekranKapat_organikkoyun()">&times;</span>
+          <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+        </div>
+      </div></div>
+    <div class="product" id="organik">
+      <img src="Resources/peynir/parmesanpeyniri/parmigiano_reggianno.jpg" alt="Ürün Resmi"><br>
+      <p class="yazi_ortala">Parmigiano-Reggiano</p><br>    <p style="text-align: center;"><span class="kategori_kutu"> Kategori: </span>&nbsp;<span class="kategori_kutu_yan">Parmesan Peyniri</span></p><br>
+      <button onclick="ekranAc_organikpirinc()">Satın Al</button>
+    </div>
+    <div id="ekran_organikpirinc" class="modal">
+      <div class="modal-icerik">
+        
+        <div class="icerik-sol">
+          <p>pirinc</p>
+        </div>
+        <div class="icerik-sag">
+          <span class="kapat" onclick="ekranKapat_organikpirinc()">&times;</span>
+          <p>Burada sol tarafdddddddddddddddtaki içeriğiniz olabilir.</p>
+        </div>
+      </div></div>
+
+    </div>
+
+<div class="footers">
+  <footer>
+<br><br>
+Ramazan 522 11/A || Hızır Reis MTAL<br><br>
+<ul class="footer-links">
+  <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+  <li><a href="https://www.instagram.com/hizirreism.t.a.l/" target="_blank">Instagram</a></li>
+  <li><a href="https://twitter.com/hizirreism" target="_blank">X (Twitter)</a></li>
+  <li><a href="https://hizirreistml.meb.k12.tr/" target="_blank">Offical Web Site</a></li>
+</ul>
+
+
+  </footer>
+</div>
+<script>
+window.addEventListener("wheel", function(e) {
+    // prevent default vertical scrolling
+    e.preventDefault();
+    
+    // scroll horizontally instead
+    window.scrollBy(e.deltaY, 0);
+  }, { passive: false });  // use passive option false to make preventDefault() work
+
+
+
+  function showContent(categoryId) {
+    var contents = document.getElementsByClassName('product');
+    if (categoryId === 'tumu') {
+      // Tüm içerikleri göster
+      for (var i = 0; i < contents.length; i++) {
+        contents[i].style.display = 'block';
+      }
+      
+    } else {
+      // Belirli kategoriye göre içerikleri göster
+      for (var i = 0; i < contents.length; i++) {
+        if (contents[i].id === categoryId) {
+          contents[i].style.display = 'block';
+        } else {
+          contents[i].style.display = 'none';
+        }
+      }
+    }
+
+
+    
+    var contents = document.getElementsByClassName('kategori_adi');
+    
+    // Belirli kategoriye göre içerikleri göster
+    for (var i = 0; i < contents.length; i++) {
+      if (contents[i].id === categoryId) {
+        contents[i].style.display = 'block';
+      } else {
+        contents[i].style.display = 'none';
+      }
+    }
+  }
+  
+ // Tüm p elemanlarını seç
+ var tumu = document.getElementById("tumu");
+  var pList = document.querySelectorAll(".kategori_adi");
+
+  // Her bir p elemanını döngüyle kontrol et
+  pList.forEach(function(p) {
+    // Eğer p elemanının id'si tumu ise göster, değilse gizle
+    if (p.id === "tumu") {
+      p.style.display = "block";
+    } else {
+      p.style.display = "none";
+    }
+  });
+
+// Tüm butonları seç
+var buttons = document.querySelectorAll(".icerik-links li a");
+
+// Her bir buton için click olayı ekle
+buttons.forEach(function(button) {
+  button.addEventListener("click", function() {
+    // Tüm butonların arka plan rengini ve metin rengini varsayılan yap
+    buttons.forEach(function(btn) {
+      btn.style.backgroundColor = "#b4b4b4";
+      btn.style.color = "#000000";
+    });
+
+    // Tıklanan butonun arka plan rengini ve metin rengini değiştir
+    this.style.backgroundColor = "#000000";
+    this.style.color = "#f2f2f2";
+  });
+});
+
+// Sayfa yüklendiğinde "tumu" ID'sine sahip butonun arka plan rengini kırmızı yap
+window.onload = function() {
+  var tumuButton = document.getElementById("kirmizi");
+  tumuButton.style.backgroundColor = "#000000";
+  tumuButton.style.color = "#f2f2f2";
+};
+
+
+
+
+
+
+
+// İçeriği kaydırmak için fare tekerleği olayını dinleme
+document.querySelector('.icerik-sol').addEventListener('wheel', function(event) {
+  // Yalnızca y dikey kaydırma için
+  if (event.deltaY !== 0) {
+    // Eğer içerik yukarıda değilse ve aşağı kaydırılmak isteniyorsa veya içerik aşağıda değilse ve yukarı kaydırılmak isteniyorsa kaydırma işlemi yap
+    if ((this.scrollTop !== 0 && event.deltaY < 0) || (this.scrollTop !== (this.scrollHeight - this.clientHeight) && event.deltaY > 0)) {
+      this.scrollTop += event.deltaY;
+      // Fare tekerleği varsayılan davranışını engelleme (sayfa kaydırma)
+      event.preventDefault();
+    }
+  }
+});
+
+
+
+function showDiv() {
+    var div = document.getElementById('belirtilenDiv');
+    div.style.display = "block";
+
+    // Belirli bir süre sonra div'i gizle
+    setTimeout(function() {
+      div.style.display = "none";
+    }, 5000); // 2 saniye (2000 milisaniye)
+  }
+ 
+
+  function ekranAc_laktozbadem() {
+    document.getElementById('ekran_laktozbadem').style.display = 'block';
+  }
+  
+  function ekranKapat_laktozbadem() {
+    document.getElementById('ekran_laktozbadem').style.display = 'none';
+  }
+  function ekranAc_laktozbezelye( ) {
+    document.getElementById('ekran_laktozbezelye').style.display = 'block';
+  }
+  
+  function ekranKapat_laktozbezelye() {
+    document.getElementById('ekran_laktozbezelye').style.display = 'none';
+  }
+  function ekranAc_laktozfindik() {
+    document.getElementById('ekran_laktozfindik').style.display = 'block';
+  }
+  
+  function ekranKapat_laktozfindik() {
+    document.getElementById('ekran_laktozfindik').style.display = 'none';
+  }
+  function ekranAc_laktozhindistancevizi() {
+    document.getElementById('ekran_laktozhindistancevizi').style.display = 'block';
+  }
+  
+  function ekranKapat_laktozhindistancevizi() {
+    document.getElementById('ekran_laktozhindistancevizi').style.display = 'none';
+  }
+  function ekranAc_laktozpirinc() {
+    document.getElementById('ekran_laktozpirinc').style.display = 'block';
+  }
+  
+  function ekranKapat_laktozpirinc() {
+    document.getElementById('ekran_laktozpirinc').style.display = 'none';
+  }
+  function ekranAc_laktozquiona() {
+    document.getElementById('ekran_laktozquiona').style.display = 'block';
+  }
+  
+  function ekranKapat_laktozquiona() {
+    document.getElementById('ekran_laktozquiona').style.display = 'none';
+  }
+  function ekranAc_laktozsoya() {
+    document.getElementById('ekran_laktozsoya').style.display = 'block';
+  }
+  
+  function ekranKapat_laktozsoya() {
+    document.getElementById('ekran_laktozsoya').style.display = 'none';
+  }
+  function ekranAc_laktozyulaf() {
+    document.getElementById('ekran_laktozyulaf').style.display = 'block';
+  }
+  function ekranKapat_laktozyulaf() {
+    document.getElementById('ekran_laktozyulaf').style.display = 'none';
+  }
+  
+  function ekranKapat_lightbadem() {
+    document.getElementById('ekran_lightbadem').style.display = 'none';
+  }
+  function ekranAc_lightbadem() {
+    document.getElementById('ekran_lightbadem').style.display = 'block';
+  }
+  
+  function ekranKapat_lightfindik() {
+    document.getElementById('ekran_lightfindik').style.display = 'none';
+  }
+  function ekranAc_lightfindik() {
+    document.getElementById('ekran_lightfindik').style.display = 'block';
+  }
+  
+  function ekranKapat_lighthindistan() {
+    document.getElementById('ekran_lighthindistan').style.display = 'none';
+  }
+  function ekranAc_lighthindistan() {
+    document.getElementById('ekran_lighthindistan').style.display = 'block';
+  }
+  
+  function ekranKapat_lightinek() {
+    document.getElementById('ekran_lightinek').style.display = 'none';
+  }
+  function ekranAc_lightinek() {
+    document.getElementById('ekran_lightinek').style.display = 'block';
+  }
+  
+  function ekranKapat_lightkeci() {
+    document.getElementById('ekran_lightkeci').style.display = 'none';
+  }
+  function ekranAc_lightkeci() {
+    document.getElementById('ekran_lightkeci').style.display = 'block';
+  }
+  
+  function ekranKapat_lightpirinc() {
+    document.getElementById('ekran_lightpirinc').style.display = 'none';
+  }
+  function ekranAc_lightpirinc() {
+    document.getElementById('ekran_lightpirinc').style.display = 'block';
+  }
+  
+  function ekranKapat_lightsoya() {
+    document.getElementById('ekran_lightsoya').style.display = 'none';
+  }
+  function ekranAc_lightsoya() {
+    document.getElementById('ekran_lightsoya').style.display = 'block';
+  }
+  
+  function ekranKapat_lightyulaf() {
+    document.getElementById('ekran_lightyulaf').style.display = 'none';
+  }
+  function ekranAc_lightyulaf() {
+    document.getElementById('ekran_lightyulaf').style.display = 'block';
+  }
+  
+  function ekranKapat_yarimbadem() {
+    document.getElementById('ekran_yarimbadem').style.display = 'none';
+  }
+  function ekranAc_yarimbadem() {
+    document.getElementById('ekran_yarimbadem').style.display = 'block';
+  }
+  
+  function ekranKapat_yarimbufalo() {
+    document.getElementById('ekran_yarimbufalo').style.display = 'none';
+  }
+  function ekranAc_yarimbufalo() {
+    document.getElementById('ekran_yarimbufalo').style.display = 'block';
+  }
+
+  function ekranKapat_yarimfindik() {
+    document.getElementById('ekran_yarimfindik').style.display = 'none';
+  }
+  function ekranAc_yarimfindik() {
+    document.getElementById('ekran_yarimfindik').style.display = 'block';
+  }
+  
+  function ekranKapat_yarimhindistan() {
+    document.getElementById('ekran_yarimhindistan').style.display = 'none';
+  }
+  function ekranAc_yarimhindistan() {
+    document.getElementById('ekran_yarimhindistan').style.display = 'block';
+  }
+
+  function ekranKapat_yariminek() {
+    document.getElementById('ekran_yariminek').style.display = 'none';
+  }
+  function ekranAc_yariminek() {
+    document.getElementById('ekran_yariminek').style.display = 'block';
+  }
+  
+  function ekranKapat_yarimkeci() {
+    document.getElementById('ekran_yarimkeci').style.display = 'none';
+  }
+  function ekranAc_yarimkeci() {
+    document.getElementById('ekran_yarimkici').style.display = 'block';
+  }
+
+  function ekranKapat_yarimmanda() {
+    document.getElementById('ekran_yarimmanda').style.display = 'none';
+  }
+  function ekranAc_yarimmanda() {
+    document.getElementById('ekran_yarimmanda').style.display = 'block';
+  }
+  
+  function ekranKapat_yarimsoya() {
+    document.getElementById('ekran_yarimsoya').style.display = 'none';
+  }
+  function ekranAc_yarimsoya() {
+    document.getElementById('ekran_yarimsoya').style.display = 'block';
+  }
+
+  function ekranKapat_yarimyulaf() {
+    document.getElementById('ekran_yarimyulaf').style.display = 'none';
+  }
+  function ekranAc_yarimyulaf() {
+    document.getElementById('ekran_yarimyulaf').style.display = 'block';
+  }
+  
+  function ekranKapat_organikbadem() {
+    document.getElementById('ekran_organikbadem').style.display = 'none';
+  }
+  function ekranAc_organikbadem() {
+    document.getElementById('ekran_organikbadem').style.display = 'block';
+  }
+  function ekranKapat_organikhindistan() {
+    document.getElementById('ekran_organikhindistan').style.display = 'none';
+  }
+  function ekranAc_organikhindistan() {
+    document.getElementById('ekran_organikhindistan').style.display = 'block';
+  }
+  function ekranKapat_organikinek() {
+    document.getElementById('ekran_organikinek').style.display = 'none';
+  }
+  function ekranAc_organikinek() {
+    document.getElementById('ekran_organikinek').style.display = 'block';
+  }
+  function ekranKapat_organikkeci() {
+    document.getElementById('ekran_organikkeci').style.display = 'none';
+  }
+  function ekranAc_organikkeci() {
+    document.getElementById('ekran_organikkeci').style.display = 'block';
+  }
+  function ekranKapat_organikkoyun() {
+    document.getElementById('ekran_organikkoyun').style.display = 'none';
+  }
+  function ekranAc_organikkoyun() {
+    document.getElementById('ekran_organikkoyun').style.display = 'block';
+  }
+  function ekranKapat_organikpirinc() {
+    document.getElementById('ekran_organikpirinc').style.display = 'none';
+  }
+  function ekranAc_organikpirinc() {
+    document.getElementById('ekran_organikpirinc').style.display = 'block';
+  }
+  function ekranKapat_organiksoya() {
+    document.getElementById('ekran_organiksoya').style.display = 'none';
+  }
+  function ekranAc_organiksoya() {
+    document.getElementById('ekran_organiksoya').style.display = 'block';
+  }
+  function ekranKapat_organikyulaf() {
+    document.getElementById('ekran_organikyulaf').style.display = 'none';
+  }
+  function ekranAc_organikyulaf() {
+    document.getElementById('ekran_organikyulaf').style.display = 'block';
+  }
+</script>
+<script src="script.js"></script>
+</body>
+
+
+</html>

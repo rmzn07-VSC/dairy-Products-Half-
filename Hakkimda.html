@@ -1,0 +1,230 @@
+<html>
+<head>
+<title>Hakkımda</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Arka plan rengi */
+    color: #333; /* Metin rengi */
+    overflow-x: hidden; /* Yatay taşma durumunda kaydırmayı engeller */
+    scroll-behavior: smooth; /* Kaydırma davranışını düzgün hale getirir */
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Arka plana hafif bir opaklık ekler */
+    z-index: -1;
+}
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .hakkinda-kutusu {
+    width: 90%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  .hakkinda-kutusu:hover {
+    transform: translateY(-5px);
+  }
+  .hakkinda-baslik {
+    color: #333;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    transition: color 0.3s ease-in-out;
+  }
+  .hakkinda-kutusu:hover .hakkinda-baslik {
+    color: #ff6600;
+  }
+  .hakkinda-icerik {
+    color: #666;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .hakkinda-kutusu:hover .hakkinda-icerik {
+    opacity: 0.8;
+  }
+  .hobiler-listesi {
+    margin-top: 20px;
+    padding-left: 20px;
+    list-style-type: none;
+  }
+  .hobiler-listesi li {
+    margin-bottom: 10px;
+    font-weight: bold;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+  }
+  .hobiler-listesi li:hover {
+    transform: scale(1.1);
+  }
+  .hobi-detay {
+    display: none;
+    margin-left: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: opacity 0.3s ease-in-out;
+  }
+  .hobiler-listesi li:hover .hobi-detay {
+    display: block;
+    opacity: 0.8;
+  }
+
+  #particle-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* Partiküllerin fare etkileşimini engelle */
+    z-index: -1; /* Diğer içeriğin arkasında olmasını sağlar */
+}
+
+.particle {
+    position: absolute;
+    pointer-events: none; /* Partiküllerin fare etkileşimini engelle */
+    border-radius: 50%; /* Yuvarlak partiküller oluşturur */
+    animation-fill-mode: forwards; /* Animasyon son durumunda kalmasını sağlar */
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+</style>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id="particle-container"></div>
+<nav>
+  <div class="wrapper">
+    <div class="logo"><a href="#">Hakkımda</a></div>
+    <input type="radio" name="slider" id="menu-btn">
+    <input type="radio" name="slider" id="close-btn">
+    <ul class="nav-links">
+      <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+      <li><a href="index.html">Ana Sayfa</a></li>
+      <li><a href="#">Hakkımda</a></li>
+      <li>
+        <a href="#" class="desktop-item">Süt Ürünleri</a>
+        <input type="checkbox" id="showDrop">
+        <label for="showDrop" class="mobile-item">Süt Ürünleri</label>
+        <ul class="drop-menu">
+        <li><a href="Sut.html">Süt</a></li>
+          <li><a href="Peynir.html">Peynir</a></li>
+          <li><a href="Yogurt.html">Yoğurt</a></li>
+		  <li><a href="Kaymak.html">Kaymak</a></li>
+
+          <li><a href="Tereyagi.html">Tereyağı</a></li>
+
+        </ul>
+      </li>
+      
+      
+    </ul>
+    <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+  </div>
+</nav>
+
+<div class="hakkinda-kutusu">
+  <h2 class="hakkinda-baslik">Hakkımda</h2>
+  <div class="hakkinda-icerik">
+    <p>Merhaba! Benim adım Ramazan ve bu benim hakkımda sayfam.</p>
+    <p>Ben Antalya'da yaşıyorum ve Hızır Reis MTAL'de Yazılım Bölümünde okuyorum.</p>
+    <p>Hobilerim arasında şunlar bulunuyor:</p>
+    <ul class="hobiler-listesi">
+      <li>
+        [Kod Yazmak]
+        <div class="hobi-detay">
+          Okulda aldığım projeleri yapmak bana zevkli geliyor ve bunu bir ders gibi değil de eylenerek yapıyorum.
+        </div>
+      </li>
+      <li>
+        [Bilgisayar Oyunları]
+        <div class="hobi-detay">
+          Oyunları severim, özellikle hayatta kalma türlerini.
+        </div>
+      </li>
+      <li>
+        [Spor]
+        <div class="hobi-detay">
+          Uzun samandır spora karşı bir ilgim var ve fitness a gidiyorum / gidiyordum.
+        </div>
+      </li>
+    </ul>
+    <p>Ayrıca Saha Tenisi ve Tasarım konularıyla ilgileniyorum.</p>
+    <p>Amacım, Yazılım Mühemdisi hedefime ulaşmak ve bu alanda başarılı olmaktır.</p>
+  </div>
+</div>
+<div class="footers">
+  <footer>
+<br><br>
+Ramazan 522 11/A || Hızır Reis MTAL<br><br>
+<ul class="footer-links">
+  <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+  <li><a href="https://www.instagram.com/hizirreism.t.a.l/" target="_blank">Instagram</a></li>
+  <li><a href="https://twitter.com/hizirreism" target="_blank">X (Twitter)</a></li>
+  <li><a href="https://hizirreistml.meb.k12.tr/" target="_blank">Offical Web Site</a></li>
+</ul>
+<br><br>
+
+  </footer>
+</div>
+<script src="script.js"></script>
+<script>
+
+document.addEventListener('mousemove', function(event) {
+        createParticle(event.clientX, event.clientY);
+    });
+
+    document.addEventListener('click', function(event) {
+        createParticle(event.clientX, event.clientY);
+        playSound(); // Ses efekti
+    });
+
+  
+
+    // Rastgele renk oluşturur
+    function getRandomColor() {
+        var letters = '0123456789ABCDEF';
+        var color = '#';
+        for (var i = 0; i < 6; i++) {
+            color += letters[Math.floor(Math.random() * 16)];
+        }
+        return color;
+    }
+</script>
+</body>
+
+
+</html>
