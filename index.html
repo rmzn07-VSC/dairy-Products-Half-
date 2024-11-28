@@ -28,17 +28,11 @@ body::before {
     letter-spacing: 5px;
     animation: neon-blink 2s infinite alternate, text-grow 4s forwards, move-up 5s ease forwards;
   }
-  @keyframes neon-blink {
-    0% { text-shadow: 0 0 15px rgba(255,255,255,0.8), 0 0 30px rgba(255,255,255,0.6), 0 0 45px rgba(255,255,255,0.4), 0 0 60px rgba(255,255,255,0.2); }
-    100% { text-shadow: 0 0 30px rgba(255,255,255,0.6), 0 0 60px rgba(255,255,255,0.4), 0 0 90px rgba(255,255,255,0.2), 0 0 120px rgba(255,255,255,0.1); }
-  }
-  @keyframes text-grow {
-    0% { font-size: 1px; }
-    60% { font-size: 35px; }
-    100% { font-size: 30px; }
-  }
+ 
+
+ 
   @keyframes move-up {
-    0% { transform: translateY(500px); }
+    0% { transform: translateY(600px); }
     100% { transform: translateY(100px); }
   }
   #dikkat-yazi span {
@@ -91,7 +85,7 @@ body::before {
         transform: rotate(0deg);
     }
     to {
-        transform: rotate(360deg);
+        transform: rotate(300deg);
     }
 }
 </style>
@@ -191,7 +185,7 @@ body::before {
        <span class="dot" onclick="currentSlide(2)"></span>
        <span class="dot" onclick="currentSlide(3)"></span>
    </div>
-   </div><br>
+  </div><br>
    <h1 id="dikkat-yazi">Süt Ürünlerimize üst menüdeki<br> <span onmouseover="showDiv()" onmouseout="hideDiv()" style="color: #ff6600;">"Süt Ürünleri"</span> yazısının üzerine farenizi<br> götürerek, açılan  alt sekmeden <br> görebilirsiniz.</h1>
 
    <div class="belirtilen-div" id="belirtilenDiv"><img src="Resources/süt/ok.png"></div>
