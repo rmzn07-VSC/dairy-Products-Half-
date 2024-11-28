@@ -310,7 +310,7 @@ to {opacity: 1}
 
 .kategori_adi{
 position:fixed;
-font-size: 30;
+font-size: 20;
 font-weight: bolder;
 left: 260px;
 background-color: #363636;
@@ -318,9 +318,9 @@ width: 100%;
 height: 50;
 padding-left: 39px;
 top:110px;
-padding-top: 8px;
+padding-top: 12px;
 color: #fff;
-
+margin-top: -45px;
 }
 
 
@@ -358,7 +358,7 @@ padding-bottom: 5px;
 .container {
   display: flex;
   justify-content: space-between;
-  max-width: 1350px; /* Örnek bir değer */
+  max-width: 980px; /* Örnek bir değer */
   margin: 0 auto; /* Sayfanın ortasında konumlandırmak için */
   
 }
@@ -377,8 +377,7 @@ padding-bottom: 5px;
 
 .product {
   border-radius: 10px;
-  top:105px;
-  margin-left: 400px;
+  top:115px;
   flex: 1;
   border: 3px solid black;
   color: #f2f2f2;
@@ -490,11 +489,14 @@ background-color: rgb(255, 0, 0);
 #solaGit {
   left: 298px;
   bottom: 145px;
+  margin-left: -290px;  margin-bottom: -45px; z-index: 999;
 }
 
 #sagaGit {
   right: 1410px;
   bottom: 145px;
+  margin-right: -155px; margin-bottom: -45px;
+  z-index: 999;
 }
 
 .sagsol:hover {
@@ -663,8 +665,9 @@ border-radius: 10px;
     position: fixed;
     z-index: 999;
     border-radius: 10px;
-    
-    
+    bottom: 150px; margin-left: -8px;
+    font-size: 15px;
+        margin-left: 27px;
     
     }
     .digerrrr{
@@ -678,7 +681,9 @@ border-radius: 10px;
       position: fixed;
       z-index: 999;
       border-radius: 10px;
-      
+      bottom: 150px; margin-left: -8px;
+      font-size: 15px;
+        margin-left: 27px;
       
       
       }
@@ -689,8 +694,8 @@ border-radius: 10px;
   height: 100px;
   background-color: rgba(0, 0, 0, 0);
   position: fixed;
-  top: 13%;
-  right: 30px;
+  top: 15%;
+  right: 10px;
   transform: translate(-50%, -50%);
   z-index: 9;
   display: none; /* Başlangıçta görünmez yapılıyor */

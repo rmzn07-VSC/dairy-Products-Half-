@@ -9,7 +9,7 @@
 
 
   <button class="sagsol" id="solaGit" onclick="solaGit()">Sola Git</button>
-  <button class="sagsol" id="sagaGit" onclick="sagaGit()">Sağa Git</button>
+  <button  class="sagsol" id="sagaGit" onclick="sagaGit()">Sağa Git</button>
  
 
 <nav>
@@ -17,7 +17,7 @@
     <div class="logo"><a href="#">Bir dilim kaymak, binlerce gülümseme.</a></div>
     <input type="radio" name="slider" id="menu-btn">
     <input type="radio" name="slider" id="close-btn">
-    <ul class="nav-links">
+    <ul style="margin-right: 170px;" class="nav-links">
       <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
       <li><a href="index.html" >Ana Sayfa</a></li>
       <li><a href="Hakkimda.html">Hakkımda</a></li>      <li>
@@ -54,12 +54,12 @@
         <li><a href="#" onclick="showContent('light')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Köy Kaymağı&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li><br>
         
 
-        <p class="digerrrr">Diğer Süt ürünlerimize <br> de bakmak isterseniz <br> <b><a href="#" class="tikla"onclick="showDiv()"><span >buraya</span></a></b> tıklayın, size<br> yolu göstereceğim! </p>
+        <p  class="digerrr">Diğer Süt ürünlerimize <br> de bakmak isterseniz <br> <b><a href="#" class="tikla"onclick="showDiv()"><span >buraya</span></a></b> tıklayın, size<br> yolu göstereceğim! </p>
 
         
     
       </div>
-      <p class="kategori_adi" id="tumu"><b>Tüm Kaymaklar</b>, Kaymaklar hakkında herşeyi burada görebilirsiniz.</p>
+      <p class="kategori_adi" id="tumu" style="margin-top: -45px;"><b>Tüm Kaymaklar</b>, Kaymaklar hakkında herşeyi burada görebilirsiniz.</p>
       <p class="kategori_adi" id="aromali"><b>Doğal Kaymak</b>,  İnek sütünden elde edilen ve doğal yöntemlerle üretilen kaymak.</p>
       <p class="kategori_adi" id="cocuk"><b>Karakovan Kaymağı</b>, Özellikle Anadolu'nun bazı yörelerinde bulunan özel kıvama sahip olan kaymak türü.</p>
       <p class="kategori_adi" id="devam"><b>Organik Kaymak</b>, Kimyasal gübre ve ilaç kullanılmadan yetiştirilen organik kaymak çeşidi.</p>
@@ -557,17 +557,23 @@ window.onload = function() {
 
 
 
-// İçeriği kaydırmak için fare tekerleği olayını dinleme
-document.querySelector('.icerik-sol').addEventListener('wheel', function(event) {
-  // Yalnızca y dikey kaydırma için
-  if (event.deltaY !== 0) {
-    // Eğer içerik yukarıda değilse ve aşağı kaydırılmak isteniyorsa veya içerik aşağıda değilse ve yukarı kaydırılmak isteniyorsa kaydırma işlemi yap
-    if ((this.scrollTop !== 0 && event.deltaY < 0) || (this.scrollTop !== (this.scrollHeight - this.clientHeight) && event.deltaY > 0)) {
-      this.scrollTop += event.deltaY;
-      // Fare tekerleği varsayılan davranışını engelleme (sayfa kaydırma)
-      event.preventDefault();
-    }
-  }
+const container = document.querySelector('.icerik-sag-sol');
+let isDragging = false;
+let startX, scrollLeft;
+
+container.addEventListener('mousedown', (e) => {
+    isDragging = true;
+    startX = e.clientX;
+    scrollLeft = container.scrollLeft;
+});
+
+container.addEventListener('mousemove', (e) => {
+    if (!isDragging) return;
+    container.scrollLeft = scrollLeft + (startX - e.clientX);
+});
+
+container.addEventListener('mouseup', () => {
+    isDragging = false;
 });
 
 

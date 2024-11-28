@@ -23,7 +23,6 @@ body::before {
     z-index: -1;
 }
   #dikkat-yazi {
-    font-size: 1px;
     color: #ff0000;
     text-align: center;
     letter-spacing: 5px;
@@ -35,12 +34,12 @@ body::before {
   }
   @keyframes text-grow {
     0% { font-size: 1px; }
-    60% { font-size: 55px; }
-    100% { font-size: 50px; }
+    60% { font-size: 35px; }
+    100% { font-size: 30px; }
   }
   @keyframes move-up {
-    0% { transform: translateY(400px); }
-    100% { transform: translateY(0px); }
+    0% { transform: translateY(500px); }
+    100% { transform: translateY(100px); }
   }
   #dikkat-yazi span {
     transition: all 0.3s ease-in-out;
@@ -65,6 +64,7 @@ body::before {
 }
 
 .kodlayiruk-slider {
+  top: 120px;
     position: relative; /* Overlay üzerine yerleştirilecek */
     z-index: 1000; /* Resimlerin overlay'ın üzerine çıkmasını sağlar */
 }
@@ -108,7 +108,7 @@ body::before {
     <div class="logo"><a href="#">Hoş Geldiniz!</a></div>
     <input type="radio" name="slider" id="menu-btn">
     <input type="radio" name="slider" id="close-btn">
-    <ul class="nav-links">
+    <ul style="margin-right: 170px;" class="nav-links">
       <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
       <li><a href="#">Ana Sayfa</a></li>
       <li><a href="Hakkimda.html">Hakkımda</a></li>
